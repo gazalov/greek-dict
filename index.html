@@ -2,375 +2,103 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Греческий Словарь (Ultimate)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Греческий Словарь</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
-    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; }
-
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-
-        /* Table styles */
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; -webkit-tap-highlight-color: transparent; }
         .table-container { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border-radius: 0.75rem; overflow: hidden; border: 1px solid #e2e8f0; background: white; }
-        .data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; table-layout: fixed; }
-        .data-table th { background-color: #f1f5f9; color: #475569; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 12px 16px; text-align: left; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 10; }
-        .data-table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .data-table tr:hover td { background-color: #f8fafc; cursor: pointer; }
-        .data-table tr.selected td { background-color: #eff6ff; border-color: #bfdbfe; }
-        .data-table tr.selected td:first-child { box-shadow: inset 3px 0 0 #3b82f6; }
-
-        /* Badges */
-        .badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 500; }
+        .data-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+        .data-table th { background-color: #f1f5f9; color: #475569; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; padding: 12px 16px; text-align: left; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 10; }
+        .data-table td { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: middle; }
+        @media (max-width: 640px) {
+            .col-hide-mobile { display: none; }
+            .data-table th, .data-table td { padding: 10px 8px; font-size: 0.85rem; }
+            .data-table { table-layout: fixed; }
+        }
+        .badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 0.7rem; font-weight: 500; white-space: nowrap; }
         .badge-pos { background-color: #e0e7ff; color: #3730a3; }
-        .badge-area { background-color: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
-        .highlight { background-color: #fef08a; padding: 0 2px; border-radius: 2px; color: black; }
-
-        /* Inputs */
-        .input-base { width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; outline: none; transition: all 0.2s; font-size: 0.95rem; background: #fff; }
-        .input-base:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1); }
-
-        /* Buttons */
-        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 8px 16px; border-radius: 6px; font-weight: 500; transition: all 0.2s; cursor: pointer; font-size: 0.85rem; }
-        .btn-primary { background-color: #2563eb; color: white; }
-        .btn-primary:hover { background-color: #1d4ed8; }
-        .btn-danger { background-color: #fee2e2; color: #991b1b; }
-        .btn-danger:hover { background-color: #fecaca; }
-
-        /* Study Mode Blur */
-        .study-blur { filter: blur(5px); transition: filter 0.3s; }
-        .study-blur:hover, .study-reveal { filter: blur(0); }
-
-        /* Modal */
-        .modal-overlay { background-color: rgba(15, 23, 42, 0.5); backdrop-filter: blur(4px); }
-        .modal-content { transform: scale(0.95); opacity: 0; transition: all 0.2s ease-out; }
-        .modal-content.active { transform: scale(1); opacity: 1; }
+        .badge-area { background-color: #dcfce7; color: #166534; }
+        .highlight { background-color: #fef08a; border-radius: 2px; }
+        .study-blur { filter: blur(6px); cursor: pointer; transition: filter 0.2s; }
+        .study-blur:active { filter: blur(0); }
     </style>
 </head>
-<body class="h-screen flex flex-col p-4 md:p-6 overflow-hidden">
-
-    <!-- TOP BAR -->
-    <div class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4 flex-shrink-0">
+<body class="h-screen flex flex-col p-2 md:p-6 overflow-hidden">
+    <div class="flex justify-between items-center mb-4 gap-4 flex-shrink-0 px-2">
         <div class="flex items-center gap-3">
-            <div class="h-10 w-10 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-blue-200">
-                <i class="fa-solid fa-book"></i>
-            </div>
+            <div class="h-10 w-10 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg"><i class="fa-solid fa-book"></i></div>
             <div>
-                <h1 class="text-xl font-bold tracking-tight text-gray-800">Greek Dictionary</h1>
-                <div class="text-xs text-gray-500 font-mono" id="statsDisplay">Загрузка...</div>
+                <h1 class="text-lg md:text-xl font-bold text-gray-800">Greek Dictionary</h1>
+                <div class="text-[10px] text-gray-500 font-mono" id="statsDisplay">Загрузка базы...</div>
             </div>
         </div>
-
-        <div class="flex gap-2">
-            <!-- STUDY MODE TOGGLE -->
-            <button id="btnStudyMode" class="btn border border-orange-200 bg-orange-50 text-orange-700 hover:bg-orange-100 px-4">
-                <i class="fa-solid fa-graduation-cap mr-2"></i> Тренировка
-            </button>
-            <button id="btnExport" class="btn border border-gray-200 bg-white hover:bg-gray-50 px-4">
-                <i class="fa-solid fa-download mr-2 text-green-600"></i> Экспорт Excel
-            </button>
-            <button id="btnExportJSON" class="btn border border-blue-200 bg-blue-50 text-blue-700 hover:bg-blue-100 px-4 ml-2">
-                <i class="fa-solid fa-code mr-2"></i> Экспорт JSON
-            </button>
-            <label class="btn btn-primary px-4 cursor-pointer">
-                <i class="fa-solid fa-upload mr-2"></i> Импорт
-                <input type="file" id="fileInput" accept=".xlsx, .xls, .csv" class="hidden" />
-            </label>
-        </div>
+        <button id="btnStudyMode" class="btn border border-orange-200 bg-orange-50 text-orange-700 rounded-lg px-3 py-2 text-sm flex items-center">
+            <i class="fa-solid fa-graduation-cap md:mr-2"></i> <span class="hidden md:inline">Тренировка</span>
+        </button>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div class="flex-grow flex flex-col md:flex-row gap-6 min-h-0">
-        
-        <!-- LEFT: TABLE -->
-        <div class="w-full md:w-2/3 flex flex-col min-h-0 table-container">
-            <div class="p-3 border-b border-gray-100 flex items-center gap-2 bg-gray-50/50">
-                <div class="relative flex-grow">
-                    <i class="fa-solid fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-                    <input type="text" id="searchInput" 
-                           class="w-full pl-10 pr-4 py-2 bg-white border border-gray-200 rounded-lg outline-none focus:border-blue-500 transition"
-                           placeholder="Поиск по словам...">
-                </div>
-                
-                <button id="btnOpenFilter" class="p-2.5 bg-white border border-gray-200 rounded-lg text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition relative shadow-sm">
-                    <i class="fa-solid fa-filter"></i>
-                    <span id="filterDot" class="hidden absolute top-0 right-0 h-2.5 w-2.5 bg-blue-600 rounded-full border-2 border-white"></span>
-                </button>
-
-                <div id="searchCount" class="text-xs text-gray-500 font-medium whitespace-nowrap px-2"></div>
+    <div class="flex-grow flex flex-col min-h-0 table-container">
+        <div class="p-3 border-b border-gray-100 flex items-center gap-2 bg-gray-50/50">
+            <div class="relative flex-grow">
+                <i class="fa-solid fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                <input type="text" id="searchInput" class="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-200 rounded-xl outline-none focus:border-blue-500 shadow-sm" placeholder="Поиск по словам...">
             </div>
-
-            <div class="flex-grow overflow-auto" id="tableScrollArea">
-                <table class="data-table">
-                    <thead>
-                        <tr>
-                            <th class="w-[25%]">Греческий</th>
-                            <th class="w-[30%]">Русский</th>
-                            <th class="w-[15%]">Ч.Речи</th>
-                            <th class="w-[15%]">Область</th>
-                            <th class="w-[15%]">Дата</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tableBody"></tbody>
-                </table>
-                <div id="scrollSentinel" class="h-10 w-full flex items-center justify-center text-gray-400 text-xs">
-                    <i class="fa-solid fa-spinner fa-spin hidden" id="loadingSpinner"></i>
-                </div>
-            </div>
-            
-            <div class="p-2 border-t border-gray-100 bg-gray-50 flex justify-center">
-                <button id="btnShowAll" class="text-xs text-blue-600 font-medium hover:underline">Сбросить фильтры и показать всё</button>
-            </div>
+            <div id="searchCount" class="text-xs text-gray-400 font-medium whitespace-nowrap px-2"></div>
         </div>
-
-        <!-- RIGHT: EDITOR -->
-        <div class="w-full md:w-1/3 flex flex-col min-h-0 bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50/50">
-                <span class="font-bold text-gray-700 text-sm uppercase">Редактор</span>
-                <button id="btnNew" class="text-xs bg-blue-50 text-blue-600 px-3 py-1 rounded hover:bg-blue-100 transition font-medium">
-                    <i class="fa-solid fa-plus mr-1"></i> Новая
-                </button>
-            </div>
-
-            <div class="flex-grow overflow-y-auto p-5 space-y-5">
-                <form id="entryForm">
-                    <div class="space-y-2">
-                        <label class="text-xs font-bold text-gray-500 uppercase">Греческие варианты</label>
-                        <div id="greekInputs" class="space-y-2"></div>
-                        <button type="button" id="btnAddGreek" class="text-xs text-blue-500 hover:text-blue-700 mt-1 flex items-center">
-                            <i class="fa-solid fa-plus-circle mr-1"></i> Добавить синоним
-                        </button>
-                    </div>
-
-                    <div class="h-px bg-gray-100 my-4"></div>
-
-                    <div class="space-y-2">
-                        <label class="text-xs font-bold text-gray-500 uppercase">Русские переводы</label>
-                        <div id="rusInputs" class="space-y-2"></div>
-                        <button type="button" id="btnAddRus" class="text-xs text-green-600 hover:text-green-800 mt-1 flex items-center">
-                            <i class="fa-solid fa-plus-circle mr-1"></i> Добавить перевод
-                        </button>
-                    </div>
-
-                    <div class="h-px bg-gray-100 my-4"></div>
-
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="space-y-1">
-                            <label class="text-xs font-bold text-gray-500 uppercase">Ч. Речи</label>
-                            <select id="posInput" class="input-base text-sm"></select>
-                        </div>
-                        <div class="space-y-1">
-                            <label class="text-xs font-bold text-gray-500 uppercase">Область</label>
-                            <select id="areaInput" class="input-base text-sm"></select>
-                        </div>
-                    </div>
-
-                    <div class="mt-4 space-y-1">
-                        <label class="text-xs font-bold text-gray-500 uppercase">Дата</label>
-                        <input type="date" id="dateInput" class="input-base text-sm text-gray-600">
-                    </div>
-                </form>
-            </div>
-
-            <div class="p-4 border-t border-gray-100 bg-gray-50 flex justify-between items-center">
-                <button id="btnDelete" class="btn btn-danger hidden"><i class="fa-solid fa-trash"></i></button>
-                <button id="btnSave" class="btn btn-primary w-full ml-2 shadow-sm shadow-blue-200 py-2.5">Сохранить</button>
+        <div class="flex-grow overflow-auto" id="tableScrollArea">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th class="w-[45%] md:w-[25%]">Греческий</th>
+                        <th class="w-[55%] md:w-[35%]">Русский</th>
+                        <th class="col-hide-mobile w-[15%]">Ч.Речи</th>
+                        <th class="col-hide-mobile w-[15%]">Область</th>
+                        <th class="col-hide-mobile w-[10%]">Дата</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+            <div id="scrollSentinel" class="h-10 w-full flex items-center justify-center">
+                <i class="fa-solid fa-spinner fa-spin hidden text-blue-500" id="loadingSpinner"></i>
             </div>
         </div>
     </div>
-
-    <!-- FILTER MODAL -->
-    <div id="filterModal" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
-        <div class="modal-overlay absolute inset-0"></div>
-        <div class="modal-content relative bg-white w-11/12 max-w-md rounded-2xl shadow-2xl overflow-hidden p-0">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="font-bold text-gray-700">Расширенный фильтр</h3>
-                <button id="btnCloseFilter" class="text-gray-400 hover:text-gray-600 text-xl">&times;</button>
-            </div>
-            
-            <div class="p-6 space-y-4">
-                <div class="space-y-1">
-                    <label class="text-xs font-bold text-gray-500 uppercase">Часть речи</label>
-                    <select id="filterPos" class="input-base text-sm">
-                        <option value="">(Все)</option>
-                    </select>
-                </div>
-                
-                <div class="space-y-1">
-                    <label class="text-xs font-bold text-gray-500 uppercase">Область</label>
-                    <select id="filterArea" class="input-base text-sm">
-                        <option value="">(Все)</option>
-                    </select>
-                </div>
-
-                <div class="grid grid-cols-2 gap-4 pt-2">
-                    <div class="space-y-1">
-                        <label class="text-xs font-bold text-gray-500 uppercase">С даты</label>
-                        <input type="date" id="filterDateStart" class="input-base text-sm">
-                    </div>
-                    <div class="space-y-1">
-                        <label class="text-xs font-bold text-gray-500 uppercase">По дату</label>
-                        <input type="date" id="filterDateEnd" class="input-base text-sm">
-                    </div>
-                </div>
-
-                <div class="pt-4 flex gap-3">
-                    <button id="btnResetFilter" class="btn flex-1 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50">Сбросить</button>
-                    <button id="btnApplyFilter" class="btn flex-1 btn-primary">Применить</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300"></div>
 
     <script>
-        const LS_KEY = 'greek_dictionary_data';
-        const POS_OPTIONS = ["сущ.", "глагол", "прил.", "наречие", "мест.", "числ.", "предлог", "междомет.", "союз.", "выраж.", "слвсоч", "посл.", "союз", "част."];
-        const AREA_OPTIONS = ["общ", "авто", "мед", "грамм", "метео", "кулин.", "мор.", "кипр", "строит.", "церк.", "зоо", "бот.", "уст.", "хим.", "юр."];
-        const RENDER_CHUNK = 80; 
-        
-        let loadedData = []; 
-        let filteredData = []; 
-        let renderedCount = 0; 
-        let currentDocId = null;
-        let editingGreek = [''];
-        let editingRus = [''];
+        let DATABASE_CONTENT = [];
+        let filteredData = [];
+        let renderedCount = 0;
+        const RENDER_CHUNK = 50;
         let studyMode = false;
-        
-        let activeFilters = { pos: '', area: '', dateStart: '', dateEnd: '' };
-
         const el = id => document.getElementById(id);
 
-        function init() {
-            fillSelect('posInput', POS_OPTIONS);
-            fillSelect('areaInput', AREA_OPTIONS);
-            fillSelect('filterPos', POS_OPTIONS, true);
-            fillSelect('filterArea', AREA_OPTIONS, true);
-
-            el('btnSave').onclick = (e) => { e.preventDefault(); saveEntry(); };
-            el('btnNew').onclick = resetEntryForm;
-            el('btnDelete').onclick = deleteEntry;
-            el('btnExport').onclick = exportData;
-            el('btnExportJSON').onclick = exportDataJSON;
-            el('fileInput').onchange = importData;
-            el('btnAddGreek').onclick = () => { editingGreek.push(''); renderInputs('greekInputs', editingGreek); };
-            el('btnAddRus').onclick = () => { editingRus.push(''); renderInputs('rusInputs', editingRus); };
-            el('btnStudyMode').onclick = toggleStudyMode;
-            
-            el('searchInput').oninput = () => updateDisplay(true);
-            
-            el('btnShowAll').onclick = () => {
-                el('searchInput').value = '';
-                Object.keys(activeFilters).forEach(k => activeFilters[k] = '');
-                el('filterPos').value = ''; el('filterArea').value = '';
-                el('filterDateStart').value = ''; el('filterDateEnd').value = '';
-                syncFilterUI();
+        async function loadExternalData() {
+            try {
+                const response = await fetch('data.json?v=' + Date.now()); // Добавили v= для обхода кэша
+                if (!response.ok) throw new Error('Файл data.json не найден');
+                DATABASE_CONTENT = await response.json();
+                
+                // Сортировка по дате (свежие сверху)
+                DATABASE_CONTENT.sort((a, b) => new Date(b.column_F_date) - new Date(a.column_F_date));
+                
                 updateDisplay(true);
-            };
-
-            // Modal
-            el('btnOpenFilter').onclick = () => {
-                el('filterModal').classList.remove('hidden');
-                setTimeout(() => el('filterModal').querySelector('.modal-content').classList.add('active'), 10);
-            };
-            el('btnCloseFilter').onclick = closeFilterModal;
-            el('btnApplyFilter').onclick = () => {
-                activeFilters.pos = el('filterPos').value;
-                activeFilters.area = el('filterArea').value;
-                activeFilters.dateStart = el('filterDateStart').value;
-                activeFilters.dateEnd = el('filterDateEnd').value;
-                syncFilterUI();
-                updateDisplay(true);
-                closeFilterModal();
-            };
-            el('btnResetFilter').onclick = () => {
-                el('filterPos').value = ''; el('filterArea').value = '';
-                el('filterDateStart').value = ''; el('filterDateEnd').value = '';
-                Object.keys(activeFilters).forEach(k => activeFilters[k] = '');
-                syncFilterUI();
-                updateDisplay(true);
-                closeFilterModal();
-            };
-
-            initObserver();
-            loadData();
-            resetEntryForm();
-        }
-
-        function toggleStudyMode() {
-            studyMode = !studyMode;
-            el('btnStudyMode').classList.toggle('bg-orange-600', studyMode);
-            el('btnStudyMode').classList.toggle('text-white', studyMode);
-            updateDisplay(true);
-            showToast(studyMode ? 'Режим тренировки ВКЛ' : 'Режим тренировки ВЫКЛ', 'success');
-        }
-
-        function initObserver() {
-            const observer = new IntersectionObserver((entries) => {
-                if (entries[0].isIntersecting && renderedCount < filteredData.length) {
-                    renderMore();
-                }
-            }, { root: el('tableScrollArea'), threshold: 0.1 });
-            observer.observe(el('scrollSentinel'));
-        }
-
-        function closeFilterModal() {
-            el('filterModal').querySelector('.modal-content').classList.remove('active');
-            setTimeout(() => el('filterModal').classList.add('hidden'), 200);
-        }
-
-        function syncFilterUI() {
-            const isFiltering = activeFilters.pos || activeFilters.area || activeFilters.dateStart || activeFilters.dateEnd;
-            el('filterDot').classList.toggle('hidden', !isFiltering);
-        }
-
-        function fillSelect(id, opts, isFilter = false) {
-            const select = el(id);
-            if (!isFilter) select.innerHTML = '';
-            opts.forEach(opt => {
-                const o = document.createElement('option');
-                o.value = opt; o.textContent = opt;
-                select.appendChild(o);
-            });
-        }
-
-        function loadData() {
-            const data = localStorage.getItem(LS_KEY);
-            loadedData = data ? JSON.parse(data) : [];
-            updateDisplay(true);
-        }
-
-        function saveData() {
-            localStorage.setItem(LS_KEY, JSON.stringify(loadedData));
-            updateDisplay(false);
+            } catch (err) {
+                console.error(err);
+                el('statsDisplay').textContent = "Ошибка загрузки данных";
+            }
         }
 
         function updateDisplay(reset = true) {
             const q = el('searchInput').value.toLowerCase().trim();
-            
-            filteredData = loadedData.filter(item => {
-                const textMatch = !q || item.column_A_greek.some(g => g.toLowerCase().includes(q)) || item.column_B_russian.some(r => r.toLowerCase().includes(q));
-                const posMatch = !activeFilters.pos || item.column_D_part_of_speech === activeFilters.pos;
-                const areaMatch = !activeFilters.area || item.column_E_area === activeFilters.area;
-                
-                let dateMatch = true;
-                if (activeFilters.dateStart && item.column_F_date < activeFilters.dateStart) dateMatch = false;
-                if (activeFilters.dateEnd && item.column_F_date > activeFilters.dateEnd) dateMatch = false;
-
-                return textMatch && posMatch && areaMatch && dateMatch;
+            filteredData = DATABASE_CONTENT.filter(item => {
+                const gStr = (item.column_A_greek || []).join(' ').toLowerCase();
+                const rStr = (item.column_B_russian || []).join(' ').toLowerCase();
+                return !q || gStr.includes(q) || rStr.includes(q);
             });
-
-            el('statsDisplay').textContent = `Записей: ${loadedData.length}`;
+            el('statsDisplay').textContent = `Записей: ${DATABASE_CONTENT.length}`;
             el('searchCount').textContent = `${filteredData.length} найдено`;
-
             if (reset) {
                 el('tableBody').innerHTML = '';
                 renderedCount = 0;
@@ -381,216 +109,45 @@
         function renderMore() {
             const tbody = el('tableBody');
             const q = el('searchInput').value.toLowerCase().trim();
-            
-            if (filteredData.length === 0 && renderedCount === 0) {
-                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-10 text-gray-400">Ничего не найдено</td></tr>`;
-                return;
-            }
-
             const limit = Math.min(filteredData.length, renderedCount + RENDER_CHUNK);
             const chunk = filteredData.slice(renderedCount, limit);
 
             chunk.forEach(item => {
                 const tr = document.createElement('tr');
-                if (item._id === currentDocId) tr.classList.add('selected');
-
                 const highlight = (txt) => {
                     if (!q) return txt;
                     const regex = new RegExp(`(${q})`, 'gi');
-                    return txt.replace(regex, '<span class="highlight">$1</span>');
+                    return String(txt).replace(regex, '<span class="highlight">$1</span>');
                 };
-
-                let d = item.column_F_date || "";
-                if (d.includes('-')) {
-                    const p = d.split('-');
-                    d = `${p[2]}.${p[1]}.${p[0]}`;
-                }
-
-                const rusText = item.column_B_russian.map(highlight).join('<br>');
-
                 tr.innerHTML = `
-                    <td class="font-bold text-gray-800">${item.column_A_greek.map(highlight).join('<br>')}</td>
-                    <td class="text-gray-600 ${studyMode ? 'study-blur' : ''}" onclick="this.classList.remove('study-blur')">${rusText}</td>
-                    <td><span class="badge badge-pos">${item.column_D_part_of_speech}</span></td>
-                    <td><span class="badge badge-area">${item.column_E_area}</span></td>
-                    <td class="text-xs text-gray-400 font-mono">${d}</td>
+                    <td class="font-semibold text-blue-900">${item.column_A_greek.map(highlight).join(', ')}</td>
+                    <td class="text-gray-700 ${studyMode ? 'study-blur' : ''}">${item.column_B_russian.map(highlight).join(', ')}</td>
+                    <td class="col-hide-mobile"><span class="badge badge-pos">${item.column_D_part_of_speech}</span></td>
+                    <td class="col-hide-mobile"><span class="badge badge-area">${item.column_E_area}</span></td>
+                    <td class="col-hide-mobile text-[10px] font-mono text-gray-400">${item.column_F_date}</td>
                 `;
-
-                tr.querySelector('td:first-child').onclick = () => {
-                    document.querySelectorAll('tr.selected').forEach(r => r.classList.remove('selected'));
-                    tr.classList.add('selected');
-                    loadEditor(item);
-                };
                 tbody.appendChild(tr);
             });
-
             renderedCount = limit;
             el('loadingSpinner').classList.toggle('hidden', renderedCount >= filteredData.length);
         }
 
-        function loadEditor(item) {
-            currentDocId = item._id;
-            editingGreek = [...item.column_A_greek];
-            editingRus = [...item.column_B_russian];
-            renderInputs('greekInputs', editingGreek);
-            renderInputs('rusInputs', editingRus);
-            el('posInput').value = item.column_D_part_of_speech;
-            el('areaInput').value = item.column_E_area;
-            el('dateInput').value = item.column_F_date;
-            el('btnDelete').classList.remove('hidden');
-            el('btnSave').textContent = 'Обновить';
-        }
-
-        function resetEntryForm() {
-            currentDocId = null;
-            editingGreek = ['']; editingRus = [''];
-            renderInputs('greekInputs', editingGreek);
-            renderInputs('rusInputs', editingRus);
-            el('dateInput').value = new Date().toISOString().split('T')[0];
-            el('btnDelete').classList.add('hidden');
-            el('btnSave').textContent = 'Сохранить';
-            document.querySelectorAll('tr.selected').forEach(r => r.classList.remove('selected'));
-        }
-
-        function renderInputs(containerId, arr) {
-            const container = el(containerId);
-            container.innerHTML = '';
-            arr.forEach((val, idx) => {
-                const div = document.createElement('div');
-                div.className = 'flex gap-2 items-center';
-                const input = document.createElement('input');
-                input.className = 'input-base flex-grow text-sm';
-                input.value = val;
-                input.oninput = (e) => arr[idx] = e.target.value;
-                div.appendChild(input);
-                if (arr.length > 1) {
-                    const btn = document.createElement('button');
-                    btn.type = 'button';
-                    btn.className = 'text-red-400 hover:text-red-600 px-2';
-                    btn.innerHTML = '<i class="fa-solid fa-trash"></i>';
-                    btn.onclick = () => { arr.splice(idx, 1); renderInputs(containerId, arr); };
-                    div.appendChild(btn);
-                }
-                container.appendChild(div);
-            });
-        }
-
-        function saveEntry() {
-            const gClean = editingGreek.filter(s => s.trim());
-            const rClean = editingRus.filter(s => s.trim());
-            if (!gClean.length) return showToast('Введите греческое слово', 'error');
-
-            const entry = {
-                column_A_greek: gClean,
-                column_B_russian: rClean,
-                column_D_part_of_speech: el('posInput').value,
-                column_E_area: el('areaInput').value,
-                column_F_date: el('dateInput').value,
-                _id: currentDocId || Date.now().toString() + Math.random().toString(36).substr(2, 5)
-            };
-
-            if (currentDocId) {
-                const idx = loadedData.findIndex(i => i._id === currentDocId);
-                if (idx !== -1) loadedData[idx] = entry;
-            } else {
-                loadedData.unshift(entry);
-            }
-
-            saveData();
-            updateDisplay(false);
-            resetEntryForm();
-            showToast('Сохранено', 'success');
-        }
-
-        function deleteEntry() {
-            if (!confirm('Удалить запись?')) return;
-            loadedData = loadedData.filter(i => i._id !== currentDocId);
-            saveData();
+        function toggleStudyMode() {
+            studyMode = !studyMode;
+            el('btnStudyMode').classList.toggle('bg-orange-600', studyMode);
+            el('btnStudyMode').classList.toggle('text-white', studyMode);
             updateDisplay(true);
-            resetEntryForm();
-            showToast('Удалено', 'success');
         }
 
-        function exportData() {
-            const rows = [['греческий', 'русский', 'ч. речи', 'обл.', 'дата']];
-            loadedData.forEach(item => {
-                rows.push([item.column_A_greek.join('; '), item.column_B_russian.join('; '), item.column_D_part_of_speech, item.column_E_area, item.column_F_date]);
-            });
-            const wb = XLSX.utils.book_new();
-            XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(rows), "Dictionary");
-            XLSX.writeFile(wb, "Greek_Dictionary_Export.xlsx");
-        }
-
-        function exportDataJSON() {
-            if (!loadedData || loadedData.length === 0) {
-                showToast('Нечего экспортировать', 'error');
-                return;
-            }
-
-            // Превращаем массив данных в красивую строку JSON
-            const jsonString = JSON.stringify(loadedData, null, 2);
-
-            // Создаем "виртуальный" файл в памяти браузера
-            const blob = new Blob([jsonString], { type: "application/json" });
-            const url = URL.createObjectURL(blob);
-
-            // Создаем временную ссылку для скачивания
-            const link = document.createElement("a");
-            link.href = url;
-            link.download = "data.json"; // Файл будет называться именно так
-
-            // Имитируем нажатие
-            document.body.appendChild(link);
-            link.click();
-
-            // Подчищаем за собой
-            document.body.removeChild(link);
-            URL.revokeObjectURL(url);
-
-            showToast('Файл data.json готов!', 'success');
-        }
-
-        function importData(e) {
-            const file = e.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onload = (evt) => {
-                const wb = XLSX.read(evt.target.result, { type: 'binary' });
-                const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 });
-                if (rows.length && String(rows[0][0]).toLowerCase().includes('греческий')) rows.shift();
-                const newItems = rows.map(r => ({
-                    column_A_greek: String(r[0]||'').split(/[;,]/).map(s=>s.trim()).filter(Boolean),
-                    column_B_russian: String(r[1]||'').split(/[;,]/).map(s=>s.trim()).filter(Boolean),
-                    column_D_part_of_speech: r[2] || "сущ.",
-                    column_E_area: r[3] || "общ",
-                    column_F_date: r[4] ? parseDate(r[4]) : new Date().toISOString().split('T')[0],
-                    _id: Date.now().toString() + Math.random().toString(36).substr(2, 5)
-                })).filter(i => i.column_A_greek.length > 0);
-                loadedData = [...newItems, ...loadedData];
-                saveData();
-                updateDisplay(true);
-                showToast(`Импортировано ${newItems.length} слов`, 'success');
-            };
-            reader.readAsBinaryString(file);
-        }
-
-        function parseDate(val) {
-            if (typeof val === 'number') {
-                const d = new Date(Math.round((val - 25569)*86400*1000));
-                return d.toISOString().split('T')[0];
-            }
-            return String(val).trim();
-        }
-
-        function showToast(msg, type) {
-            const t = el('toast');
-            t.textContent = msg;
-            t.className = `fixed bottom-5 right-5 z-50 px-4 py-2 rounded shadow-lg text-white font-medium transform transition-all duration-300 ${type === 'error' ? 'bg-red-500' : 'bg-green-600'}`;
-            t.classList.remove('translate-y-20', 'opacity-0');
-            setTimeout(() => t.classList.add('translate-y-20', 'opacity-0'), 3000);
-        }
-
-        window.onload = init;
+        window.onload = () => {
+            el('searchInput').oninput = () => updateDisplay(true);
+            el('btnStudyMode').onclick = toggleStudyMode;
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting && renderedCount < filteredData.length) renderMore();
+            }, { root: el('tableScrollArea'), threshold: 0.1 });
+            observer.observe(el('scrollSentinel'));
+            loadExternalData();
+        };
     </script>
 </body>
 </html>
