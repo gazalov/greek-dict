@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>LEXICON - Greek Dictionary</title>
+    <title>LEXICON</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
         
         body { 
             font-family: 'Inter', sans-serif; 
@@ -27,7 +27,7 @@
         .data-table { 
             width: 100%; 
             border-collapse: collapse; 
-            table-layout: auto; /* Авто-подбор ширины под текст */
+            table-layout: auto;
         }
 
         .data-table th { 
@@ -46,7 +46,6 @@
             border-bottom: 1px solid #f1f5f9; 
             cursor: pointer; 
             line-height: 1.4;
-            /* Умные переносы */
             word-wrap: break-word;
             overflow-wrap: break-word;
             word-break: normal; 
@@ -56,8 +55,12 @@
 
         .data-table tr:active { background-color: #f8fafc; }
 
-        /* Цвета колонок */
-        .col-greek { color: #1e40af; font-weight: 400; font-size: 1.05rem; }
+        /* Настройка шрифта для греческого */
+        .col-greek { 
+            color: #1e40af; 
+            font-weight: 500; /* Умеренная жирность */
+            font-size: 1.05rem; 
+        }
         .col-rus { color: #475569; font-size: 0.95rem; }
 
         .badge { display: inline-block; padding: 2px 10px; border-radius: 8px; font-size: 0.75rem; font-weight: 600; }
@@ -66,23 +69,16 @@
         
         .highlight { background: #fef08a; color: #000; padding: 0 1px; border-radius: 2px; }
 
-        /* Анимация модального окна */
         #wordModal { backdrop-filter: blur(8px); transition: opacity 0.3s ease; }
         .modal-card { transform: translateY(20px); opacity: 0; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
         .modal-active .modal-card { transform: translateY(0); opacity: 1; }
-
-        /* Поле поиска */
-        #searchInput::placeholder { color: #cbd5e1; }
     </style>
 </head>
 <body class="h-screen flex flex-col p-3 md:p-6 overflow-hidden">
 
-    <div class="mb-5 px-1 flex justify-between items-end">
-        <div>
-            <h1 class="text-3xl font-black text-blue-500 tracking-tighter">Ελληνικό λεξικό</h1>
-            <p id="statsDisplay" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-1">Загрузка данных...</p>
-        </div>
-        <div id="searchCount" class="text-[11px] font-black text-white bg-blue-600 px-3 py-1 rounded-full shadow-md shadow-blue-200">0</div>
+    <div class="mb-5 px-1 flex justify-between items-center">
+        <h1 class="text-3xl font-black text-blue-800 tracking-tighter">LEXICON</h1>
+        <div id="searchCount" class="text-[12px] font-black text-blue-600 bg-blue-100 px-3 py-1 rounded-full">0</div>
     </div>
 
     <div class="flex-grow flex flex-col min-h-0 table-container">
@@ -91,7 +87,7 @@
                 <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-300"></i>
                 <input type="text" id="searchInput" 
                        class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-blue-500 transition-all text-base"
-                       placeholder="Начните вводить слово...">
+                       placeholder="Поиск...">
             </div>
         </div>
 
@@ -116,16 +112,15 @@
                     <div class="h-8 w-8 bg-blue-50 rounded-full flex items-center justify-center text-blue-500">
                         <i class="fa-solid fa-info-circle"></i>
                     </div>
-                    <button onclick="closeModal()" class="h-10 w-10 flex items-center justify-center text-slate-300 hover:text-slate-500 transition-colors">
+                    <button onclick="closeModal()" class="h-10 w-10 flex items-center justify-center text-slate-300 hover:text-slate-500">
                         <i class="fa-solid fa-xmark text-2xl"></i>
                     </button>
                 </div>
-                <div id="modalContent">
-                    </div>
+                <div id="modalContent"></div>
             </div>
             <div class="p-2">
                 <button onclick="closeModal()" class="w-full py-4 bg-slate-900 text-white font-bold rounded-[1.75rem] text-sm uppercase tracking-widest active:scale-95 transition-transform">
-                    Понятно
+                    Закрыть
                 </button>
             </div>
         </div>
@@ -143,11 +138,10 @@
                 const response = await fetch('data.json?v=' + Date.now());
                 if (!response.ok) throw new Error();
                 DATABASE_CONTENT = await response.json();
-                // Сортировка: новые слова вверху
                 DATABASE_CONTENT.sort((a, b) => new Date(b.column_F_date) - new Date(a.column_F_date));
                 updateDisplay(true);
             } catch (err) {
-                el('statsDisplay').textContent = "Ошибка: data.json не найден";
+                console.error("Data load error");
             }
         }
 
@@ -158,8 +152,10 @@
                 const r = (item.column_B_russian || []).join(' ').toLowerCase();
                 return !q || g.includes(q) || r.includes(q);
             });
-            el('statsDisplay').textContent = `База: ${DATABASE_CONTENT.length} слов`;
-            el('searchCount').textContent = filteredData.length;
+            
+            // Показываем только итоговую цифру
+            el('searchCount').textContent = q ? filteredData.length : DATABASE_CONTENT.length;
+            
             if (reset) {
                 el('tableBody').innerHTML = '';
                 renderedCount = 0;
@@ -172,11 +168,6 @@
             const q = el('searchInput').value.toLowerCase().trim();
             const limit = Math.min(filteredData.length, renderedCount + RENDER_CHUNK);
             const chunk = filteredData.slice(renderedCount, limit);
-
-            if (filteredData.length === 0 && renderedCount === 0) {
-                tbody.innerHTML = `<tr><td colspan="2" class="text-center py-20 text-slate-300 font-medium">Ничего не нашли...</td></tr>`;
-                return;
-            }
 
             chunk.forEach(item => {
                 const tr = document.createElement('tr');
@@ -231,5 +222,3 @@
     </script>
 </body>
 </html>
-
-
