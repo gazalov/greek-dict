@@ -74,7 +74,10 @@
                 <i class="fa-solid fa-graduation-cap mr-2"></i> Тренировка
             </button>
             <button id="btnExport" class="btn border border-gray-200 bg-white hover:bg-gray-50 px-4">
-                <i class="fa-solid fa-download mr-2 text-green-600"></i> Экспорт
+                <i class="fa-solid fa-download mr-2 text-green-600"></i> Экспорт Excel
+            </button>
+            <button id="btnExportJSON" class="btn border border-blue-200 bg-blue-50 text-blue-700 hover:bg-blue-100 px-4 ml-2">
+                <i class="fa-solid fa-code mr-2"></i> Экспорт JSON
             </button>
             <label class="btn btn-primary px-4 cursor-pointer">
                 <i class="fa-solid fa-upload mr-2"></i> Импорт
@@ -256,6 +259,7 @@
             el('btnNew').onclick = resetEntryForm;
             el('btnDelete').onclick = deleteEntry;
             el('btnExport').onclick = exportData;
+            el('btnExportJSON').onclick = exportDataJSON;
             el('fileInput').onchange = importData;
             el('btnAddGreek').onclick = () => { editingGreek.push(''); renderInputs('greekInputs', editingGreek); };
             el('btnAddRus').onclick = () => { editingRus.push(''); renderInputs('rusInputs', editingRus); };
@@ -515,6 +519,35 @@
             const wb = XLSX.utils.book_new();
             XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(rows), "Dictionary");
             XLSX.writeFile(wb, "Greek_Dictionary_Export.xlsx");
+        }
+
+        function exportDataJSON() {
+            if (!loadedData || loadedData.length === 0) {
+                showToast('Нечего экспортировать', 'error');
+                return;
+            }
+
+            // Превращаем массив данных в красивую строку JSON
+            const jsonString = JSON.stringify(loadedData, null, 2);
+
+            // Создаем "виртуальный" файл в памяти браузера
+            const blob = new Blob([jsonString], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+
+            // Создаем временную ссылку для скачивания
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "data.json"; // Файл будет называться именно так
+
+            // Имитируем нажатие
+            document.body.appendChild(link);
+            link.click();
+
+            // Подчищаем за собой
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+
+            showToast('Файл data.json готов!', 'success');
         }
 
         function importData(e) {
