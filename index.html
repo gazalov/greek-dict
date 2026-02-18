@@ -3,48 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Греческий Словарь</title>
+    <title>LEXICON - Greek Dictionary</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #f1f5f9; color: #0f172a; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
         
-        .table-container { background: white; border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 15px -3px rgba(0,0,0,0.1); }
-        .data-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
-        .data-table th { background: #f8fafc; color: #64748b; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 12px; text-align: left; border-bottom: 2px solid #f1f5f9; }
-        .data-table td { padding: 14px 12px; border-bottom: 1px solid #f1f5f9; cursor: pointer; word-wrap: break-word; }
-        .data-table tr:active { background-color: #f0f7ff; }
-
-        .badge { display: inline-block; padding: 2px 10px; border-radius: 8px; font-size: 0.75rem; font-weight: 600; margin-top: 4px; }
-        .badge-pos { background: #dbeafe; color: #1e40af; }
-        .badge-area { background: #dcfce7; color: #166534; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f1f5f9; 
+            color: #0f172a; 
+            overscroll-behavior-y: contain; 
+        }
         
-        .highlight { background: #fef08a; padding: 0 2px; border-radius: 3px; }
+        .table-container { 
+            background: white; 
+            border-radius: 1.25rem; 
+            overflow: hidden; 
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); 
+            border: 1px solid #e2e8f0;
+        }
 
-        /* Modal Styles */
-        #wordModal { backdrop-filter: blur(4px); transition: all 0.3s; }
-        .modal-card { transform: translateY(100px); transition: all 0.3s; }
-        .modal-active .modal-card { transform: translateY(0); }
+        .data-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            table-layout: auto; /* Авто-подбор ширины под текст */
+        }
+
+        .data-table th { 
+            background: #f8fafc; 
+            color: #94a3b8; 
+            font-size: 0.65rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0.1em; 
+            padding: 12px 16px; 
+            text-align: left; 
+            border-bottom: 1px solid #f1f5f9; 
+        }
+
+        .data-table td { 
+            padding: 16px; 
+            border-bottom: 1px solid #f1f5f9; 
+            cursor: pointer; 
+            line-height: 1.4;
+            /* Умные переносы */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: normal; 
+            hyphens: auto;
+            vertical-align: top;
+        }
+
+        .data-table tr:active { background-color: #f8fafc; }
+
+        /* Цвета колонок */
+        .col-greek { color: #1e40af; font-weight: 700; font-size: 1.05rem; }
+        .col-rus { color: #475569; font-size: 0.95rem; }
+
+        .badge { display: inline-block; padding: 2px 10px; border-radius: 8px; font-size: 0.75rem; font-weight: 600; }
+        .badge-pos { background: #eff6ff; color: #1e40af; border: 1px solid #dbeafe; }
+        .badge-area { background: #f0fdf4; color: #166534; border: 1px solid #dcfce7; }
+        
+        .highlight { background: #fef08a; color: #000; padding: 0 1px; border-radius: 2px; }
+
+        /* Анимация модального окна */
+        #wordModal { backdrop-filter: blur(8px); transition: opacity 0.3s ease; }
+        .modal-card { transform: translateY(20px); opacity: 0; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
+        .modal-active .modal-card { transform: translateY(0); opacity: 1; }
+
+        /* Поле поиска */
+        #searchInput::placeholder { color: #cbd5e1; }
     </style>
 </head>
-<body class="h-screen flex flex-col p-2 md:p-6 overflow-hidden">
+<body class="h-screen flex flex-col p-3 md:p-6 overflow-hidden">
 
-    <div class="mb-4 px-2 flex justify-between items-end">
+    <div class="mb-5 px-1 flex justify-between items-end">
         <div>
-            <h1 class="text-2xl font-black text-blue-700 tracking-tight">Ελληνικό λεξικό</h1>
-            <p id="statsDisplay" class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Загрузка...</p>
+            <h1 class="text-3xl font-black text-blue-800 tracking-tighter">LEXICON</h1>
+            <p id="statsDisplay" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-1">Загрузка данных...</p>
         </div>
-        <div id="searchCount" class="text-xs font-bold text-blue-500 bg-blue-50 px-2 py-1 rounded-md"></div>
+        <div id="searchCount" class="text-[11px] font-black text-white bg-blue-600 px-3 py-1 rounded-full shadow-md shadow-blue-200">0</div>
     </div>
 
     <div class="flex-grow flex flex-col min-h-0 table-container">
-        <div class="p-3 border-b border-gray-100 bg-white sticky top-0 z-20">
+        <div class="p-4 bg-white border-b border-slate-50 sticky top-0 z-20">
             <div class="relative">
-                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-300"></i>
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-300"></i>
                 <input type="text" id="searchInput" 
-                       class="w-full pl-12 pr-4 py-3 bg-gray-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-blue-500 transition-all text-base"
-                       placeholder="Поиск слова...">
+                       class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-blue-500 transition-all text-base"
+                       placeholder="Начните вводить слово...">
             </div>
         </div>
 
@@ -52,29 +99,35 @@
             <table class="data-table">
                 <thead>
                     <tr>
-                        <th class="w-1/2">Греческий</th>
-                        <th class="w-1/2">Русский</th>
+                        <th>Греческий</th>
+                        <th>Русский</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody"></tbody>
             </table>
-            <div id="scrollSentinel" class="h-20 w-full flex items-center justify-center">
-                <i class="fa-solid fa-circle-notch fa-spin text-blue-500 hidden" id="loadingSpinner"></i>
-            </div>
+            <div id="scrollSentinel" class="h-20 w-full"></div>
         </div>
     </div>
 
-    <div id="wordModal" class="fixed inset-0 bg-slate-900/60 z-50 flex items-center justify-center hidden p-4">
-        <div class="modal-card bg-white w-full max-w-sm rounded-3xl shadow-2xl overflow-hidden">
-            <div class="p-6">
-                <div class="flex justify-between items-start mb-4">
-                    <span class="text-[10px] font-black uppercase tracking-widest text-blue-500">Информация о слове</span>
-                    <button onclick="closeModal()" class="text-gray-300 hover:text-gray-500 text-xl"><i class="fa-solid fa-circle-xmark"></i></button>
+    <div id="wordModal" class="fixed inset-0 bg-slate-900/40 z-50 flex items-center justify-center hidden p-6">
+        <div class="modal-card bg-white w-full max-w-sm rounded-[2.5rem] shadow-2xl overflow-hidden">
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="h-8 w-8 bg-blue-50 rounded-full flex items-center justify-center text-blue-500">
+                        <i class="fa-solid fa-info-circle"></i>
+                    </div>
+                    <button onclick="closeModal()" class="h-10 w-10 flex items-center justify-center text-slate-300 hover:text-slate-500 transition-colors">
+                        <i class="fa-solid fa-xmark text-2xl"></i>
+                    </button>
                 </div>
                 <div id="modalContent">
                     </div>
             </div>
-            <button onclick="closeModal()" class="w-full py-4 bg-gray-50 text-gray-500 font-bold text-sm border-t border-gray-100 uppercase tracking-widest">Закрыть</button>
+            <div class="p-2">
+                <button onclick="closeModal()" class="w-full py-4 bg-slate-900 text-white font-bold rounded-[1.75rem] text-sm uppercase tracking-widest active:scale-95 transition-transform">
+                    Понятно
+                </button>
+            </div>
         </div>
     </div>
 
@@ -90,10 +143,11 @@
                 const response = await fetch('data.json?v=' + Date.now());
                 if (!response.ok) throw new Error();
                 DATABASE_CONTENT = await response.json();
+                // Сортировка: новые слова вверху
                 DATABASE_CONTENT.sort((a, b) => new Date(b.column_F_date) - new Date(a.column_F_date));
                 updateDisplay(true);
             } catch (err) {
-                el('statsDisplay').textContent = "Ошибка базы";
+                el('statsDisplay').textContent = "Ошибка: data.json не найден";
             }
         }
 
@@ -104,8 +158,8 @@
                 const r = (item.column_B_russian || []).join(' ').toLowerCase();
                 return !q || g.includes(q) || r.includes(q);
             });
-            el('statsDisplay').textContent = `Слов в базе: ${DATABASE_CONTENT.length}`;
-            el('searchCount').textContent = `${filteredData.length}`;
+            el('statsDisplay').textContent = `База: ${DATABASE_CONTENT.length} слов`;
+            el('searchCount').textContent = filteredData.length;
             if (reset) {
                 el('tableBody').innerHTML = '';
                 renderedCount = 0;
@@ -119,6 +173,11 @@
             const limit = Math.min(filteredData.length, renderedCount + RENDER_CHUNK);
             const chunk = filteredData.slice(renderedCount, limit);
 
+            if (filteredData.length === 0 && renderedCount === 0) {
+                tbody.innerHTML = `<tr><td colspan="2" class="text-center py-20 text-slate-300 font-medium">Ничего не нашли...</td></tr>`;
+                return;
+            }
+
             chunk.forEach(item => {
                 const tr = document.createElement('tr');
                 const highlight = (txt) => {
@@ -126,8 +185,8 @@
                     return String(txt).replace(new RegExp(`(${q})`, 'gi'), '<span class="highlight">$1</span>');
                 };
                 tr.innerHTML = `
-                    <td class="font-bold text-blue-900">${item.column_A_greek.map(highlight).join(', ')}</td>
-                    <td class="text-gray-600">${item.column_B_russian.map(highlight).join(', ')}</td>
+                    <td class="col-greek">${item.column_A_greek.map(highlight).join(', ')}</td>
+                    <td class="col-rus">${item.column_B_russian.map(highlight).join(', ')}</td>
                 `;
                 tr.onclick = () => showWordDetails(item);
                 tbody.appendChild(tr);
@@ -138,15 +197,15 @@
         function showWordDetails(item) {
             const modal = el('wordModal');
             el('modalContent').innerHTML = `
-                <h2 class="text-2xl font-bold text-slate-800 mb-1">${item.column_A_greek.join(', ')}</h2>
-                <p class="text-lg text-slate-600 mb-6">${item.column_B_russian.join(', ')}</p>
-                <div class="space-y-3">
-                    <div class="flex items-center justify-between border-b border-gray-50 pb-2">
-                        <span class="text-xs font-bold text-gray-400 uppercase">Часть речи</span>
+                <h2 class="text-2xl font-extrabold text-slate-900 mb-2 leading-tight">${item.column_A_greek.join(', ')}</h2>
+                <p class="text-lg text-slate-500 mb-8 leading-relaxed">${item.column_B_russian.join(', ')}</p>
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-black text-slate-300 uppercase tracking-tighter">Часть речи</span>
                         <span class="badge badge-pos">${item.column_D_part_of_speech}</span>
                     </div>
-                    <div class="flex items-center justify-between border-b border-gray-50 pb-2">
-                        <span class="text-xs font-bold text-gray-400 uppercase">Область</span>
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-black text-slate-300 uppercase tracking-tighter">Тематика</span>
                         <span class="badge badge-area">${item.column_E_area}</span>
                     </div>
                 </div>
@@ -172,4 +231,3 @@
     </script>
 </body>
 </html>
-
