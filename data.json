@@ -1,6 +1,246 @@
 [
   {
     "column_A_greek": [
+      "ανά πάσα στιγμή"
+    ],
+    "column_B_russian": [
+      "в любой момент времени"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-07",
+    "_id": "1772859993220x8x0v"
+  },
+  {
+    "column_A_greek": [
+      "εγχώριος"
+    ],
+    "column_B_russian": [
+      "внутренний, отечественный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-07",
+    "_id": "1772858232968gmt8w"
+  },
+  {
+    "column_A_greek": [
+      "σημαία"
+    ],
+    "column_B_russian": [
+      "знамя, флаг"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-07",
+    "_id": "1772857054212nhz2x"
+  },
+  {
+    "column_A_greek": [
+      "πρόνοια"
+    ],
+    "column_B_russian": [
+      "забота, попечение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-07",
+    "_id": "17728563812314cp5a"
+  },
+  {
+    "column_A_greek": [
+      "εφετείο"
+    ],
+    "column_B_russian": [
+      "апелляционный суд"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-05",
+    "_id": "1772734118400kcdzw"
+  },
+  {
+    "column_A_greek": [
+      "ενορία"
+    ],
+    "column_B_russian": [
+      "церковный приход"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-05",
+    "_id": "1772733614119rmemb"
+  },
+  {
+    "column_A_greek": [
+      "δόκιμος"
+    ],
+    "column_B_russian": [
+      "послушник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-05",
+    "_id": "1772731560522yfbcm"
+  },
+  {
+    "column_A_greek": [
+      "δόκιμος"
+    ],
+    "column_B_russian": [
+      "стажер, практикант"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "1772731550236x5dgr"
+  },
+  {
+    "column_A_greek": [
+      "εκλογή"
+    ],
+    "column_B_russian": [
+      "выбор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "1772728187444e3w6d"
+  },
+  {
+    "column_A_greek": [
+      "ένταλμα"
+    ],
+    "column_B_russian": [
+      "поручение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "1772713607530dtyz4"
+  },
+  {
+    "column_A_greek": [
+      "διαλογή ψήφων"
+    ],
+    "column_B_russian": [
+      "подсчет голосов"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "17727109648842nepj"
+  },
+  {
+    "column_A_greek": [
+      "ψηφοφορία"
+    ],
+    "column_B_russian": [
+      "голосование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-05",
+    "_id": "1772710884372kpexk"
+  },
+  {
+    "column_A_greek": [
+      "διάλυση"
+    ],
+    "column_B_russian": [
+      " роспуск (парламента)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-05",
+    "_id": "17727102164606h0li"
+  },
+  {
+    "column_A_greek": [
+      "ολομέλεια"
+    ],
+    "column_B_russian": [
+      "пленум"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-05",
+    "_id": "1772709255957ktncr"
+  },
+  {
+    "column_A_greek": [
+      "μετάδοση"
+    ],
+    "column_B_russian": [
+      "трансляция (ζωντανή μετάδοση - прямая трансляция)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "1772708177246wm3k4"
+  },
+  {
+    "column_A_greek": [
+      "ράμφος"
+    ],
+    "column_B_russian": [
+      "клюв"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-03-05",
+    "_id": "1772706592032x4lnr"
+  },
+  {
+    "column_A_greek": [
+      "αναπληρωτής"
+    ],
+    "column_B_russian": [
+      "заместитель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-05",
+    "_id": "1772706361214ekv6x"
+  },
+  {
+    "column_A_greek": [
+      "ενεργός"
+    ],
+    "column_B_russian": [
+      "активный, действующий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-04",
+    "_id": "1772639904006qwfux"
+  },
+  {
+    "column_A_greek": [
+      "πιτταύλιν"
+    ],
+    "column_B_russian": [
+      " дудочка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-03-03",
+    "_id": "1772564792823evobc"
+  },
+  {
+    "column_A_greek": [
+      "κούζα"
+    ],
+    "column_B_russian": [
+      "кувшин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-03",
+    "_id": "1772564544895ptjau"
+  },
+  {
+    "column_A_greek": [
       "πιθάρι"
     ],
     "column_B_russian": [
@@ -11664,7 +11904,7 @@
       "διάταγμα"
     ],
     "column_B_russian": [
-      "постановление"
+      "постановление, указ"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -22917,7 +23157,8 @@
       "παριστάνω"
     ],
     "column_B_russian": [
-      "изображать из себя"
+      "изображать из себя",
+      "представлять"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -24487,7 +24728,7 @@
       "ανακήρυξη"
     ],
     "column_B_russian": [
-      "провозглашение"
+      "провозглашение, объявление"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -50995,10 +51236,10 @@
       "παροιμία"
     ],
     "column_B_russian": [
-      "пословица"
+      "пословица, поговорка"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "грам.",
+    "column_E_area": "",
     "column_F_date": "2025-02-01",
     "_id": "1770970824995t1vl2"
   },
@@ -61934,7 +62175,8 @@
       "αντικαθιστώ"
     ],
     "column_B_russian": [
-      "заменять"
+      "заменять",
+      "сменять"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
