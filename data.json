@@ -1,6 +1,378 @@
 [
   {
     "column_A_greek": [
+      "θεώρηση"
+    ],
+    "column_B_russian": [
+      "виза"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-19",
+    "_id": "17739383174181v5iv"
+  },
+  {
+    "column_A_greek": [
+      "προσθετολόγος"
+    ],
+    "column_B_russian": [
+      "ортопед"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "177393285005148evu"
+  },
+  {
+    "column_A_greek": [
+      "κυνόδοντας"
+    ],
+    "column_B_russian": [
+      "клык (зуб)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "1773931477323js2co"
+  },
+  {
+    "column_A_greek": [
+      "αδαμαντίνη"
+    ],
+    "column_B_russian": [
+      "эмаль (зубная)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "17739311437232q497"
+  },
+  {
+    "column_A_greek": [
+      "τερηδόνα"
+    ],
+    "column_B_russian": [
+      "кариес"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "1773931117339qyysj"
+  },
+  {
+    "column_A_greek": [
+      "εμφύτευμα"
+    ],
+    "column_B_russian": [
+      "имплант"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "1773931048331gteqn"
+  },
+  {
+    "column_A_greek": [
+      "στεφάνη"
+    ],
+    "column_B_russian": [
+      "коронка (зубная)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "1773930996293nbij9"
+  },
+  {
+    "column_A_greek": [
+      "θήκη"
+    ],
+    "column_B_russian": [
+      "коронка (зубная)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-19",
+    "_id": "1773930921587foj8n"
+  },
+  {
+    "column_A_greek": [
+      "μακάριος"
+    ],
+    "column_B_russian": [
+      "блаженный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-19",
+    "_id": "1773914030921ldkvk"
+  },
+  {
+    "column_A_greek": [
+      "σύναξις"
+    ],
+    "column_B_russian": [
+      "собрание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-19",
+    "_id": "1773912287681bzo05"
+  },
+  {
+    "column_A_greek": [
+      "συνάγω"
+    ],
+    "column_B_russian": [
+      "собирать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-19",
+    "_id": "1773912263409zsv4p"
+  },
+  {
+    "column_A_greek": [
+      "συναξαριστής"
+    ],
+    "column_B_russian": [
+      "синаксарь"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-19",
+    "_id": "177391216590656hjj"
+  },
+  {
+    "column_A_greek": [
+      "όσφρηση"
+    ],
+    "column_B_russian": [
+      "нюх, обоняние"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "1773843457938918xn"
+  },
+  {
+    "column_A_greek": [
+      "σχηματισμός"
+    ],
+    "column_B_russian": [
+      "образование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "1773840328561z7nri"
+  },
+  {
+    "column_A_greek": [
+      "ρότσα"
+    ],
+    "column_B_russian": [
+      "скала, большой камень"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-03-18",
+    "_id": "1773840233641p3945"
+  },
+  {
+    "column_A_greek": [
+      "αιωνόβιος"
+    ],
+    "column_B_russian": [
+      "вековой"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "177384010013754m09"
+  },
+  {
+    "column_A_greek": [
+      "κληρονομία"
+    ],
+    "column_B_russian": [
+      "наследие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "1773840046969nx5og"
+  },
+  {
+    "column_A_greek": [
+      "επί αντικαταβολή"
+    ],
+    "column_B_russian": [
+      "наложенным платежом"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "17738393009618zmfo"
+  },
+  {
+    "column_A_greek": [
+      "συνδεσιμότητα"
+    ],
+    "column_B_russian": [
+      "возможность подключения"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "1773836885761vdfqr"
+  },
+  {
+    "column_A_greek": [
+      "κάσα"
+    ],
+    "column_B_russian": [
+      "корпус"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-18",
+    "_id": "1773836822497qwxqv"
+  },
+  {
+    "column_A_greek": [
+      "νεοσσός"
+    ],
+    "column_B_russian": [
+      "птенец"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-03-18",
+    "_id": "17738359655914e0a8"
+  },
+  {
+    "column_A_greek": [
+      "επίδειξη"
+    ],
+    "column_B_russian": [
+      "демонстрация, показ"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-16",
+    "_id": "177365647837774a19"
+  },
+  {
+    "column_A_greek": [
+      "μόνωση"
+    ],
+    "column_B_russian": [
+      "изоляция, утепление"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-03-16",
+    "_id": "1773656063962ewhlw"
+  },
+  {
+    "column_A_greek": [
+      "απαρτία"
+    ],
+    "column_B_russian": [
+      "απαρτία"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-16",
+    "_id": "1773654208204j5nmi"
+  },
+  {
+    "column_A_greek": [
+      "στεφανώνω"
+    ],
+    "column_B_russian": [
+      "венчать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-13",
+    "_id": "1773408053913yixe9"
+  },
+  {
+    "column_A_greek": [
+      "βλασφημία"
+    ],
+    "column_B_russian": [
+      "богохульство, хула"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-13",
+    "_id": "1773393488978dmzb3"
+  },
+  {
+    "column_A_greek": [
+      "διάβαση"
+    ],
+    "column_B_russian": [
+      "переход, переезд"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-12",
+    "_id": "1773327373532ahna5"
+  },
+  {
+    "column_A_greek": [
+      "αποδοτικός"
+    ],
+    "column_B_russian": [
+      "производительный, эффективный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-11",
+    "_id": "1773242016914b081j"
+  },
+  {
+    "column_A_greek": [
+      "επεξεργαστής"
+    ],
+    "column_B_russian": [
+      "процессор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-11",
+    "_id": "1773238454159rfx7i"
+  },
+  {
+    "column_A_greek": [
+      "ποντικοουρά"
+    ],
+    "column_B_russian": [
+      "нить"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-09",
+    "_id": "1773053643400u7qj7"
+  },
+  {
+    "column_A_greek": [
+      "γαϊτάνιν"
+    ],
+    "column_B_russian": [
+      "гайтан"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-09",
+    "_id": "1773041125845o08pt"
+  },
+  {
+    "column_A_greek": [
       "ανά πάσα στιγμή"
     ],
     "column_B_russian": [
@@ -3242,7 +3614,8 @@
       "σήμανση"
     ],
     "column_B_russian": [
-      "отметка"
+      "отметка",
+      "разметка (на дороге)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -39977,7 +40350,8 @@
       "ουσία"
     ],
     "column_B_russian": [
-      "вещество"
+      "вещество",
+      "существо, суть"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
