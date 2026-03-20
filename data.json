@@ -1,6 +1,260 @@
 [
   {
     "column_A_greek": [
+      "ομοούσιος"
+    ],
+    "column_B_russian": [
+      "единосущный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-20",
+    "_id": "177401806501748vez"
+  },
+  {
+    "column_A_greek": [
+      "ταράσσω"
+    ],
+    "column_B_russian": [
+      "волновать (море)",
+      "мутить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774016976057667t1"
+  },
+  {
+    "column_A_greek": [
+      "πάσα"
+    ],
+    "column_B_russian": [
+      "каждый, всякий"
+    ],
+    "column_D_part_of_speech": "мест.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "17740169111058l54y"
+  },
+  {
+    "column_A_greek": [
+      "εγείρω"
+    ],
+    "column_B_russian": [
+      "воздвигать, строить (Исус Христос про \"храм\" в 3 дня)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774014859032ika9n"
+  },
+  {
+    "column_A_greek": [
+      "λύω"
+    ],
+    "column_B_russian": [
+      "развязывать",
+      "разбирать на части, разрушать (в древнегр.)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774014642179vdqwj"
+  },
+  {
+    "column_A_greek": [
+      "λύω"
+    ],
+    "column_B_russian": [
+      "расторгать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-20",
+    "_id": "1774014606017nli3w"
+  },
+  {
+    "column_A_greek": [
+      "αποκρίνομαι"
+    ],
+    "column_B_russian": [
+      "отвечать (на вопрос)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "17740121660894rmkk"
+  },
+  {
+    "column_A_greek": [
+      "ολόιδιος"
+    ],
+    "column_B_russian": [
+      "идентичный, одинаковый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774007615864mr72h"
+  },
+  {
+    "column_A_greek": [
+      "εντεύθεν"
+    ],
+    "column_B_russian": [
+      "отсюда"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "17740068887840irsr"
+  },
+  {
+    "column_A_greek": [
+      "προσκυνητής"
+    ],
+    "column_B_russian": [
+      "паломник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-20",
+    "_id": "17740042322234lklg"
+  },
+  {
+    "column_A_greek": [
+      "εν"
+    ],
+    "column_B_russian": [
+      "в"
+    ],
+    "column_D_part_of_speech": "предлог",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774004108369jy1rv"
+  },
+  {
+    "column_A_greek": [
+      "δε"
+    ],
+    "column_B_russian": [
+      "же"
+    ],
+    "column_D_part_of_speech": "част.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1774003803063k1yep"
+  },
+  {
+    "column_A_greek": [
+      "λοκάντα"
+    ],
+    "column_B_russian": [
+      "трактир"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "уст.",
+    "column_F_date": "2026-03-20",
+    "_id": "1774001750551d1eri"
+  },
+  {
+    "column_A_greek": [
+      "ανασταίνω"
+    ],
+    "column_B_russian": [
+      "воскрешать (из мертвых)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773999791775qzj1b"
+  },
+  {
+    "column_A_greek": [
+      "πράττω"
+    ],
+    "column_B_russian": [
+      "делать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773999191783m96ev"
+  },
+  {
+    "column_A_greek": [
+      "άρχοντας"
+    ],
+    "column_B_russian": [
+      "правитель, властелин, господин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773999123943xeu02"
+  },
+  {
+    "column_A_greek": [
+      "μήτηρ"
+    ],
+    "column_B_russian": [
+      "мать"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-20",
+    "_id": "1773998877783lkl0v"
+  },
+  {
+    "column_A_greek": [
+      "καθένας"
+    ],
+    "column_B_russian": [
+      "каждый (καθένας, καθεμιά, καθένα)"
+    ],
+    "column_D_part_of_speech": "мест.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773998708639ai0c8"
+  },
+  {
+    "column_A_greek": [
+      "στάμνα"
+    ],
+    "column_B_russian": [
+      "кувшин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "177399849227946dfm"
+  },
+  {
+    "column_A_greek": [
+      "δασύς"
+    ],
+    "column_B_russian": [
+      "густой"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773997887023tw6q2"
+  },
+  {
+    "column_A_greek": [
+      "εκφωνώ"
+    ],
+    "column_B_russian": [
+      "произносить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-20",
+    "_id": "1773997805503smwbb"
+  },
+  {
+    "column_A_greek": [
       "θεώρηση"
     ],
     "column_B_russian": [
@@ -33105,7 +33359,7 @@
       "πράξη"
     ],
     "column_B_russian": [
-      "действие"
+      "действие, поступок"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -56968,18 +57222,6 @@
     "column_E_area": "общ",
     "column_F_date": "2024-12-16",
     "_id": "177097082499693b9l"
-  },
-  {
-    "column_A_greek": [
-      "ανταποκρίνομαι"
-    ],
-    "column_B_russian": [
-      "отвечать"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2024-12-16",
-    "_id": "17709708249960iish"
   },
   {
     "column_A_greek": [
