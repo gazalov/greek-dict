@@ -1,6 +1,513 @@
 [
   {
     "column_A_greek": [
+      "ελαφρύνω"
+    ],
+    "column_B_russian": [
+      "облегчать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774534900837pgsyx"
+  },
+  {
+    "column_A_greek": [
+      "βόμβος"
+    ],
+    "column_B_russian": [
+      "гул, гудение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774533696931m4aya"
+  },
+  {
+    "column_A_greek": [
+      "υπερσύγχρονος"
+    ],
+    "column_B_russian": [
+      "ультрасовременный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774533576756x2suw"
+  },
+  {
+    "column_A_greek": [
+      "αντανάκλαση"
+    ],
+    "column_B_russian": [
+      "отражение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "17745330769230cb6d"
+  },
+  {
+    "column_A_greek": [
+      "ατίθασος"
+    ],
+    "column_B_russian": [
+      "неукротимый, необузданный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774532955812ohgke"
+  },
+  {
+    "column_A_greek": [
+      "επαισθητός"
+    ],
+    "column_B_russian": [
+      "осязаемый, ощутимый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774532781843jrcg2"
+  },
+  {
+    "column_A_greek": [
+      "αποσυντονίζω"
+    ],
+    "column_B_russian": [
+      "дезориентировать, сбивать с толку"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "177453271380455x57"
+  },
+  {
+    "column_A_greek": [
+      "ανεπαίσθητος"
+    ],
+    "column_B_russian": [
+      "незначительный, незаметный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774532570771k6qsm"
+  },
+  {
+    "column_A_greek": [
+      "μονολεκτικά"
+    ],
+    "column_B_russian": [
+      "одним словом"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "177453230968479rsd"
+  },
+  {
+    "column_A_greek": [
+      "ασυνέπεια"
+    ],
+    "column_B_russian": [
+      "несоответствие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774532183339aq33w"
+  },
+  {
+    "column_A_greek": [
+      "καθώς"
+    ],
+    "column_B_russian": [
+      "когда, как только"
+    ],
+    "column_D_part_of_speech": "союз",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774532043012glv0c"
+  },
+  {
+    "column_A_greek": [
+      "διευθύνω"
+    ],
+    "column_B_russian": [
+      "управлять, руководить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "1774531451036nrtci"
+  },
+  {
+    "column_A_greek": [
+      "διαιρώ"
+    ],
+    "column_B_russian": [
+      "делить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-26",
+    "_id": "177452107094394tzw"
+  },
+  {
+    "column_A_greek": [
+      "εκδοθέν κεφάλαιο"
+    ],
+    "column_B_russian": [
+      "выпущенный капитал"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-26",
+    "_id": "17745207408315k0k5"
+  },
+  {
+    "column_A_greek": [
+      "συμπίπτω"
+    ],
+    "column_B_russian": [
+      "совпадать (συνέπεσα)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774515456879k1o0f"
+  },
+  {
+    "column_A_greek": [
+      "ψυχραιμία"
+    ],
+    "column_B_russian": [
+      "хладнокровие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774450853393hm38g"
+  },
+  {
+    "column_A_greek": [
+      "παρουσιαστικό"
+    ],
+    "column_B_russian": [
+      "внешность, наружность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "17744508145455gk8g"
+  },
+  {
+    "column_A_greek": [
+      "πασχίζω"
+    ],
+    "column_B_russian": [
+      "прилагать усилия, стараться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774450420064ca96b"
+  },
+  {
+    "column_A_greek": [
+      "περιθωριακός"
+    ],
+    "column_B_russian": [
+      "маргинал"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774450376808f98vs"
+  },
+  {
+    "column_A_greek": [
+      "πρωτόγονος"
+    ],
+    "column_B_russian": [
+      "примитивный, первобытный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774450193544edu15"
+  },
+  {
+    "column_A_greek": [
+      "αντιστάτης"
+    ],
+    "column_B_russian": [
+      "повстанец"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774449383072a6pbo"
+  },
+  {
+    "column_A_greek": [
+      "συμμόρφωση"
+    ],
+    "column_B_russian": [
+      "подчинение",
+      "конформизм"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774449054048u0wud"
+  },
+  {
+    "column_A_greek": [
+      "διατυμπανίζω"
+    ],
+    "column_B_russian": [
+      "оглашать, трубить по всюду"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774448562200lxkuv"
+  },
+  {
+    "column_A_greek": [
+      "αψεγάδιαστος"
+    ],
+    "column_B_russian": [
+      "безупречный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774448433008nb5ma"
+  },
+  {
+    "column_A_greek": [
+      "ακατάλυτος"
+    ],
+    "column_B_russian": [
+      "прочный, нерушимый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774448302896fs7sv"
+  },
+  {
+    "column_A_greek": [
+      "φέγγω"
+    ],
+    "column_B_russian": [
+      "светить, озарять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-25",
+    "_id": "1774447096463xlepn"
+  },
+  {
+    "column_A_greek": [
+      "περισπωμένη"
+    ],
+    "column_B_russian": [
+      "знак облегченного ударения"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "1774361881850k9mqd"
+  },
+  {
+    "column_A_greek": [
+      "τζύρης"
+    ],
+    "column_B_russian": [
+      "господин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-03-24",
+    "_id": "1774361034921erf2b"
+  },
+  {
+    "column_A_greek": [
+      "τζύριος"
+    ],
+    "column_B_russian": [
+      "господин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-03-24",
+    "_id": "1774361012025miggv"
+  },
+  {
+    "column_A_greek": [
+      "τζυρά"
+    ],
+    "column_B_russian": [
+      "госпожа"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-03-24",
+    "_id": "1774360994785ufk4g"
+  },
+  {
+    "column_A_greek": [
+      "απωθώ"
+    ],
+    "column_B_russian": [
+      "отражать (удар)",
+      "отталкивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "17743512188808hwol"
+  },
+  {
+    "column_A_greek": [
+      "λεύκανση"
+    ],
+    "column_B_russian": [
+      "отбеливание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "1774351100960n3lfw"
+  },
+  {
+    "column_A_greek": [
+      "εξ ου λέμε"
+    ],
+    "column_B_russian": [
+      "откуда и пошло выражение"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "1774351067584zxwrb"
+  },
+  {
+    "column_A_greek": [
+      "αποκρούω"
+    ],
+    "column_B_russian": [
+      "отражать, отбивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "1774350959616orx88"
+  },
+  {
+    "column_A_greek": [
+      "τυγχάνω"
+    ],
+    "column_B_russian": [
+      "быть, являться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-24",
+    "_id": "1774350891624i7kvr"
+  },
+  {
+    "column_A_greek": [
+      "μέλλω"
+    ],
+    "column_B_russian": [
+      "намереваться, собираться",
+      "предстоять в будущем"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774257318022ro63p"
+  },
+  {
+    "column_A_greek": [
+      "έριο"
+    ],
+    "column_B_russian": [
+      "шерсть овечья"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774256628102afyzd"
+  },
+  {
+    "column_A_greek": [
+      "βοή"
+    ],
+    "column_B_russian": [
+      "шум, рев"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774255906598r1855"
+  },
+  {
+    "column_A_greek": [
+      "όραμα"
+    ],
+    "column_B_russian": [
+      "видение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774255700646ghons"
+  },
+  {
+    "column_A_greek": [
+      "καμίνι"
+    ],
+    "column_B_russian": [
+      "печь"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774255618286tlvfx"
+  },
+  {
+    "column_A_greek": [
+      "ιερομάρτυρος"
+    ],
+    "column_B_russian": [
+      "священномученик"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-03-23",
+    "_id": "17742512501819kos5"
+  },
+  {
+    "column_A_greek": [
+      "πας"
+    ],
+    "column_B_russian": [
+      "весь"
+    ],
+    "column_D_part_of_speech": "мест.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-23",
+    "_id": "1774251118173mvwgh"
+  },
+  {
+    "column_A_greek": [
       "ομοούσιος"
     ],
     "column_B_russian": [
@@ -6989,18 +7496,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-11-19",
     "_id": "1770970824991k92ex"
-  },
-  {
-    "column_A_greek": [
-      "δικαιολογητικά"
-    ],
-    "column_B_russian": [
-      "документы"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2025-11-19",
-    "_id": "1770970824991vbe1z"
   },
   {
     "column_A_greek": [
@@ -14825,8 +15320,7 @@
       "συντάσσω"
     ],
     "column_B_russian": [
-      "составлять (документ",
-      "план)"
+      "составлять (документ, план)"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -39061,7 +39555,8 @@
       "ατελείωτος"
     ],
     "column_B_russian": [
-      "незаконченный"
+      "незаконченный",
+      "бесконечный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -44862,7 +45357,7 @@
       "ακόλουθος"
     ],
     "column_B_russian": [
-      "следующий"
+      "следующий, последующий"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
