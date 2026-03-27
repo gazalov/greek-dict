@@ -1,6 +1,320 @@
 [
   {
     "column_A_greek": [
+      "αναλφάβητος"
+    ],
+    "column_B_russian": [
+      "неграмотный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746175167215kfn2"
+  },
+  {
+    "column_A_greek": [
+      "υφίσταμαι"
+    ],
+    "column_B_russian": [
+      "быть, существовать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774617386209ad0o4"
+  },
+  {
+    "column_A_greek": [
+      "Πολιτική Δικονομία"
+    ],
+    "column_B_russian": [
+      "гражданский процесс"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-27",
+    "_id": "17746167390658b7aa"
+  },
+  {
+    "column_A_greek": [
+      "παράταση"
+    ],
+    "column_B_russian": [
+      "овертайм (в футболе)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746146005459oxy5"
+  },
+  {
+    "column_A_greek": [
+      "προπληρώνω"
+    ],
+    "column_B_russian": [
+      "платить авансом"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774614542122v8q4j"
+  },
+  {
+    "column_A_greek": [
+      "αντιπροσωπεύω"
+    ],
+    "column_B_russian": [
+      "представлять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746144417060bolw"
+  },
+  {
+    "column_A_greek": [
+      "πάγιος"
+    ],
+    "column_B_russian": [
+      "постоянный (το πάγιο μίσθωμα - постоянная часть арендной платы)"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-27",
+    "_id": "1774614357585nmiqs"
+  },
+  {
+    "column_A_greek": [
+      "πάγιος"
+    ],
+    "column_B_russian": [
+      "постоянный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774614315730odsja"
+  },
+  {
+    "column_A_greek": [
+      "εκπνοή"
+    ],
+    "column_B_russian": [
+      "истечение (срока)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774614119754u6bzo"
+  },
+  {
+    "column_A_greek": [
+      "κατωτέρω"
+    ],
+    "column_B_russian": [
+      "ниже"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746140643706tww2"
+  },
+  {
+    "column_A_greek": [
+      "περαιτέρω"
+    ],
+    "column_B_russian": [
+      "дальнейший"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774614020050kjphx"
+  },
+  {
+    "column_A_greek": [
+      "επιδίκαση"
+    ],
+    "column_B_russian": [
+      "присуждение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-27",
+    "_id": "177461364105892z3i"
+  },
+  {
+    "column_A_greek": [
+      "δανειζόμενος"
+    ],
+    "column_B_russian": [
+      "заемщик"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-27",
+    "_id": "1774613393218bhv0a"
+  },
+  {
+    "column_A_greek": [
+      "αρμοστής"
+    ],
+    "column_B_russian": [
+      "комиссар, наместник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774613086634uwo19"
+  },
+  {
+    "column_A_greek": [
+      "ύπατος"
+    ],
+    "column_B_russian": [
+      "верховный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774613043986akrh2"
+  },
+  {
+    "column_A_greek": [
+      "σταθμεύω"
+    ],
+    "column_B_russian": [
+      "останавливаться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774612938050nkcqj"
+  },
+  {
+    "column_A_greek": [
+      "βουτιά"
+    ],
+    "column_B_russian": [
+      "прыжок в воду"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774611420890w98ba"
+  },
+  {
+    "column_A_greek": [
+      "Κάνε άκρη"
+    ],
+    "column_B_russian": [
+      "Отойди в сторону.",
+      "Подвинься."
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774611364226n31gu"
+  },
+  {
+    "column_A_greek": [
+      "ατμομηχανή"
+    ],
+    "column_B_russian": [
+      "паровой двигатель",
+      "паровоз"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746111714272told"
+  },
+  {
+    "column_A_greek": [
+      "εφευρίσκω"
+    ],
+    "column_B_russian": [
+      "изобретать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774611132338v7xpx"
+  },
+  {
+    "column_A_greek": [
+      "εξορύσσω"
+    ],
+    "column_B_russian": [
+      "добывать (полезные ископаемые)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "17746107554442n8h0"
+  },
+  {
+    "column_A_greek": [
+      "φυτρώνω"
+    ],
+    "column_B_russian": [
+      "прорастать, расти (о растениях)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774610522203xnzqp"
+  },
+  {
+    "column_A_greek": [
+      "γενειάδα"
+    ],
+    "column_B_russian": [
+      "длинная борода"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774610422243y24ao"
+  },
+  {
+    "column_A_greek": [
+      "βλεφαρίδα"
+    ],
+    "column_B_russian": [
+      "ресница"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-03-27",
+    "_id": "1774610201420fyq6g"
+  },
+  {
+    "column_A_greek": [
+      "σαρκοβόρος"
+    ],
+    "column_B_russian": [
+      "хищный, плотоядный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "1774610093179tlxxg"
+  },
+  {
+    "column_A_greek": [
+      "κυάνιο"
+    ],
+    "column_B_russian": [
+      "цианид"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-27",
+    "_id": "177461001403641fxa"
+  },
+  {
+    "column_A_greek": [
       "ελαφρύνω"
     ],
     "column_B_russian": [
@@ -15013,7 +15327,8 @@
     ],
     "column_B_russian": [
       "элемент",
-      "компонент"
+      "компонент",
+      "составная часть"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -15087,7 +15402,8 @@
       "δανειστής"
     ],
     "column_B_russian": [
-      "кредитор"
+      "кредитор",
+      "займодавец"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -21460,7 +21776,7 @@
       "έκθεση"
     ],
     "column_B_russian": [
-      "сочинение"
+      "сочинение, изложение, пересказ"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -25560,7 +25876,8 @@
       "ανάληψη"
     ],
     "column_B_russian": [
-      "снятие (денег из банкомата напр.)"
+      "снятие (денег из банкомата напр.)",
+      "получение (займа напр.)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -26157,7 +26474,8 @@
       "διεξάγω"
     ],
     "column_B_russian": [
-      "проводить"
+      "проводить",
+      "вести (деятельность)"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -39036,7 +39354,7 @@
       "αποκλειστικός"
     ],
     "column_B_russian": [
-      "исключительный"
+      "исключительный, единственный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -43894,7 +44212,8 @@
       "θάβω"
     ],
     "column_B_russian": [
-      "хоронить"
+      "хоронить",
+      "закапывать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -48260,18 +48579,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-02-28",
     "_id": "1770970824995e826d"
-  },
-  {
-    "column_A_greek": [
-      "θάβω"
-    ],
-    "column_B_russian": [
-      "хоронить"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2025-02-28",
-    "_id": "177097082499567b27"
   },
   {
     "column_A_greek": [
@@ -63984,7 +64291,8 @@
       "μεταβολή"
     ],
     "column_B_russian": [
-      "изменение"
+      "изменение",
+      "превращение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
