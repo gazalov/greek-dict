@@ -1,6 +1,176 @@
 [
   {
     "column_A_greek": [
+      "άλυτος"
+    ],
+    "column_B_russian": [
+      "нерешенный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "17748904345404oi0k"
+  },
+  {
+    "column_A_greek": [
+      "με σώες τις φρένες"
+    ],
+    "column_B_russian": [
+      "в здравом уме"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-30",
+    "_id": "17748901934686s8w4"
+  },
+  {
+    "column_A_greek": [
+      "κατοχυρώνω"
+    ],
+    "column_B_russian": [
+      "закреплять, обеспечивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774889668676mpr6i"
+  },
+  {
+    "column_A_greek": [
+      "αντισυμβαλλόμενος"
+    ],
+    "column_B_russian": [
+      "контрагент"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-30",
+    "_id": "1774889278037oyv5b"
+  },
+  {
+    "column_A_greek": [
+      "έκφανση"
+    ],
+    "column_B_russian": [
+      "проявление"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774889044212g2ahs"
+  },
+  {
+    "column_A_greek": [
+      "συμβάλλομαι"
+    ],
+    "column_B_russian": [
+      "заключать договор",
+      "договариваться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-30",
+    "_id": "1774888928564stffl"
+  },
+  {
+    "column_A_greek": [
+      "τήρηση"
+    ],
+    "column_B_russian": [
+      "соблюдение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774888422213f4y4n"
+  },
+  {
+    "column_A_greek": [
+      "πηγάδι"
+    ],
+    "column_B_russian": [
+      "колодец"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774855447732v388l"
+  },
+  {
+    "column_A_greek": [
+      "νομικό πρόσωπο"
+    ],
+    "column_B_russian": [
+      "юридическое лицо"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-30",
+    "_id": "17748553790125xyf0"
+  },
+  {
+    "column_A_greek": [
+      "διευκολύνω"
+    ],
+    "column_B_russian": [
+      "облегчать, способствовать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774854962236bmjcj"
+  },
+  {
+    "column_A_greek": [
+      "ανατροφοδότηση"
+    ],
+    "column_B_russian": [
+      "обратная связь"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-30",
+    "_id": "1774854769596dbne2"
+  },
+  {
+    "column_A_greek": [
+      "δικαίωμα"
+    ],
+    "column_B_russian": [
+      "право (субъективное)",
+      "απόλυτο δικαίωμα - абсолютное право"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-29",
+    "_id": "177480273922021n0z"
+  },
+  {
+    "column_A_greek": [
+      "θεσπίζω"
+    ],
+    "column_B_russian": [
+      "устанавливать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-03-29",
+    "_id": "1774801029893bmnd5"
+  },
+  {
+    "column_A_greek": [
+      "διαζύγιο"
+    ],
+    "column_B_russian": [
+      "развод"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-03-29",
+    "_id": "17748003572067ap1r"
+  },
+  {
+    "column_A_greek": [
       "αναλφάβητος"
     ],
     "column_B_russian": [
@@ -3844,7 +4014,8 @@
       "διαμόρφωση"
     ],
     "column_B_russian": [
-      "формирование"
+      "формирование",
+      "составление"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -4674,7 +4845,7 @@
   },
   {
     "column_A_greek": [
-      "Συνήθιζε"
+      "συνήθιζε"
     ],
     "column_B_russian": [
       "имел обыкновение"
@@ -15168,7 +15339,8 @@
       "μεταγενέστερος"
     ],
     "column_B_russian": [
-      "последующий"
+      "последующий",
+      "более поздний"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -15691,18 +15863,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-09-16",
     "_id": "1770970824992shhlh"
-  },
-  {
-    "column_A_greek": [
-      "τοκετός"
-    ],
-    "column_B_russian": [
-      "роды"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2025-09-16",
-    "_id": "1770970824992s4gp1"
   },
   {
     "column_A_greek": [
@@ -24425,7 +24585,7 @@
       "следовательно",
       "таким образом"
     ],
-    "column_D_part_of_speech": "союз",
+    "column_D_part_of_speech": "наречие",
     "column_E_area": "общ",
     "column_F_date": "2025-07-23",
     "_id": "1770970824993ogaye"
