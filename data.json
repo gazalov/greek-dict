@@ -1,6 +1,320 @@
 [
   {
     "column_A_greek": [
+      "ανάλυση"
+    ],
+    "column_B_russian": [
+      "разрешение (экрана)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776175414918thx5s"
+  },
+  {
+    "column_A_greek": [
+      "αναστροφή"
+    ],
+    "column_B_russian": [
+      "переворачивание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776174149974oqs4e"
+  },
+  {
+    "column_A_greek": [
+      "αποσυνδέω"
+    ],
+    "column_B_russian": [
+      "разъединять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776173056742jlkfs"
+  },
+  {
+    "column_A_greek": [
+      "Γίνεται να είναι τόσο κουτός;"
+    ],
+    "column_B_russian": [
+      "Неужели он такой дурак?"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776165806805lm9j0"
+  },
+  {
+    "column_A_greek": [
+      "αλληλογραφία"
+    ],
+    "column_B_russian": [
+      "корреспонденция"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776165356933wqn90"
+  },
+  {
+    "column_A_greek": [
+      "επιχειρηματικό σχέδιο"
+    ],
+    "column_B_russian": [
+      "бизнес-план"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-14",
+    "_id": "1776158782549awdnd"
+  },
+  {
+    "column_A_greek": [
+      "απόβλητα"
+    ],
+    "column_B_russian": [
+      "отходы"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "17761551575787msq8"
+  },
+  {
+    "column_A_greek": [
+      "εφεδρεία"
+    ],
+    "column_B_russian": [
+      "резерв, запас"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776155131537xdceo"
+  },
+  {
+    "column_A_greek": [
+      "όπως και να έχει"
+    ],
+    "column_B_russian": [
+      "как бы там не было"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776154875449wyk5u"
+  },
+  {
+    "column_A_greek": [
+      "ελκυστικός"
+    ],
+    "column_B_russian": [
+      "заманчивый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776154840617w073b"
+  },
+  {
+    "column_A_greek": [
+      "εφυαλωμένος"
+    ],
+    "column_B_russian": [
+      "глазурованный, эмалированный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "177599289387194zm6"
+  },
+  {
+    "column_A_greek": [
+      "εγχαράσσω"
+    ],
+    "column_B_russian": [
+      "высекать, гравировать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "1775992651366wui6w"
+  },
+  {
+    "column_A_greek": [
+      "εφήμερος"
+    ],
+    "column_B_russian": [
+      "однодневный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759924669225v3os"
+  },
+  {
+    "column_A_greek": [
+      "διανοούμαι"
+    ],
+    "column_B_russian": [
+      "думать, размышлять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759923139929lvjn"
+  },
+  {
+    "column_A_greek": [
+      "άγιασμα"
+    ],
+    "column_B_russian": [
+      "освящение"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759922406624qiw5"
+  },
+  {
+    "column_A_greek": [
+      "καινοτόμος"
+    ],
+    "column_B_russian": [
+      "инновационный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759919916858qt6n"
+  },
+  {
+    "column_A_greek": [
+      "καμπαναριό"
+    ],
+    "column_B_russian": [
+      "колокольня, знонница"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-04-12",
+    "_id": "1775991901999o7llm"
+  },
+  {
+    "column_A_greek": [
+      "αθόρυβα"
+    ],
+    "column_B_russian": [
+      "незаметно"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "1775991496925wu7f1"
+  },
+  {
+    "column_A_greek": [
+      "ανταμοιβή"
+    ],
+    "column_B_russian": [
+      "вознаграждение, награда"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759914204863hujp"
+  },
+  {
+    "column_A_greek": [
+      "πευκοβελόνα"
+    ],
+    "column_B_russian": [
+      "сосновая иголка, хвоинка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бот.",
+    "column_F_date": "2026-04-12",
+    "_id": "177599133763015jcd"
+  },
+  {
+    "column_A_greek": [
+      "περιφορά"
+    ],
+    "column_B_russian": [
+      "шествие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759912478828fvgh"
+  },
+  {
+    "column_A_greek": [
+      "σιγανός"
+    ],
+    "column_B_russian": [
+      "тихий, негромкий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "1775991204118g8vux"
+  },
+  {
+    "column_A_greek": [
+      "νίπτω τάς χείρας μου"
+    ],
+    "column_B_russian": [
+      "я умываю руки"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "1775991132187nmvxi"
+  },
+  {
+    "column_A_greek": [
+      "τα έχω παίξει"
+    ],
+    "column_B_russian": [
+      "я на пределе",
+      "я в замешательстве"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "17759910372986gs7r"
+  },
+  {
+    "column_A_greek": [
+      "κρούση"
+    ],
+    "column_B_russian": [
+      "удар, стук"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-12",
+    "_id": "1775990756630b6oq0"
+  },
+  {
+    "column_A_greek": [
+      "πέπλος"
+    ],
+    "column_B_russian": [
+      "вуаль, пелена",
+      "фата"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-09",
+    "_id": "17757425287655hvr8"
+  },
+  {
+    "column_A_greek": [
       "άλυτος"
     ],
     "column_B_russian": [
@@ -15205,7 +15519,8 @@
       "κατάταξη"
     ],
     "column_B_russian": [
-      "классификация"
+      "классификация",
+      "призыв в армию"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -28055,7 +28370,8 @@
       "άκυρος"
     ],
     "column_B_russian": [
-      "недействительный"
+      "недействительный",
+      "аннулированный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "юр.",
@@ -34234,7 +34550,8 @@
       "συντήρηση"
     ],
     "column_B_russian": [
-      "сохранение"
+      "сохранение",
+      "поддержка"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -47247,7 +47564,8 @@
       "συμφέρει"
     ],
     "column_B_russian": [
-      "выгодно"
+      "выгодно",
+      "μόνο όταν σε συμφέρει"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -53408,7 +53726,8 @@
       "αποχέτευση"
     ],
     "column_B_russian": [
-      "санитария"
+      "санитария",
+      "канализация, отведение (воды)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -54045,7 +54364,8 @@
       "πανίσχυρος"
     ],
     "column_B_russian": [
-      "мощный"
+      "мощный",
+      "всемогущий"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
