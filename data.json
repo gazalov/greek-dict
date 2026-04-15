@@ -1,6 +1,139 @@
 [
   {
     "column_A_greek": [
+      "χωρομετρία"
+    ],
+    "column_B_russian": [
+      "межевание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263649865lntlk"
+  },
+  {
+    "column_A_greek": [
+      "πιάνω με το αυτοκίνητο"
+    ],
+    "column_B_russian": [
+      "подхватить на машине"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263609177ieti2"
+  },
+  {
+    "column_A_greek": [
+      "Πότε περνάει ο ταχυδρόμος;"
+    ],
+    "column_B_russian": [
+      "Когда бывает почтальон?"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "17762635670749tw24"
+  },
+  {
+    "column_A_greek": [
+      "Αν είναι δυνατόν;"
+    ],
+    "column_B_russian": [
+      "Возможно ли это?"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263506809cumxo"
+  },
+  {
+    "column_A_greek": [
+      "η ιδέα σού είναι"
+    ],
+    "column_B_russian": [
+      "это тебе кажется"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263470329oinu1"
+  },
+  {
+    "column_A_greek": [
+      "νερόλακκος"
+    ],
+    "column_B_russian": [
+      "лужа"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263371401infd7"
+  },
+  {
+    "column_A_greek": [
+      "αυτοκόλλητη ταινία"
+    ],
+    "column_B_russian": [
+      "самоклеющаяся лента"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263306865pzul1"
+  },
+  {
+    "column_A_greek": [
+      "σκύλος"
+    ],
+    "column_B_russian": [
+      "собака"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "17762618848427eo5y"
+  },
+  {
+    "column_A_greek": [
+      "ψεγαδιάζω"
+    ],
+    "column_B_russian": [
+      "упрекать, осуждать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776260471617u11gm"
+  },
+  {
+    "column_A_greek": [
+      "βάζω τα δυνατά μου"
+    ],
+    "column_B_russian": [
+      "сделать все от тебя зависящее"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "17762584050416mzne"
+  },
+  {
+    "column_A_greek": [
+      "συντόμευση"
+    ],
+    "column_B_russian": [
+      "сокращение",
+      "ярлык (комп.)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776257356809c6rfo"
+  },
+  {
+    "column_A_greek": [
       "προέλευση"
     ],
     "column_B_russian": [
@@ -18,7 +151,7 @@
     "column_B_russian": [
       "Всё это хорошо, но практика — это всё"
     ],
-    "column_D_part_of_speech": "выраж.",
+    "column_D_part_of_speech": "посл.",
     "column_E_area": "общ",
     "column_F_date": "2026-04-15",
     "_id": "1776253859640c11jc"
@@ -8758,8 +8891,7 @@
       "Έχω την εντύπωση ότι…"
     ],
     "column_B_russian": [
-      "Полагать",
-      "что"
+      "Полагать, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -14685,8 +14817,7 @@
       "λάβετε υπόψη ότι"
     ],
     "column_B_russian": [
-      "обратите внимание",
-      "что"
+      "обратите внимание, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -17903,8 +18034,7 @@
       "παρόλο που"
     ],
     "column_B_russian": [
-      "даже при том",
-      "что"
+      "даже при том, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -18920,8 +19050,8 @@
       "δεδομένου ότι"
     ],
     "column_B_russian": [
-      "при условии",
-      "что"
+      "при условии, что",
+      "учитывая, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -19627,9 +19757,7 @@
       "το λιγότερο περίεργο"
     ],
     "column_B_russian": [
-      "по меньшей мере странный",
-      "ое",
-      "ая"
+      "по меньшей мере странный (ое, ая)"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -19789,8 +19917,7 @@
       "διά θαλασσής"
     ],
     "column_B_russian": [
-      "по морю",
-      "морем"
+      "по морю, морем"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -19814,8 +19941,7 @@
       "Αφήνω πού…"
     ],
     "column_B_russian": [
-      "Не говоря о том",
-      "что"
+      "Не говоря о том, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -23487,8 +23613,7 @@
       "αν αναλογιστεί κανείς ότι"
     ],
     "column_B_russian": [
-      "если учесть",
-      "что"
+      "если учесть, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -24360,8 +24485,7 @@
       "Δεν λες πάλι καλά"
     ],
     "column_B_russian": [
-      "хорошо еще",
-      "что"
+      "хорошо еще, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -40583,8 +40707,7 @@
       "Χρόνια και ζαμάνια!"
     ],
     "column_B_russian": [
-      "Сколько лет",
-      "сколько зим!"
+      "Сколько лет, сколько зим!"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -42472,8 +42595,7 @@
       "έτσι ώστε"
     ],
     "column_B_russian": [
-      "так",
-      "что"
+      "так, что"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -45727,7 +45849,7 @@
       "και μέσα σε λίγη ώρα"
     ],
     "column_B_russian": [
-      "и втечение час",
+      "и в течение часа",
       "и уже через час"
     ],
     "column_D_part_of_speech": "выраж.",
@@ -47785,8 +47907,7 @@
       "να σου πω"
     ],
     "column_B_russian": [
-      "вот",
-      "что я тебе скажу"
+      "вот, что я тебе скажу"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -48662,9 +48783,7 @@
       "Λοιπόν δέχεσαι"
     ],
     "column_B_russian": [
-      "Ну",
-      "как",
-      "договорились?"
+      "Ну как, договорились?"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -52898,9 +53017,7 @@
       "Και εκεί που νόμιζα ότι…"
     ],
     "column_B_russian": [
-      "И как раз в тот момент",
-      "когда я подумал",
-      "что…"
+      "И как раз в тот момент, когда я подумал, что ..."
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -59462,8 +59579,7 @@
       "είναι μάλιστα ψηλότερος από και εμένα"
     ],
     "column_B_russian": [
-      "он даже выше",
-      "чем я"
+      "он даже выше, чем я"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
