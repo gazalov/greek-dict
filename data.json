@@ -1,6 +1,30 @@
 [
   {
     "column_A_greek": [
+      "νερό"
+    ],
+    "column_B_russian": [
+      "воъда"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776180065000avkxf"
+  },
+  {
+    "column_A_greek": [
+      "αποκορύφωση"
+    ],
+    "column_B_russian": [
+      "апогей, кульминация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-14",
+    "_id": "1776177339638smky9"
+  },
+  {
+    "column_A_greek": [
       "ανάλυση"
     ],
     "column_B_russian": [
@@ -1839,7 +1863,7 @@
       "απαρτία"
     ],
     "column_B_russian": [
-      "απαρτία"
+      "кворум"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
