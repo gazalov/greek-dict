@@ -64,7 +64,10 @@
                 <div id="modalContent"></div>
             </div>
             <div class="p-2">
-                <button onclick="closeModal()" class="w-full py-4 bg-slate-900 text-white font-bold rounded-[1.75rem] text-sm uppercase tracking-widest active:scale-95 transition-transform">Понятно</button>
+                <button onclick="closeModal()" 
+        class="w-full py-4 bg-[#1e3a8a] text-white rounded-2xl font-bold text-lg shadow-lg active:scale-95 transition-all">
+    OK
+</button>
             </div>
         </div>
     </div>
@@ -145,8 +148,10 @@
         function showWordDetails(item) {
             const modal = el('wordModal');
             el('modalContent').innerHTML = `
-                <h2 class="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">${item.column_A_greek.join(', ')}</h2>
-                <p class="text-xl text-slate-500 mb-8 leading-relaxed">${item.column_B_russian.join(', ')}</p>
+                <h2 class="text-3xl font-black text-[#1e3a8a] leading-tight">
+    ${item.column_A_greek.join('<br>')}</h2>
+                <p class="text-xl text-slate-700 font-medium mt-3">
+    ${item.column_B_russian.join(', ')}</p>
                 <div class="space-y-4">
                     <div class="flex items-center justify-between"><span class="text-[10px] font-black text-slate-300 uppercase tracking-tighter text-left">Часть речи</span><span class="badge badge-pos">${item.column_D_part_of_speech}</span></div>
                     <div class="flex items-center justify-between"><span class="text-[10px] font-black text-slate-300 uppercase tracking-tighter text-left">Тематика</span><span class="badge badge-area">${item.column_E_area}</span></div>
