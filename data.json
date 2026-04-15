@@ -1,6 +1,54 @@
 [
   {
     "column_A_greek": [
+      "σιδερένιος"
+    ],
+    "column_B_russian": [
+      "железный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776264408641csmnx"
+  },
+  {
+    "column_A_greek": [
+      "ανελκυστήρας"
+    ],
+    "column_B_russian": [
+      "кран, подъемник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-15",
+    "_id": "1776264258474w9r92"
+  },
+  {
+    "column_A_greek": [
+      "ανέλκω"
+    ],
+    "column_B_russian": [
+      "подпимать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "17762642318572zfl1"
+  },
+  {
+    "column_A_greek": [
+      "προφυλάγω"
+    ],
+    "column_B_russian": [
+      "предохранять, оберегать, защищать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776263907545p5q89"
+  },
+  {
+    "column_A_greek": [
       "χωρομετρία"
     ],
     "column_B_russian": [
@@ -30508,7 +30556,7 @@
       "παιδεία"
     ],
     "column_B_russian": [
-      "образование"
+      "образование, просвещение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
