@@ -1,6 +1,102 @@
 [
   {
     "column_A_greek": [
+      "προέλευση"
+    ],
+    "column_B_russian": [
+      "источник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "17762561507682ngwz"
+  },
+  {
+    "column_A_greek": [
+      "Καλά όλα αυτά, αλλά η πράξη είναι το παν"
+    ],
+    "column_B_russian": [
+      "Всё это хорошо, но практика — это всё"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776253859640c11jc"
+  },
+  {
+    "column_A_greek": [
+      "πετσί"
+    ],
+    "column_B_russian": [
+      "кожа, шкура"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776252952545h91tr"
+  },
+  {
+    "column_A_greek": [
+      "εκτενής"
+    ],
+    "column_B_russian": [
+      "обширный, пространный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776250341848h2i24"
+  },
+  {
+    "column_A_greek": [
+      "προσκομιδή"
+    ],
+    "column_B_russian": [
+      "проскомидия"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-04-15",
+    "_id": "17762490423600k064"
+  },
+  {
+    "column_A_greek": [
+      "προσκομιδή"
+    ],
+    "column_B_russian": [
+      "приношение, принесение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "177624902590444ag2"
+  },
+  {
+    "column_A_greek": [
+      "κοινωνία"
+    ],
+    "column_B_russian": [
+      "причастие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-04-15",
+    "_id": "1776248216984qc0dw"
+  },
+  {
+    "column_A_greek": [
+      "θείος"
+    ],
+    "column_B_russian": [
+      "божественный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-15",
+    "_id": "1776248058536qstgm"
+  },
+  {
+    "column_A_greek": [
       "νερό"
     ],
     "column_B_russian": [
@@ -2802,7 +2898,7 @@
       "Μην αγχώνεστε!"
     ],
     "column_B_russian": [
-      "Не беспокойтесь"
+      "Не беспокойтесь!"
     ],
     "column_D_part_of_speech": "выраж.",
     "column_E_area": "общ",
@@ -26949,7 +27045,8 @@
       "λατρεία"
     ],
     "column_B_russian": [
-      "культ"
+      "культ, поклонение",
+      "обожание"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -60068,18 +60165,6 @@
     "column_E_area": "общ",
     "column_F_date": "2024-12-14",
     "_id": "1770970824996rpy52"
-  },
-  {
-    "column_A_greek": [
-      "λατρεία"
-    ],
-    "column_B_russian": [
-      "обожание"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2024-12-14",
-    "_id": "1770970824996039z1"
   },
   {
     "column_A_greek": [
