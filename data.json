@@ -1,6 +1,126 @@
 [
   {
     "column_A_greek": [
+      "προστιθέμενης"
+    ],
+    "column_B_russian": [
+      "добавочный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776325785345jm0wl"
+  },
+  {
+    "column_A_greek": [
+      "φόρος"
+    ],
+    "column_B_russian": [
+      "налог"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-16",
+    "_id": "1776324330736dob6r"
+  },
+  {
+    "column_A_greek": [
+      "τσουβάλι"
+    ],
+    "column_B_russian": [
+      "мешок"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323422678iq0d0"
+  },
+  {
+    "column_A_greek": [
+      "απίδι"
+    ],
+    "column_B_russian": [
+      "груша"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бот.",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323285918cbb7y"
+  },
+  {
+    "column_A_greek": [
+      "Θα σού δείξω εγώ πόσ' απίδια βάζει ο σάκκος!"
+    ],
+    "column_B_russian": [
+      "Я покажу тебе где раки зимуют!"
+    ],
+    "column_D_part_of_speech": "посл.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323243206tsocp"
+  },
+  {
+    "column_A_greek": [
+      "Τέλος καλό, όλα καλά."
+    ],
+    "column_B_russian": [
+      "Все хорошо, что хорошо кончается."
+    ],
+    "column_D_part_of_speech": "посл.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "177632320246286zdo"
+  },
+  {
+    "column_A_greek": [
+      "ψόφος"
+    ],
+    "column_B_russian": [
+      "падеж (скота)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323138470l9eog"
+  },
+  {
+    "column_A_greek": [
+      "Κακό σκυλί ψόφο δεν έχει."
+    ],
+    "column_B_russian": [
+      "Злые люди два века живут."
+    ],
+    "column_D_part_of_speech": "посл.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323112454u6vc9"
+  },
+  {
+    "column_A_greek": [
+      "βάλτε το καλά στο μυαλό σας"
+    ],
+    "column_B_russian": [
+      "зарубите себе на носу"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776323014086oic5q"
+  },
+  {
+    "column_A_greek": [
+      "παραβάτης"
+    ],
+    "column_B_russian": [
+      "нарушитель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-15",
+    "_id": "17762755165764ksww"
+  },
+  {
+    "column_A_greek": [
       "σιδερένιος"
     ],
     "column_B_russian": [
