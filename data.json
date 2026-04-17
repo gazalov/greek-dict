@@ -1,6 +1,128 @@
 [
   {
     "column_A_greek": [
+      "απαιτήσεις"
+    ],
+    "column_B_russian": [
+      "права требования"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-17",
+    "_id": "1776410883164brpqu"
+  },
+  {
+    "column_A_greek": [
+      "διεκδίκηση"
+    ],
+    "column_B_russian": [
+      "требование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "1776407802250ro0xb"
+  },
+  {
+    "column_A_greek": [
+      "χρωστώ"
+    ],
+    "column_B_russian": [
+      "быть должным"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "17764075464355dg7d"
+  },
+  {
+    "column_A_greek": [
+      "πελαγήσιος"
+    ],
+    "column_B_russian": [
+      "морской"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776339428997g6x5d"
+  },
+  {
+    "column_A_greek": [
+      "διάφανος"
+    ],
+    "column_B_russian": [
+      "прозрачный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776337357321scfvo"
+  },
+  {
+    "column_A_greek": [
+      "παραξενεύομαι"
+    ],
+    "column_B_russian": [
+      "удивляться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "177633702377092umf"
+  },
+  {
+    "column_A_greek": [
+      "Όσο γιά…"
+    ],
+    "column_B_russian": [
+      "Что касается ..."
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776336588955cxphb"
+  },
+  {
+    "column_A_greek": [
+      "διανόηση"
+    ],
+    "column_B_russian": [
+      "интеллигенция"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-16",
+    "_id": "1776335040102wuqds"
+  },
+  {
+    "column_A_greek": [
+      "αγκινάρα"
+    ],
+    "column_B_russian": [
+      "артишок"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бот.",
+    "column_F_date": "2026-04-16",
+    "_id": "1776334802158zo19p"
+  },
+  {
+    "column_A_greek": [
+      "Χριστὸς ἀνέστη ἐκ νεκρῶν, θανάτῳ θάνατον πατήσας, ",
+      "καὶ τοῖς ἐν τοῖς μνήμασι ζωὴν χαρισάμενος!"
+    ],
+    "column_B_russian": [
+      "Христос воскресе из мертвых, смертию на смерть наступи ",
+      "и гробным живот дарова!"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-04-16",
+    "_id": "1776333730097r0fn1"
+  },
+  {
+    "column_A_greek": [
       "προστιθέμενης"
     ],
     "column_B_russian": [
@@ -253,7 +375,8 @@
   },
   {
     "column_A_greek": [
-      "σκύλος"
+      "σκύλος",
+      "σκυλί"
     ],
     "column_B_russian": [
       "собака"
@@ -7285,7 +7408,7 @@
       "τρεμοπαίζω"
     ],
     "column_B_russian": [
-      "мигать"
+      "мигать, мерцать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -13981,7 +14104,7 @@
       "охотничья собака"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "зоо",
     "column_F_date": "2025-10-03",
     "_id": "1770970824992h6zyn"
   },
@@ -41686,18 +41809,6 @@
   },
   {
     "column_A_greek": [
-      "εμφανίζομαι"
-    ],
-    "column_B_russian": [
-      "выступать (на сцене)"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2025-04-06",
-    "_id": "1770970824995gdd6l"
-  },
-  {
-    "column_A_greek": [
       "εξοπλίζω"
     ],
     "column_B_russian": [
@@ -53076,7 +53187,8 @@
       "εμφανίζομαι"
     ],
     "column_B_russian": [
-      "появляться"
+      "появляться",
+      "выступать (на сцене)"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
