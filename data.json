@@ -1,6 +1,234 @@
 [
   {
     "column_A_greek": [
+      "οπότε"
+    ],
+    "column_B_russian": [
+      "следовательно, тогда"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "17766798521021ryxr"
+  },
+  {
+    "column_A_greek": [
+      "βύθιση"
+    ],
+    "column_B_russian": [
+      "погружение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "177667977161452vbb"
+  },
+  {
+    "column_A_greek": [
+      "έχω καιρό να ..."
+    ],
+    "column_B_russian": [
+      "давно"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "1776679699094b3u7w"
+  },
+  {
+    "column_A_greek": [
+      "αδειούχος"
+    ],
+    "column_B_russian": [
+      "лицензированный (напр. электрик)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "17766672433994bial"
+  },
+  {
+    "column_A_greek": [
+      "κατασκευαστής"
+    ],
+    "column_B_russian": [
+      "изготовитель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "177666430069562wbq"
+  },
+  {
+    "column_A_greek": [
+      "φωτιστικό επιδαπέδου"
+    ],
+    "column_B_russian": [
+      "торшер"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "1776664232389h72dz"
+  },
+  {
+    "column_A_greek": [
+      "κεκλιμένος"
+    ],
+    "column_B_russian": [
+      "наклонный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "17766641093905ih9e"
+  },
+  {
+    "column_A_greek": [
+      "τροφοδοσία"
+    ],
+    "column_B_russian": [
+      "питание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-20",
+    "_id": "1776664030350h8nie"
+  },
+  {
+    "column_A_greek": [
+      "μακροπρόθεσμος"
+    ],
+    "column_B_russian": [
+      "долгосрочный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "17764207017443iy86"
+  },
+  {
+    "column_A_greek": [
+      "βραχυπρόθεσμος"
+    ],
+    "column_B_russian": [
+      "краткосрочный, текущий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "1776419666409ozs74"
+  },
+  {
+    "column_A_greek": [
+      "επεξεργάσιμος"
+    ],
+    "column_B_russian": [
+      "редактируемый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "177641942581974jbz"
+  },
+  {
+    "column_A_greek": [
+      "χρεώστης"
+    ],
+    "column_B_russian": [
+      "дебитор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-17",
+    "_id": "17764188393956aelu"
+  },
+  {
+    "column_A_greek": [
+      "πάγιο ενεργητικό"
+    ],
+    "column_B_russian": [
+      "внеоборотные активы"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-17",
+    "_id": "177641875749964qj6"
+  },
+  {
+    "column_A_greek": [
+      "ενεργητικό"
+    ],
+    "column_B_russian": [
+      "актив"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-17",
+    "_id": "1776418647766h50ju"
+  },
+  {
+    "column_A_greek": [
+      "εξόρυξη"
+    ],
+    "column_B_russian": [
+      "добыча (полезных ископаемых)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "1776412176553y827a"
+  },
+  {
+    "column_A_greek": [
+      "σιδηρομετάλλευμα"
+    ],
+    "column_B_russian": [
+      "железная руда"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "17764121131777bczb"
+  },
+  {
+    "column_A_greek": [
+      "επισφαλείς απαιτήσεις"
+    ],
+    "column_B_russian": [
+      "сомнительные требования"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-17",
+    "_id": "1776411893900ikyl0"
+  },
+  {
+    "column_A_greek": [
+      "επισφαλής"
+    ],
+    "column_B_russian": [
+      "опасный, рискованый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "1776411863898lfsw5"
+  },
+  {
+    "column_A_greek": [
+      "υπόλοιπος"
+    ],
+    "column_B_russian": [
+      "остающийся, остальной"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-17",
+    "_id": "1776411190147zxl8x"
+  },
+  {
+    "column_A_greek": [
       "απαιτήσεις"
     ],
     "column_B_russian": [
@@ -29276,7 +29504,8 @@
       "απορία"
     ],
     "column_B_russian": [
-      "бедность"
+      "бедность",
+      "затруднительное положение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -34146,7 +34375,8 @@
       "επισυνάπτω"
     ],
     "column_B_russian": [
-      "присоединять"
+      "присоединять",
+      "прилагать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -60831,24 +61061,12 @@
       "βραχύς"
     ],
     "column_B_russian": [
-      "короткий"
+      "короткий, маленький"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
     "column_F_date": "2024-12-13",
     "_id": "177097082499644y9d"
-  },
-  {
-    "column_A_greek": [
-      "βραχύς"
-    ],
-    "column_B_russian": [
-      "маленький"
-    ],
-    "column_D_part_of_speech": "прил.",
-    "column_E_area": "общ",
-    "column_F_date": "2024-12-13",
-    "_id": "1770970824996remse"
   },
   {
     "column_A_greek": [
