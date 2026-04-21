@@ -1,6 +1,91 @@
 [
   {
     "column_A_greek": [
+      "δόση"
+    ],
+    "column_B_russian": [
+      "взнос (очередной при рассрочке)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-21",
+    "_id": "1776781303711hj1ru"
+  },
+  {
+    "column_A_greek": [
+      "εξισορροπώ"
+    ],
+    "column_B_russian": [
+      "сбалансировать, уравновесить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-21",
+    "_id": "1776779884603a0ewb"
+  },
+  {
+    "column_A_greek": [
+      "υποδοχή ακουστικών"
+    ],
+    "column_B_russian": [
+      "разъем для наушников"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-21",
+    "_id": "1776777928022jcmau"
+  },
+  {
+    "column_A_greek": [
+      "υποδοχή"
+    ],
+    "column_B_russian": [
+      "встреча, прием",
+      "разъем"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-21",
+    "_id": "1776777898638rzjx8"
+  },
+  {
+    "column_A_greek": [
+      "επεκτάσιμος"
+    ],
+    "column_B_russian": [
+      "расширяемый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-21",
+    "_id": "1776777803967cnlqu"
+  },
+  {
+    "column_A_greek": [
+      "αποθηκευτικός χώρος"
+    ],
+    "column_B_russian": [
+      "объем памяти (смартфона напр.)"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-21",
+    "_id": "1776777731183lzt5k"
+  },
+  {
+    "column_A_greek": [
+      "απόρρητο"
+    ],
+    "column_B_russian": [
+      "секрет, тайна"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-20",
+    "_id": "1776695702847q3w8f"
+  },
+  {
+    "column_A_greek": [
       "οπότε"
     ],
     "column_B_russian": [
@@ -8866,7 +8951,9 @@
       "απόδοση"
     ],
     "column_B_russian": [
-      "урожайность"
+      "урожайность",
+      "производительность",
+      "отдача"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -17283,7 +17370,7 @@
       "προσαρμόζομαι"
     ],
     "column_B_russian": [
-      "приспасабливаться",
+      "приспосабливаться",
       "адаптироваться"
     ],
     "column_D_part_of_speech": "глагол",
@@ -31489,7 +31576,8 @@
       "ανεβάζω"
     ],
     "column_B_russian": [
-      "повышать"
+      "повышать",
+      "поднимать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -47454,18 +47542,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-03-17",
     "_id": "1770970824995gq307"
-  },
-  {
-    "column_A_greek": [
-      "προσαρμόζομαι"
-    ],
-    "column_B_russian": [
-      "приспосабливаться"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2025-03-17",
-    "_id": "1770970824995c5fmb"
   },
   {
     "column_A_greek": [
