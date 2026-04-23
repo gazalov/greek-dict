@@ -1,6 +1,153 @@
 [
   {
     "column_A_greek": [
+      "κεχριμπάρι"
+    ],
+    "column_B_russian": [
+      "янтарь"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776954280217essxi"
+  },
+  {
+    "column_A_greek": [
+      "νεροχύτης"
+    ],
+    "column_B_russian": [
+      "раковина водопроводная"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-23",
+    "_id": "17769465406598x9af"
+  },
+  {
+    "column_A_greek": [
+      " γραμματόσιμα"
+    ],
+    "column_B_russian": [
+      "марка почтовая"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776946449091b8eor"
+  },
+  {
+    "column_A_greek": [
+      "υπακούω"
+    ],
+    "column_B_russian": [
+      "слушаться",
+      "Ο σκύλος υπακούει στον αφέντη του.",
+      "Собака слушается своего хозяина."
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776943889844tuyq5"
+  },
+  {
+    "column_A_greek": [
+      "αφέντης"
+    ],
+    "column_B_russian": [
+      "хозяин",
+      "господин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "17769438347256hipp"
+  },
+  {
+    "column_A_greek": [
+      "παύλα"
+    ],
+    "column_B_russian": [
+      "тире"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "грамм",
+    "column_F_date": "2026-04-23",
+    "_id": "1776943369876exy6z"
+  },
+  {
+    "column_A_greek": [
+      "εισαγωγικά"
+    ],
+    "column_B_russian": [
+      "кавычки"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "грамм",
+    "column_F_date": "2026-04-23",
+    "_id": "1776943298741yazvj"
+  },
+  {
+    "column_A_greek": [
+      "στίξη"
+    ],
+    "column_B_russian": [
+      "пунктуация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "грамм",
+    "column_F_date": "2026-04-23",
+    "_id": "177694322694991nov"
+  },
+  {
+    "column_A_greek": [
+      "πάλλω"
+    ],
+    "column_B_russian": [
+      "колебаться, пульсировать"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "177694309728468sd0"
+  },
+  {
+    "column_A_greek": [
+      "συριστικός"
+    ],
+    "column_B_russian": [
+      "свистящий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776943041788fz9k2"
+  },
+  {
+    "column_A_greek": [
+      "ρινικός"
+    ],
+    "column_B_russian": [
+      "носовой"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776943009606xlzo4"
+  },
+  {
+    "column_A_greek": [
+      "παραθέτω"
+    ],
+    "column_B_russian": [
+      "приводить (факты, данные)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-22",
+    "_id": "1776848595475e2vu3"
+  },
+  {
+    "column_A_greek": [
       "δόση"
     ],
     "column_B_russian": [
@@ -1417,7 +1564,8 @@
       "πάγιος"
     ],
     "column_B_russian": [
-      "постоянный (το πάγιο μίσθωμα - постоянная часть арендной платы)"
+      "постоянный ",
+      "(το πάγιο μίσθωμα - постоянная часть арендной платы)"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "юр.",
@@ -18617,7 +18765,7 @@
       "дефис"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "грамм",
     "column_F_date": "2025-09-08",
     "_id": "1770970824992e55b8"
   },
@@ -51015,7 +51163,7 @@
       "точка"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "грамм",
     "column_F_date": "2025-02-20",
     "_id": "1770970824995t85vt"
   },
