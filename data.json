@@ -1,6 +1,31 @@
 [
   {
     "column_A_greek": [
+      "πίπτω"
+    ],
+    "column_B_russian": [
+      "пасть (в бою)",
+      "падать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-24",
+    "_id": "1777030132053nlpwk"
+  },
+  {
+    "column_A_greek": [
+      "ρητίνη"
+    ],
+    "column_B_russian": [
+      "древесная смола"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-23",
+    "_id": "1776955843146ao2gc"
+  },
+  {
+    "column_A_greek": [
       "κεχριμπάρι"
     ],
     "column_B_russian": [
@@ -51889,8 +51914,8 @@
       "αθώος"
     ],
     "column_B_russian": [
-      "невиновный",
-      "невинный"
+      "невиновный, невинный",
+      "мирный (житель)"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
