@@ -1,6 +1,150 @@
 [
   {
     "column_A_greek": [
+      "οροπέδιο"
+    ],
+    "column_B_russian": [
+      "плоскогорье"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777180810476svjlm"
+  },
+  {
+    "column_A_greek": [
+      "παραδοχή"
+    ],
+    "column_B_russian": [
+      "признание, принятие (условий и т.п.)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "17771805772761p9xm"
+  },
+  {
+    "column_A_greek": [
+      "τινάζω"
+    ],
+    "column_B_russian": [
+      "трясти"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777180342297r3fqn"
+  },
+  {
+    "column_A_greek": [
+      "αναπαραγωγή"
+    ],
+    "column_B_russian": [
+      "воспроизводство, размножение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777180158920vnkd5"
+  },
+  {
+    "column_A_greek": [
+      "ομοσπονδιακός"
+    ],
+    "column_B_russian": [
+      "федеральный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "17771800816448yiqw"
+  },
+  {
+    "column_A_greek": [
+      "Ισημερινός"
+    ],
+    "column_B_russian": [
+      "Эквадор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777180030332bred5"
+  },
+  {
+    "column_A_greek": [
+      "απαθανατίζω"
+    ],
+    "column_B_russian": [
+      "увековечивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777179983740dsprn"
+  },
+  {
+    "column_A_greek": [
+      "ειδησεογραφικός"
+    ],
+    "column_B_russian": [
+      "информационный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777179932454alhpc"
+  },
+  {
+    "column_A_greek": [
+      "συγκλονιστικός"
+    ],
+    "column_B_russian": [
+      "потрясающий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777179877043udjim"
+  },
+  {
+    "column_A_greek": [
+      "χρησιμοθηρικός"
+    ],
+    "column_B_russian": [
+      "утилитарный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "17771797064451f72t"
+  },
+  {
+    "column_A_greek": [
+      "διαβρώνω"
+    ],
+    "column_B_russian": [
+      "разрушать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777179606541ywrzw"
+  },
+  {
+    "column_A_greek": [
+      "ανθρωπιστικός"
+    ],
+    "column_B_russian": [
+      "гуманитарный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777179550159waeyn"
+  },
+  {
+    "column_A_greek": [
       "πίπτω"
     ],
     "column_B_russian": [
@@ -2917,7 +3061,8 @@
       "αποδοτικός"
     ],
     "column_B_russian": [
-      "производительный, эффективный"
+      "производительный, эффективный",
+      "продуктивный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -9595,7 +9740,7 @@
   },
   {
     "column_A_greek": [
-      "Τα όργανα αναπαραγωγής"
+      "τα όργανα αναπαραγωγής"
     ],
     "column_B_russian": [
       "репродуктивные органы"
@@ -13477,7 +13622,7 @@
       "θεμελιώδης"
     ],
     "column_B_russian": [
-      "фундаментальный"
+      "фундаментальный, основной"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -34503,7 +34648,8 @@
       "συγκίνηση"
     ],
     "column_B_russian": [
-      "умиление"
+      "умиление",
+      "сильное волнение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -40196,7 +40342,8 @@
       "παρεξήγηση"
     ],
     "column_B_russian": [
-      "обида"
+      "обида",
+      "недоразумение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -65792,24 +65939,13 @@
       "αμηχανία"
     ],
     "column_B_russian": [
-      "недоумение"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2024-12-24",
-    "_id": "1770970824996qjek4"
-  },
-  {
-    "column_A_greek": [
-      "αμηχανία"
-    ],
-    "column_B_russian": [
+      "недоумение",
       "растерянность"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
     "column_F_date": "2024-12-24",
-    "_id": "1770970824996bhjyw"
+    "_id": "1770970824996qjek4"
   },
   {
     "column_A_greek": [
