@@ -1,6 +1,66 @@
 [
   {
     "column_A_greek": [
+      "καταγραφή"
+    ],
+    "column_B_russian": [
+      "запись, регистрация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277453468zgsfg"
+  },
+  {
+    "column_A_greek": [
+      "ξεδιπλώνω"
+    ],
+    "column_B_russian": [
+      "развертывать, раскрывать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17772773935721gddf"
+  },
+  {
+    "column_A_greek": [
+      "θέαση"
+    ],
+    "column_B_russian": [
+      "созерцание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277293004aw5ot"
+  },
+  {
+    "column_A_greek": [
+      "καθηλωτικός"
+    ],
+    "column_B_russian": [
+      "захватывающий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277236060w1n43"
+  },
+  {
+    "column_A_greek": [
+      "αρετή"
+    ],
+    "column_B_russian": [
+      "добродетель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-26",
+    "_id": "1777277163324ls59j"
+  },
+  {
+    "column_A_greek": [
       "οροπέδιο"
     ],
     "column_B_russian": [
@@ -8516,7 +8576,8 @@
       "εύρος"
     ],
     "column_B_russian": [
-      "диапазон"
+      "диапазон",
+      "ширина, широта (геогр.)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
