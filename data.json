@@ -1,6 +1,789 @@
 [
   {
     "column_A_greek": [
+      "χαρτοφυλάκιο"
+    ],
+    "column_B_russian": [
+      "портфель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381992952vu56h"
+  },
+  {
+    "column_A_greek": [
+      "ιδιοκατοίκηση"
+    ],
+    "column_B_russian": [
+      "проживание в собственном доме"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381911095lw3qc"
+  },
+  {
+    "column_A_greek": [
+      "επενδυτής"
+    ],
+    "column_B_russian": [
+      "инвестор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381843856guwen"
+  },
+  {
+    "column_A_greek": [
+      "υποψήφιος αγοραστής"
+    ],
+    "column_B_russian": [
+      "потенциальный покупатель"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "17773818228795fp69"
+  },
+  {
+    "column_A_greek": [
+      "μεσιτικός πράκτορας"
+    ],
+    "column_B_russian": [
+      "агент по недвижимости"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381713143s0z9f"
+  },
+  {
+    "column_A_greek": [
+      "απόδοση επένδυσης"
+    ],
+    "column_B_russian": [
+      "показатель возврата инвестиций (ROI)"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381611544k4idq"
+  },
+  {
+    "column_A_greek": [
+      "νεόδμητος"
+    ],
+    "column_B_russian": [
+      "недавно построенный",
+      "νεόδμητο κτίριο - новостройка"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381497352kwtnf"
+  },
+  {
+    "column_A_greek": [
+      "υπό κατασκευή"
+    ],
+    "column_B_russian": [
+      "строящийся"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381435328dj68m"
+  },
+  {
+    "column_A_greek": [
+      "ημιτελής"
+    ],
+    "column_B_russian": [
+      "незаконченный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381327784k0c2z"
+  },
+  {
+    "column_A_greek": [
+      "έγγραφο"
+    ],
+    "column_B_russian": [
+      "договор",
+      "Ενοικιαστήριο Έγγραφο - договор аренды"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381125071rbui5"
+  },
+  {
+    "column_A_greek": [
+      "έγγραφο"
+    ],
+    "column_B_russian": [
+      "документ"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381092247gtp64"
+  },
+  {
+    "column_A_greek": [
+      "ήτοι"
+    ],
+    "column_B_russian": [
+      "то есть"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777381022552ukr39"
+  },
+  {
+    "column_A_greek": [
+      "άδεια οικοδομής"
+    ],
+    "column_B_russian": [
+      "разрешение на строительство",
+      "building permit"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "17773806540495nuvz"
+  },
+  {
+    "column_A_greek": [
+      "αντικειμενικός"
+    ],
+    "column_B_russian": [
+      "объективный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777380412128xf2ec"
+  },
+  {
+    "column_A_greek": [
+      "καπάρο"
+    ],
+    "column_B_russian": [
+      "задаток, первый платеж"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777380346391phvse"
+  },
+  {
+    "column_A_greek": [
+      "παράβολο"
+    ],
+    "column_B_russian": [
+      "сумма, вносимая в суд"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777380279608e4lkl"
+  },
+  {
+    "column_A_greek": [
+      "παρέχω"
+    ],
+    "column_B_russian": [
+      "оказывать (напр. услуги)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "17773800951376mr5l"
+  },
+  {
+    "column_A_greek": [
+      "παραστατικό"
+    ],
+    "column_B_russian": [
+      "документ, чек, квитанция"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-28",
+    "_id": "1777379929784o62ua"
+  },
+  {
+    "column_A_greek": [
+      "παραστατικός"
+    ],
+    "column_B_russian": [
+      "образный, фигуральный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777379702232fphmq"
+  },
+  {
+    "column_A_greek": [
+      "πάω κόντρα"
+    ],
+    "column_B_russian": [
+      "перечить, спорить"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "17773567970155r71o"
+  },
+  {
+    "column_A_greek": [
+      "μεταδοτικός"
+    ],
+    "column_B_russian": [
+      "заразный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-04-28",
+    "_id": "1777356482272rb15d"
+  },
+  {
+    "column_A_greek": [
+      "ιογενής"
+    ],
+    "column_B_russian": [
+      "вирусный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "мед",
+    "column_F_date": "2026-04-28",
+    "_id": "1777356381911upktn"
+  },
+  {
+    "column_A_greek": [
+      "αφθώδης πυρετός"
+    ],
+    "column_B_russian": [
+      "ящур"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-04-28",
+    "_id": "1777355835359lzbva"
+  },
+  {
+    "column_A_greek": [
+      "επιβράδυνση"
+    ],
+    "column_B_russian": [
+      "замедление, задержка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777355025848gdgiq"
+  },
+  {
+    "column_A_greek": [
+      "το κατά δύναμιν"
+    ],
+    "column_B_russian": [
+      "по возможности"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777354957744rkhy4"
+  },
+  {
+    "column_A_greek": [
+      "μπουζί"
+    ],
+    "column_B_russian": [
+      "зажигание (также авт.)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-28",
+    "_id": "1777354597777dawgg"
+  },
+  {
+    "column_A_greek": [
+      "μπούζι"
+    ],
+    "column_B_russian": [
+      "лед"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777314542026hzbk3"
+  },
+  {
+    "column_A_greek": [
+      "βαμβακερός"
+    ],
+    "column_B_russian": [
+      "хлопчатобумажный, хлопковый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777314324118tsgj3"
+  },
+  {
+    "column_A_greek": [
+      "στραβομουτσουνιάζω"
+    ],
+    "column_B_russian": [
+      "кривить рот"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777313883683a6h1k"
+  },
+  {
+    "column_A_greek": [
+      "κακοφανισμένος"
+    ],
+    "column_B_russian": [
+      "расстроенный, огорченный"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777313569442q4agt"
+  },
+  {
+    "column_A_greek": [
+      "σανίδα"
+    ],
+    "column_B_russian": [
+      "доска"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-27",
+    "_id": "1777313136527w0443"
+  },
+  {
+    "column_A_greek": [
+      "ανυπόφορος"
+    ],
+    "column_B_russian": [
+      "невыносимый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17773128706702o25d"
+  },
+  {
+    "column_A_greek": [
+      "εδώ που τα λέμε"
+    ],
+    "column_B_russian": [
+      "по правде говоря"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "177731274113596cit"
+  },
+  {
+    "column_A_greek": [
+      "νόστιμος"
+    ],
+    "column_B_russian": [
+      "хорошенький"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777312643242vqmb2"
+  },
+  {
+    "column_A_greek": [
+      "βάλθηκε"
+    ],
+    "column_B_russian": [
+      "принялся, взялся"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17773124980557xvgr"
+  },
+  {
+    "column_A_greek": [
+      "συνήθως"
+    ],
+    "column_B_russian": [
+      "обычно"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777311634858nccci"
+  },
+  {
+    "column_A_greek": [
+      "μεγαλείο"
+    ],
+    "column_B_russian": [
+      "чудо (в восклицательных предложениях)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777310979648ulcrb"
+  },
+  {
+    "column_A_greek": [
+      "αξιοποιώ"
+    ],
+    "column_B_russian": [
+      "использовать, употреблять в пользу"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17772990108469zcgk"
+  },
+  {
+    "column_A_greek": [
+      "το κοιτούσα καιρό"
+    ],
+    "column_B_russian": [
+      "я долго присматривался к этому"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777297637870orohs"
+  },
+  {
+    "column_A_greek": [
+      "κινητοποίηση"
+    ],
+    "column_B_russian": [
+      "активизация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777297344110zdr06"
+  },
+  {
+    "column_A_greek": [
+      "πρέσβης"
+    ],
+    "column_B_russian": [
+      "посол"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777296984175b9fzs"
+  },
+  {
+    "column_A_greek": [
+      "πόθεν έσχες"
+    ],
+    "column_B_russian": [
+      "откуда взялось"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777296809918tgevw"
+  },
+  {
+    "column_A_greek": [
+      "νανουρίζω"
+    ],
+    "column_B_russian": [
+      "качать, убаюкивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17772950125519rsm1"
+  },
+  {
+    "column_A_greek": [
+      "μόλυνση"
+    ],
+    "column_B_russian": [
+      "загрязнение, инфицирование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777294851583l67cq"
+  },
+  {
+    "column_A_greek": [
+      "εστίαση"
+    ],
+    "column_B_russian": [
+      "пир, званный обед"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777294710631b3f5a"
+  },
+  {
+    "column_A_greek": [
+      "στρεπτός"
+    ],
+    "column_B_russian": [
+      "витой, крученый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777290376177pz9d9"
+  },
+  {
+    "column_A_greek": [
+      "όπου"
+    ],
+    "column_B_russian": [
+      "где (οπουδήποτε)"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279592508nhmdy"
+  },
+  {
+    "column_A_greek": [
+      "μεταδίδω"
+    ],
+    "column_B_russian": [
+      "передавать, сообщать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279476876pyj3q"
+  },
+  {
+    "column_A_greek": [
+      "σύλληψη"
+    ],
+    "column_B_russian": [
+      "поимка, арест, задержание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279431548mie1u"
+  },
+  {
+    "column_A_greek": [
+      "δραπέτης"
+    ],
+    "column_B_russian": [
+      "беглец, беглый"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279383940en96x"
+  },
+  {
+    "column_A_greek": [
+      "διαδίδω"
+    ],
+    "column_B_russian": [
+      "распространять, разглашать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17772793430695sl54"
+  },
+  {
+    "column_A_greek": [
+      "αναρραγίζω"
+    ],
+    "column_B_russian": [
+      "истощать, изнурять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279244588zlzbi"
+  },
+  {
+    "column_A_greek": [
+      "αναρρίχηση"
+    ],
+    "column_B_russian": [
+      "карабканье, скалолазание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279186236ix8t4"
+  },
+  {
+    "column_A_greek": [
+      "παγετώνας"
+    ],
+    "column_B_russian": [
+      "ледник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777279005516hbfnv"
+  },
+  {
+    "column_A_greek": [
+      "περιφερειακός"
+    ],
+    "column_B_russian": [
+      "областной, окружной"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278966142a7msz"
+  },
+  {
+    "column_A_greek": [
+      "εκποιώ"
+    ],
+    "column_B_russian": [
+      "продавать в принудительном порядке"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278635836qaqgi"
+  },
+  {
+    "column_A_greek": [
+      "επισπεύδω"
+    ],
+    "column_B_russian": [
+      "ускорять, подгонять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278409309c70w3"
+  },
+  {
+    "column_A_greek": [
+      "σπεύδω"
+    ],
+    "column_B_russian": [
+      "спешить, торопиться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278297413f808c"
+  },
+  {
+    "column_A_greek": [
+      "χωματερή"
+    ],
+    "column_B_russian": [
+      "мусорная свалка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278097036v40fe"
+  },
+  {
+    "column_A_greek": [
+      "ερειπώ"
+    ],
+    "column_B_russian": [
+      "разрушать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777278008188jfgpm"
+  },
+  {
+    "column_A_greek": [
+      "αντιδραστήρας"
+    ],
+    "column_B_russian": [
+      "реактор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "177727778813204j73"
+  },
+  {
+    "column_A_greek": [
+      "εμβληματικός"
+    ],
+    "column_B_russian": [
+      "символический"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277747140cwokw"
+  },
+  {
+    "column_A_greek": [
+      "οι φυσικοί πόροι"
+    ],
+    "column_B_russian": [
+      "природные ресурсы"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277706652qa5pm"
+  },
+  {
+    "column_A_greek": [
+      "αναγράφω"
+    ],
+    "column_B_russian": [
+      "делать надпись, писать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "1777277576788zj2mf"
+  },
+  {
+    "column_A_greek": [
+      "αναμνηστικός"
+    ],
+    "column_B_russian": [
+      "памятный, мемориальный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-27",
+    "_id": "17772775265485dkoi"
+  },
+  {
+    "column_A_greek": [
       "καταγραφή"
     ],
     "column_B_russian": [
@@ -3507,7 +4290,8 @@
       "εξειδικευμένος"
     ],
     "column_B_russian": [
-      "специализированный"
+      "специализированный",
+      "специальный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -3603,7 +4387,9 @@
       "κτήση"
     ],
     "column_B_russian": [
-      "владение"
+      "владение",
+      "имущество",
+      "приобретение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -8564,7 +9350,8 @@
       "χαζεύω"
     ],
     "column_B_russian": [
-      "глазеть"
+      "глазеть",
+      "любоваться"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -11494,7 +12281,7 @@
       "αλληλεγγύη"
     ],
     "column_B_russian": [
-      "взаимопомощь"
+      "взаимопомощь, солидарность"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -11992,7 +12779,7 @@
   },
   {
     "column_A_greek": [
-      "παρέχώ"
+      "παρέχω"
     ],
     "column_B_russian": [
       "обеспечивать"
@@ -14550,7 +15337,8 @@
       "παρουσιάζομαι"
     ],
     "column_B_russian": [
-      "являться"
+      "являться",
+      "представлять"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -14978,7 +15766,7 @@
       "εκχώρηση"
     ],
     "column_B_russian": [
-      "уступка"
+      "уступка (цессия)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -23397,7 +24185,7 @@
       "εγκατάλειψη"
     ],
     "column_B_russian": [
-      "покидание"
+      "покидание, оставление"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -26533,7 +27321,8 @@
     ],
     "column_B_russian": [
       "конфликт",
-      "сражение"
+      "сражение",
+      "столкновение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -27762,7 +28551,7 @@
       "αρμοδιότητα"
     ],
     "column_B_russian": [
-      "компетентность"
+      "компетентность, компетенция"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -27980,7 +28769,7 @@
     ],
     "column_B_russian": [
       "оператор",
-      "ведомство"
+      "ведомство, орган, структура"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -31302,7 +32091,7 @@
       "αποκτώ"
     ],
     "column_B_russian": [
-      "получать"
+      "получать, приобретать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -32896,7 +33685,7 @@
     ],
     "column_B_russian": [
       "изменять",
-      "превращать"
+      "превращать, трансформировать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -35919,7 +36708,8 @@
       "ακρίβεια"
     ],
     "column_B_russian": [
-      "пунктуальность"
+      "пунктуальность",
+      "точность"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -37266,18 +38056,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-04-29",
     "_id": "1770970824993q2b7e"
-  },
-  {
-    "column_A_greek": [
-      "σύγκρουση"
-    ],
-    "column_B_russian": [
-      "столкновение"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2025-04-29",
-    "_id": "1770970824993mwz0r"
   },
   {
     "column_A_greek": [
@@ -42355,7 +43133,7 @@
       "παράγω"
     ],
     "column_B_russian": [
-      "производить (товары)"
+      "производить (товары), делать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -49299,7 +50077,7 @@
     ],
     "column_B_russian": [
       "обязывать",
-      "заставлять"
+      "заставлять, вынуждать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -50399,18 +51177,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-02-28",
     "_id": "1770970824995zm0u9"
-  },
-  {
-    "column_A_greek": [
-      "γυψοσανίδα"
-    ],
-    "column_B_russian": [
-      "гипсокартон"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2025-02-28",
-    "_id": "1770970824995zlx1r"
   },
   {
     "column_A_greek": [
@@ -52967,18 +53733,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-02-11",
     "_id": "1770970824995eie4j"
-  },
-  {
-    "column_A_greek": [
-      "αποκτώ"
-    ],
-    "column_B_russian": [
-      "приобретать"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2025-02-11",
-    "_id": "1770970824995yuz08"
   },
   {
     "column_A_greek": [
