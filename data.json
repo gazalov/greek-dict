@@ -1,6 +1,390 @@
 [
   {
     "column_A_greek": [
+      "εγκαθιδρύω"
+    ],
+    "column_B_russian": [
+      "учреждать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777473457696cono1"
+  },
+  {
+    "column_A_greek": [
+      "εγκεκριμένος"
+    ],
+    "column_B_russian": [
+      "одобренный, утвержденный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777471739463h7ofc"
+  },
+  {
+    "column_A_greek": [
+      "υποστατικό"
+    ],
+    "column_B_russian": [
+      "помещение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777471644000rjd0x"
+  },
+  {
+    "column_A_greek": [
+      "νοείται ότι"
+    ],
+    "column_B_russian": [
+      "подразумевается, что"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "17774714307682ldmw"
+  },
+  {
+    "column_A_greek": [
+      "αρμόδιος"
+    ],
+    "column_B_russian": [
+      "компетентный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "17774705993200qtv2"
+  },
+  {
+    "column_A_greek": [
+      "βιβλιαρίο υγείας"
+    ],
+    "column_B_russian": [
+      "ветеринарная книжка"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-04-29",
+    "_id": "1777470327145umhno"
+  },
+  {
+    "column_A_greek": [
+      "διαδυκτιακή ξενάγηση"
+    ],
+    "column_B_russian": [
+      "показ online"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777466020009mfad3"
+  },
+  {
+    "column_A_greek": [
+      "εμβαδόν"
+    ],
+    "column_B_russian": [
+      "площадь"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777465514953j4zwm"
+  },
+  {
+    "column_A_greek": [
+      "ηλεκτροπαραγωγό ζεύγος"
+    ],
+    "column_B_russian": [
+      "электрогенератор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777465205859kh875"
+  },
+  {
+    "column_A_greek": [
+      "ανίχνευση"
+    ],
+    "column_B_russian": [
+      "поиск, разведывание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777465115986k9bhx"
+  },
+  {
+    "column_A_greek": [
+      "σύστημα πυρανίχνευσης"
+    ],
+    "column_B_russian": [
+      "система пожарной сигнализации"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-29",
+    "_id": "177746506604973by3"
+  },
+  {
+    "column_A_greek": [
+      "ψύξη"
+    ],
+    "column_B_russian": [
+      "охлаждение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "17774649823296enst"
+  },
+  {
+    "column_A_greek": [
+      "ενώπιον"
+    ],
+    "column_B_russian": [
+      "в присутствии"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777464783042izw2l"
+  },
+  {
+    "column_A_greek": [
+      "πραγματικά γεγονότα"
+    ],
+    "column_B_russian": [
+      "фактические обстоятельства"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "17774627457383ajid"
+  },
+  {
+    "column_A_greek": [
+      "έφεση"
+    ],
+    "column_B_russian": [
+      "апелляция, обжалование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "17774626558503zauq"
+  },
+  {
+    "column_A_greek": [
+      "εκδίκαση"
+    ],
+    "column_B_russian": [
+      "судебное разбирательство"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777462598466isa1v"
+  },
+  {
+    "column_A_greek": [
+      "προσβάλλω"
+    ],
+    "column_B_russian": [
+      "оспаривать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "17774624895471wgpd"
+  },
+  {
+    "column_A_greek": [
+      "συμφωνία μίσθωσης"
+    ],
+    "column_B_russian": [
+      "договор аренды"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777462211099xezcm"
+  },
+  {
+    "column_A_greek": [
+      "συμβληθέντες"
+    ],
+    "column_B_russian": [
+      "участники договора"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777462126923hpjh3"
+  },
+  {
+    "column_A_greek": [
+      "δομημένη καλωδίωση Data"
+    ],
+    "column_B_russian": [
+      "структурированная кабельная сеть"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777461464900ijxzv"
+  },
+  {
+    "column_A_greek": [
+      "δομημένος"
+    ],
+    "column_B_russian": [
+      "застроенный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777457273637232r1"
+  },
+  {
+    "column_A_greek": [
+      "ψευδοροφή"
+    ],
+    "column_B_russian": [
+      "подвесной потолок"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "строит.",
+    "column_F_date": "2026-04-29",
+    "_id": "17774571533896unun"
+  },
+  {
+    "column_A_greek": [
+      "διπλά τζάμια"
+    ],
+    "column_B_russian": [
+      "двойные рамы"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777452795861kec95"
+  },
+  {
+    "column_A_greek": [
+      "προσύμφωνο"
+    ],
+    "column_B_russian": [
+      "предварительный договор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777451753278diyy0"
+  },
+  {
+    "column_A_greek": [
+      "διατεθειμένος"
+    ],
+    "column_B_russian": [
+      "расположенный, настроенный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "17774513449580a556"
+  },
+  {
+    "column_A_greek": [
+      "τακτοποίηση"
+    ],
+    "column_B_russian": [
+      "урегулирование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777451111198n6v0g"
+  },
+  {
+    "column_A_greek": [
+      "πολεοδομικός"
+    ],
+    "column_B_russian": [
+      "градостроительный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "17774510621098f211"
+  },
+  {
+    "column_A_greek": [
+      "εκκρεμότητα"
+    ],
+    "column_B_russian": [
+      "неопределенность, незаконченность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "177745101065462itl"
+  },
+  {
+    "column_A_greek": [
+      "βάρος"
+    ],
+    "column_B_russian": [
+      "обременение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-04-29",
+    "_id": "1777450927526o3w2v"
+  },
+  {
+    "column_A_greek": [
+      "πρωτίστως"
+    ],
+    "column_B_russian": [
+      "прежде всего, в первую очередь"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777450739046fz5gr"
+  },
+  {
+    "column_A_greek": [
+      "αυτοτελής"
+    ],
+    "column_B_russian": [
+      "самостоятельный, независимый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-29",
+    "_id": "1777446470927mngta"
+  },
+  {
+    "column_A_greek": [
+      "σιαχίνι"
+    ],
+    "column_B_russian": [
+      "пустельга, сокол"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-04-29",
+    "_id": "177744454221788bhe"
+  },
+  {
+    "column_A_greek": [
       "χαρτοφυλάκιο"
     ],
     "column_B_russian": [
@@ -19269,7 +19653,7 @@
     ],
     "column_B_russian": [
       "чистый",
-      "натуральный"
+      "натуральный, подлинный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -36537,7 +36921,8 @@
     ],
     "column_B_russian": [
       "развиваться",
-      "расти"
+      "расти",
+      "развертываться"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -38545,7 +38930,8 @@
       "καταβάλλω"
     ],
     "column_B_russian": [
-      "платить"
+      "платить",
+      "возмещать (расходы)"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "юр.",
@@ -43193,7 +43579,8 @@
       "ευέλικτος"
     ],
     "column_B_russian": [
-      "гибкий"
+      "гибкий",
+      "универсальный (ευέλικτους γραφειακούς χώρους)"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
@@ -49893,7 +50280,8 @@
       "ανευρίσκω"
     ],
     "column_B_russian": [
-      "обнаруживать"
+      "обнаруживать",
+      "находить"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -53688,8 +54076,7 @@
       "αρμόδιος"
     ],
     "column_B_russian": [
-      "уполномоченный",
-      "компетентный"
+      "уполномоченный"
     ],
     "column_D_part_of_speech": "прил.",
     "column_E_area": "общ",
