@@ -1,6 +1,54 @@
 [
   {
     "column_A_greek": [
+      "αποφέρω"
+    ],
+    "column_B_russian": [
+      "приносить, давать доход"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-07",
+    "_id": "1778135567915uc9rw"
+  },
+  {
+    "column_A_greek": [
+      "συγκέντρωση"
+    ],
+    "column_B_russian": [
+      "сбор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-05",
+    "_id": "1777983588447xbogd"
+  },
+  {
+    "column_A_greek": [
+      "προγονή"
+    ],
+    "column_B_russian": [
+      "падчерица"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-30",
+    "_id": "17775399011792yw5d"
+  },
+  {
+    "column_A_greek": [
+      "προγόνι"
+    ],
+    "column_B_russian": [
+      "пасынок"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-04-30",
+    "_id": "1777539871675k4i28"
+  },
+  {
+    "column_A_greek": [
       "εγκαθιδρύω"
     ],
     "column_B_russian": [
@@ -1501,7 +1549,7 @@
     "column_B_russian": [
       "колебаться, пульсировать"
     ],
-    "column_D_part_of_speech": "прил.",
+    "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
     "column_F_date": "2026-04-23",
     "_id": "177694309728468sd0"
@@ -14307,7 +14355,8 @@
       "οτιδήποτε"
     ],
     "column_B_russian": [
-      "что угодно"
+      "что угодно",
+      "все, что"
     ],
     "column_D_part_of_speech": "наречие",
     "column_E_area": "общ",
@@ -29352,8 +29401,8 @@
       "διεξάγω"
     ],
     "column_B_russian": [
-      "проводить",
-      "вести (деятельность)"
+      "проводить, вести (деятельность)",
+      "διεξαγάγω, διεξήγαγα"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
