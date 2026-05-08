@@ -1,6 +1,270 @@
 [
   {
     "column_A_greek": [
+      "αφότου"
+    ],
+    "column_B_russian": [
+      "с тех пор"
+    ],
+    "column_D_part_of_speech": "союз",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "17782477626403prli"
+  },
+  {
+    "column_A_greek": [
+      "αγώγιμο δικαίωμα"
+    ],
+    "column_B_russian": [
+      "право на иск"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778247233879okc7l"
+  },
+  {
+    "column_A_greek": [
+      "παραγραφή"
+    ],
+    "column_B_russian": [
+      "давность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778247161552qfvun"
+  },
+  {
+    "column_A_greek": [
+      "έννοια"
+    ],
+    "column_B_russian": [
+      "понятие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778246564359v3ikp"
+  },
+  {
+    "column_A_greek": [
+      "ικανότητα δικαίου"
+    ],
+    "column_B_russian": [
+      "правоспособность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778246118111ibdon"
+  },
+  {
+    "column_A_greek": [
+      "αφερέγγυο"
+    ],
+    "column_B_russian": [
+      "неплатежеспособность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778245831152a0l5n"
+  },
+  {
+    "column_A_greek": [
+      "δόλος"
+    ],
+    "column_B_russian": [
+      "умысел"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778245767239p56zd"
+  },
+  {
+    "column_A_greek": [
+      "αίρεση"
+    ],
+    "column_B_russian": [
+      "условие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "17782454415931t3v4"
+  },
+  {
+    "column_A_greek": [
+      "αποκατάσταση των πραγμάτων"
+    ],
+    "column_B_russian": [
+      "реституция"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778245083151jtwg4"
+  },
+  {
+    "column_A_greek": [
+      "εκατέρωθεν"
+    ],
+    "column_B_russian": [
+      "с обеих сторон"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244933031bgqlk"
+  },
+  {
+    "column_A_greek": [
+      "υπαναχώρηση"
+    ],
+    "column_B_russian": [
+      "отказ от договора из-за нарушения условий"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244870225ozim1"
+  },
+  {
+    "column_A_greek": [
+      "εκδοχέας"
+    ],
+    "column_B_russian": [
+      "цессионарий"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244783623mdam5"
+  },
+  {
+    "column_A_greek": [
+      "εκχωρητής"
+    ],
+    "column_B_russian": [
+      "цедент"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244729495rjb9l"
+  },
+  {
+    "column_A_greek": [
+      "αποπληρωμή"
+    ],
+    "column_B_russian": [
+      "погашение долга"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244693112g680y"
+  },
+  {
+    "column_A_greek": [
+      "εξεταστής"
+    ],
+    "column_B_russian": [
+      "экзаменатор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778244284279zqib9"
+  },
+  {
+    "column_A_greek": [
+      "αναδιάρθρωση"
+    ],
+    "column_B_russian": [
+      "реструктуризация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "17782438927910a5eu"
+  },
+  {
+    "column_A_greek": [
+      "εκκαθάριση"
+    ],
+    "column_B_russian": [
+      "ликвидация (компании)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "1778243596000ax2g4"
+  },
+  {
+    "column_A_greek": [
+      "πτώχευση"
+    ],
+    "column_B_russian": [
+      "банкротство"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "17782431638946zh2c"
+  },
+  {
+    "column_A_greek": [
+      "άτινα"
+    ],
+    "column_B_russian": [
+      "которые (мн. число)"
+    ],
+    "column_D_part_of_speech": "мест.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778234534415s0m2d"
+  },
+  {
+    "column_A_greek": [
+      "εταιρικό δίκαιο"
+    ],
+    "column_B_russian": [
+      "крпоративное право"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-08",
+    "_id": "177823431578452e2v"
+  },
+  {
+    "column_A_greek": [
+      "ποινική δικονομία"
+    ],
+    "column_B_russian": [
+      "уголовный процесс"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778234184814dbncl"
+  },
+  {
+    "column_A_greek": [
+      "όπισθεν"
+    ],
+    "column_B_russian": [
+      "сзади, позади"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778225882807p5n6z"
+  },
+  {
+    "column_A_greek": [
       "αποφέρω"
     ],
     "column_B_russian": [
@@ -2957,7 +3221,7 @@
   },
   {
     "column_A_greek": [
-      "Πολιτική Δικονομία"
+      "πολιτική δικονομία"
     ],
     "column_B_russian": [
       "гражданский процесс"
@@ -42811,8 +43075,8 @@
       "σύλλογος"
     ],
     "column_B_russian": [
-      "общество",
-      "объединение"
+      "общество, объединение",
+      "коллегия (адвокатов)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -52204,7 +52468,7 @@
       "συνιστώ"
     ],
     "column_B_russian": [
-      "рекомендовать"
+      "рекомендовать, советовать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
