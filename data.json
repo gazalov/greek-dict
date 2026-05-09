@@ -1,6 +1,198 @@
 [
   {
     "column_A_greek": [
+      "όστις"
+    ],
+    "column_B_russian": [
+      "тот кто (мн. οίτινες)"
+    ],
+    "column_D_part_of_speech": "мест.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778329373083veemg"
+  },
+  {
+    "column_A_greek": [
+      "άπας"
+    ],
+    "column_B_russian": [
+      "весь, полностью"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778329285652nbkbs"
+  },
+  {
+    "column_A_greek": [
+      "ραπανάκι"
+    ],
+    "column_B_russian": [
+      "редис"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бот.",
+    "column_F_date": "2026-05-09",
+    "_id": "17783281581158hjzz"
+  },
+  {
+    "column_A_greek": [
+      "σκράπας"
+    ],
+    "column_B_russian": [
+      "невежда"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "17783274158759lvbd"
+  },
+  {
+    "column_A_greek": [
+      "αξασφαλίζω"
+    ],
+    "column_B_russian": [
+      "обеспечивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778327319020sfhv5"
+  },
+  {
+    "column_A_greek": [
+      "ιδιοτροπία"
+    ],
+    "column_B_russian": [
+      "каприз, прихоть, причуда"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778327184547v5qep"
+  },
+  {
+    "column_A_greek": [
+      "θερμίδα"
+    ],
+    "column_B_russian": [
+      "калория"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326959883f6k2k"
+  },
+  {
+    "column_A_greek": [
+      "βήχω"
+    ],
+    "column_B_russian": [
+      "кашлять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326878139cbijt"
+  },
+  {
+    "column_A_greek": [
+      "τηλεχειριστήριο"
+    ],
+    "column_B_russian": [
+      "пульт дистанционного управления"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326841219nct9r"
+  },
+  {
+    "column_A_greek": [
+      "κουλοχέρης"
+    ],
+    "column_B_russian": [
+      "игровой автомат (κουλοχέρηδες - мн.ч.)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326769683pxksf"
+  },
+  {
+    "column_A_greek": [
+      "φταίχτρα"
+    ],
+    "column_B_russian": [
+      "виновница"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-09",
+    "_id": "177832662905158zvh"
+  },
+  {
+    "column_A_greek": [
+      "φταίχτης"
+    ],
+    "column_B_russian": [
+      "виновник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326608331khbp2"
+  },
+  {
+    "column_A_greek": [
+      "ενδεχόμενο"
+    ],
+    "column_B_russian": [
+      "возможность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326551355iuya6"
+  },
+  {
+    "column_A_greek": [
+      "φερεγγυότητα"
+    ],
+    "column_B_russian": [
+      "платежеспособность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-09",
+    "_id": "1778326452163eqnfj"
+  },
+  {
+    "column_A_greek": [
+      "χαμαιλέοντας"
+    ],
+    "column_B_russian": [
+      "хамелеон"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-05-09",
+    "_id": "17783263651638zqrg"
+  },
+  {
+    "column_A_greek": [
+      "δικαιολογητικός"
+    ],
+    "column_B_russian": [
+      "подтверждающий, оправдательный (напр. документ)"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-08",
+    "_id": "1778252385099oaq23"
+  },
+  {
+    "column_A_greek": [
       "αφότου"
     ],
     "column_B_russian": [
@@ -19332,7 +19524,8 @@
       "ενοχή"
     ],
     "column_B_russian": [
-      "обязательство"
+      "обязательство",
+      "вина"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -21739,7 +21932,7 @@
       "επίδοση"
     ],
     "column_B_russian": [
-      "результат"
+      "результат (напр. результат)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -32751,7 +32944,7 @@
       "διάταξη"
     ],
     "column_B_russian": [
-      "положение"
+      "положение (закона)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -54402,7 +54595,8 @@
     ],
     "column_B_russian": [
       "представитель",
-      "уполномоченный"
+      "уполномоченный",
+      "комиссар"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
