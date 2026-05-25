@@ -1,6 +1,211 @@
 [
   {
     "column_A_greek": [
+      "ιερολογιότης"
+    ],
+    "column_B_russian": [
+      "Его преподобие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-05-25",
+    "_id": "17797229123657xzh1"
+  },
+  {
+    "column_A_greek": [
+      "οικουμενικός"
+    ],
+    "column_B_russian": [
+      "вселенский"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "17797222008219ub1a"
+  },
+  {
+    "column_A_greek": [
+      "εκπαιδευτικός"
+    ],
+    "column_B_russian": [
+      "учитель, преподаватель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "1779721619572wnxha"
+  },
+  {
+    "column_A_greek": [
+      "δικαιοδοτικός"
+    ],
+    "column_B_russian": [
+      "судебный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "17797209715622iw67"
+  },
+  {
+    "column_A_greek": [
+      "απαρτίζομαι"
+    ],
+    "column_B_russian": [
+      "состоять, складываться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "17797209379955x8zp"
+  },
+  {
+    "column_A_greek": [
+      "προσφεύγω"
+    ],
+    "column_B_russian": [
+      "прибегать, обращаться",
+      "Μπορώ να προσφύγω στο Δικαστήριο;"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "1779720847691eaxxk"
+  },
+  {
+    "column_A_greek": [
+      "εξαπατώ"
+    ],
+    "column_B_russian": [
+      "обманывать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "1779720478754oj4xw"
+  },
+  {
+    "column_A_greek": [
+      "πλάνη"
+    ],
+    "column_B_russian": [
+      "заблуждение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-25",
+    "_id": "1779720343354z52j5"
+  },
+  {
+    "column_A_greek": [
+      "προσβολή"
+    ],
+    "column_B_russian": [
+      "оспаривание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-25",
+    "_id": "1779720264010dd1qc"
+  },
+  {
+    "column_A_greek": [
+      "προσελκύω"
+    ],
+    "column_B_russian": [
+      "привлекать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-25",
+    "_id": "1779706788343lvhkn"
+  },
+  {
+    "column_A_greek": [
+      "διευκόλυνση"
+    ],
+    "column_B_russian": [
+      "содействие"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-22",
+    "_id": "1779455432828hid5m"
+  },
+  {
+    "column_A_greek": [
+      "υφιστάμενος"
+    ],
+    "column_B_russian": [
+      "существующий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-22",
+    "_id": "1779453645402f8afn"
+  },
+  {
+    "column_A_greek": [
+      "τίθεμαι"
+    ],
+    "column_B_russian": [
+      "устанавливать, ставить, прмещать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-22",
+    "_id": "177945329335333r3h"
+  },
+  {
+    "column_A_greek": [
+      "δεσμεύομαι"
+    ],
+    "column_B_russian": [
+      "обязывать, связывать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-22",
+    "_id": "1779453019088pzvzw"
+  },
+  {
+    "column_A_greek": [
+      "προσέλκυση"
+    ],
+    "column_B_russian": [
+      "привлечение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-22",
+    "_id": "1779452830040uoshl"
+  },
+  {
+    "column_A_greek": [
+      "μάραθο"
+    ],
+    "column_B_russian": [
+      "фенхель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бот.",
+    "column_F_date": "2026-05-16",
+    "_id": "1778944264787vgpqc"
+  },
+  {
+    "column_A_greek": [
+      "καθοδόν"
+    ],
+    "column_B_russian": [
+      "в пути"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-14",
+    "_id": "1778741098632gsukz"
+  },
+  {
+    "column_A_greek": [
       "όστις"
     ],
     "column_B_russian": [
@@ -25990,10 +26195,10 @@
   },
   {
     "column_A_greek": [
-      "προσόντα"
+      "προσόν"
     ],
     "column_B_russian": [
-      "квалификация"
+      "квалификация (πλ. προσόντα)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -37100,7 +37305,7 @@
       "обман"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "юр.",
     "column_F_date": "2025-05-06",
     "_id": "17709708249935ina4"
   },
@@ -52579,7 +52784,7 @@
       "обвинять"
     ],
     "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
+    "column_E_area": "юр.",
     "column_F_date": "2025-02-25",
     "_id": "1770970824995br70p"
   },
