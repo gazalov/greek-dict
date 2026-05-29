@@ -1,6 +1,238 @@
 [
   {
     "column_A_greek": [
+      "συμβόλαιο"
+    ],
+    "column_B_russian": [
+      "договор",
+      "συμβόλαιο μακροχρόνιας μίσθωσης",
+      "долгосрочный договор аренды"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-29",
+    "_id": "1780062685232i9e87"
+  },
+  {
+    "column_A_greek": [
+      "ποσοστό πληρότητας"
+    ],
+    "column_B_russian": [
+      "коэффициент загрузки"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-29",
+    "_id": "1780062566747o04au"
+  },
+  {
+    "column_A_greek": [
+      "ληξιπρόθεσμος"
+    ],
+    "column_B_russian": [
+      "просроченный",
+      "ληξιπρόθεσμες οφειλές - просроченные долги"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-29",
+    "_id": "1780062459649h3rl5"
+  },
+  {
+    "column_A_greek": [
+      "αξιοπιστία"
+    ],
+    "column_B_russian": [
+      "надежность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "17800624012483xoxn"
+  },
+  {
+    "column_A_greek": [
+      "καθαρό εισόδημα"
+    ],
+    "column_B_russian": [
+      "чистый доход (net income)"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-29",
+    "_id": "17800623477606p93w"
+  },
+  {
+    "column_A_greek": [
+      "αυθαιρεσία"
+    ],
+    "column_B_russian": [
+      "самовольная постройка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-05-29",
+    "_id": "1780062058608quebv"
+  },
+  {
+    "column_A_greek": [
+      "νομιμότητα"
+    ],
+    "column_B_russian": [
+      "законность"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "1780061187392u93o8"
+  },
+  {
+    "column_A_greek": [
+      "εκκρεμής"
+    ],
+    "column_B_russian": [
+      "незавершенный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "1780061110848daano"
+  },
+  {
+    "column_A_greek": [
+      "διενέργεια"
+    ],
+    "column_B_russian": [
+      "проведение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "1780060919720scmsu"
+  },
+  {
+    "column_A_greek": [
+      "προτού"
+    ],
+    "column_B_russian": [
+      "прежде чем"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "17800576062474d15x"
+  },
+  {
+    "column_A_greek": [
+      "μέχρι στιγμής"
+    ],
+    "column_B_russian": [
+      "на данный момент"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "17800573963442filg"
+  },
+  {
+    "column_A_greek": [
+      "προνομιακός"
+    ],
+    "column_B_russian": [
+      "привелегированный",
+      "предпочтительный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "17800554765491jbxy"
+  },
+  {
+    "column_A_greek": [
+      "χρηματοδότηση"
+    ],
+    "column_B_russian": [
+      "финансирование"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "1780055236014bw0wh"
+  },
+  {
+    "column_A_greek": [
+      "αποτίμηση"
+    ],
+    "column_B_russian": [
+      "оценка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-29",
+    "_id": "1780055208038dbjzp"
+  },
+  {
+    "column_A_greek": [
+      "χτίσμα"
+    ],
+    "column_B_russian": [
+      "постройка, здание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-05-29",
+    "_id": "17800480607797wjoo"
+  },
+  {
+    "column_A_greek": [
+      "κτίσμα"
+    ],
+    "column_B_russian": [
+      "здание, постройка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кипр",
+    "column_F_date": "2026-05-29",
+    "_id": "1780048041891p4dfq"
+  },
+  {
+    "column_A_greek": [
+      "συνεννόηση"
+    ],
+    "column_B_russian": [
+      "понимание, взаимопонимание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-26",
+    "_id": "1779778707879hqiwa"
+  },
+  {
+    "column_A_greek": [
+      "θεσμικά"
+    ],
+    "column_B_russian": [
+      "на институциональном уровне"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-05-26",
+    "_id": "17797786386561mfb3"
+  },
+  {
+    "column_A_greek": [
+      "πρωτοδιάκονος"
+    ],
+    "column_B_russian": [
+      "протодиакон"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "церк.",
+    "column_F_date": "2026-05-25",
+    "_id": "1779723884783005f0"
+  },
+  {
+    "column_A_greek": [
       "ιερολογιότης"
     ],
     "column_B_russian": [
@@ -1037,7 +1269,7 @@
       "εκκρεμότητα"
     ],
     "column_B_russian": [
-      "неопределенность, незаконченность"
+      "неопределенность, незаконченность, проблема"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -1157,7 +1389,8 @@
       "απόδοση επένδυσης"
     ],
     "column_B_russian": [
-      "показатель возврата инвестиций (ROI)"
+      "показатель возврата инвестиций (ROI)",
+      "доходность инвестиций"
     ],
     "column_D_part_of_speech": "слвсоч",
     "column_E_area": "юр.",
@@ -4165,7 +4398,8 @@
     ],
     "column_B_russian": [
       "подчинение",
-      "конформизм"
+      "конформизм",
+      "согласование, приведение в соответствие"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -17636,7 +17870,8 @@
       "επιβάρυνση"
     ],
     "column_B_russian": [
-      "отягчение"
+      "отягчение",
+      "нагрузка"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -19290,7 +19525,8 @@
     ],
     "column_B_russian": [
       "качество",
-      "свойство"
+      "свойство",
+      "статус"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -24912,7 +25148,7 @@
       "συμπέρασμα"
     ],
     "column_B_russian": [
-      "вывод"
+      "вывод, заключение"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -27852,7 +28088,8 @@
       "εγκρίνω"
     ],
     "column_B_russian": [
-      "утверждать"
+      "утверждать",
+      "одобрять"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -31609,7 +31846,7 @@
       "παρέρχομαι"
     ],
     "column_B_russian": [
-      "проходить"
+      "проходить, заканчиваться"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -36606,7 +36843,8 @@
       "ανάπτυξη"
     ],
     "column_B_russian": [
-      "рост"
+      "рост",
+      "развитие"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -42071,7 +42309,7 @@
       "κατανοώ"
     ],
     "column_B_russian": [
-      "понять осмыслить"
+      "понять, осмыслить"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
