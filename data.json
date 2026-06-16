@@ -1,6 +1,367 @@
 [
   {
     "column_A_greek": [
+      "επέρχομαι"
+    ],
+    "column_B_russian": [
+      "случаться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "1781600667245o81kn"
+  },
+  {
+    "column_A_greek": [
+      "συνακόλουθος"
+    ],
+    "column_B_russian": [
+      "сопутствующий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "178160061706156ib4"
+  },
+  {
+    "column_A_greek": [
+      "κερκίδα"
+    ],
+    "column_B_russian": [
+      "трибуна"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "1781599951582wzrrx"
+  },
+  {
+    "column_A_greek": [
+      "κοίλο"
+    ],
+    "column_B_russian": [
+      "вогнутость, впадина"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "1781599865725onxox"
+  },
+  {
+    "column_A_greek": [
+      "μούφα"
+    ],
+    "column_B_russian": [
+      "ерунда, вранье (сленг)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "1781599002997ug3r0"
+  },
+  {
+    "column_A_greek": [
+      "κατοίκηση"
+    ],
+    "column_B_russian": [
+      "проживание, обитание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "17815983109739w8xq"
+  },
+  {
+    "column_A_greek": [
+      "κατάλοιπο"
+    ],
+    "column_B_russian": [
+      "остаток"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-16",
+    "_id": "1781598185477yb848"
+  },
+  {
+    "column_A_greek": [
+      "αποχωρίζω"
+    ],
+    "column_B_russian": [
+      "разделять"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781534262336kb54y"
+  },
+  {
+    "column_A_greek": [
+      "δημοσκόπηση"
+    ],
+    "column_B_russian": [
+      "опрос общественного мнения"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781529985498ea6b8"
+  },
+  {
+    "column_A_greek": [
+      "κυριολεκτικά"
+    ],
+    "column_B_russian": [
+      "буквально, в прямом смысле"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781529192554gpsno"
+  },
+  {
+    "column_A_greek": [
+      "τροποποίηση"
+    ],
+    "column_B_russian": [
+      "изменение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781523773683rceda"
+  },
+  {
+    "column_A_greek": [
+      "θολωτός"
+    ],
+    "column_B_russian": [
+      "сводчатый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "17815236192918kwdz"
+  },
+  {
+    "column_A_greek": [
+      "μετέχω"
+    ],
+    "column_B_russian": [
+      "принимать участие"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "17815233469554zhic"
+  },
+  {
+    "column_A_greek": [
+      "βαίνω"
+    ],
+    "column_B_russian": [
+      "идти, двигаться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "178152307475537gvp"
+  },
+  {
+    "column_A_greek": [
+      "συνέταιρος"
+    ],
+    "column_B_russian": [
+      "партнер"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781522294465udljm"
+  },
+  {
+    "column_A_greek": [
+      "ξενιτιά"
+    ],
+    "column_B_russian": [
+      "чужбина"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781521388139tyjsj"
+  },
+  {
+    "column_A_greek": [
+      "ατενίζω"
+    ],
+    "column_B_russian": [
+      "пристально смотреть, вглядываться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781521197555g3nfo"
+  },
+  {
+    "column_A_greek": [
+      "αγναντεύω"
+    ],
+    "column_B_russian": [
+      "любоваться"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781521147211lkrng"
+  },
+  {
+    "column_A_greek": [
+      "μελοποιώ"
+    ],
+    "column_B_russian": [
+      "класть на музыку"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "17815209488436jhhr"
+  },
+  {
+    "column_A_greek": [
+      "πλαγιάζω"
+    ],
+    "column_B_russian": [
+      "класть, укладывать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781520677363d33wc"
+  },
+  {
+    "column_A_greek": [
+      "στερνός"
+    ],
+    "column_B_russian": [
+      "последний"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "178151924798741c7z"
+  },
+  {
+    "column_A_greek": [
+      "ντουνιάς"
+    ],
+    "column_B_russian": [
+      "мир, свет",
+      "ψεύτικος ντουνιάς - бренный мир"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "17815190656519fo6q"
+  },
+  {
+    "column_A_greek": [
+      "προσμένω"
+    ],
+    "column_B_russian": [
+      "ждать, надеяться (long for)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781518992180z1ci2"
+  },
+  {
+    "column_A_greek": [
+      "καρτερώ"
+    ],
+    "column_B_russian": [
+      "ждать, ожидать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781518801828lc2k3"
+  },
+  {
+    "column_A_greek": [
+      "αποστακτήριο"
+    ],
+    "column_B_russian": [
+      "перегонный куб"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "1781517721899rmb2q"
+  },
+  {
+    "column_A_greek": [
+      "υποφερτός"
+    ],
+    "column_B_russian": [
+      "терпивый, сносный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-15",
+    "_id": "17815169974928497u"
+  },
+  {
+    "column_A_greek": [
+      "επιτήδειος"
+    ],
+    "column_B_russian": [
+      "способный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-10",
+    "_id": "1781078495770exlk3"
+  },
+  {
+    "column_A_greek": [
+      "εξαναγκασμός"
+    ],
+    "column_B_russian": [
+      "принуждение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-10",
+    "_id": "1781078223433c9e6z"
+  },
+  {
+    "column_A_greek": [
+      "ερμηνεύω"
+    ],
+    "column_B_russian": [
+      "толковать, трактовать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-10",
+    "_id": "1781075640042pb5ti"
+  },
+  {
+    "column_A_greek": [
+      "ψηφίο"
+    ],
+    "column_B_russian": [
+      "число, цифра"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-04",
+    "_id": "17805826626524qlio"
+  },
+  {
+    "column_A_greek": [
       "συμβόλαιο"
     ],
     "column_B_russian": [
@@ -12706,7 +13067,8 @@
       "πάροδος"
     ],
     "column_B_russian": [
-      "течение (времени)"
+      "течение (времени)",
+      "узкий проход"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -19068,7 +19430,8 @@
       "αντιπαροχή"
     ],
     "column_B_russian": [
-      "встречное предоставление"
+      "встречное предоставление",
+      "consideration"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -27451,18 +27814,6 @@
     "column_E_area": "общ",
     "column_F_date": "2025-07-25",
     "_id": "17709708249932dhmb"
-  },
-  {
-    "column_A_greek": [
-      "παραλαμβάνω"
-    ],
-    "column_B_russian": [
-      "забирать"
-    ],
-    "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
-    "column_F_date": "2025-07-25",
-    "_id": "177097082499347cpe"
   },
   {
     "column_A_greek": [
@@ -40369,7 +40720,8 @@
       "εξόφληση"
     ],
     "column_B_russian": [
-      "погашение"
+      "погашение",
+      "уплата"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -53263,8 +53615,8 @@
       "παραλαμβάνω"
     ],
     "column_B_russian": [
-      "получать",
-      "брать"
+      "получать, брать",
+      "забирать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
