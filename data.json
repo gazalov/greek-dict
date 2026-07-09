@@ -1,6 +1,139 @@
 [
   {
     "column_A_greek": [
+      "ενσύρματος"
+    ],
+    "column_B_russian": [
+      "проводной"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-07-08",
+    "_id": "17835985026812jk0n"
+  },
+  {
+    "column_A_greek": [
+      "επιφυλακτικός"
+    ],
+    "column_B_russian": [
+      "осторожный, осмотрительный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-07-08",
+    "_id": "1783520490028scu97"
+  },
+  {
+    "column_A_greek": [
+      "χορήγηση"
+    ],
+    "column_B_russian": [
+      "выдача"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-07-08",
+    "_id": "1783514346813oq3dc"
+  },
+  {
+    "column_A_greek": [
+      "αντάπτορας"
+    ],
+    "column_B_russian": [
+      "адаптер, переходник"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "17821278553193j0om"
+  },
+  {
+    "column_A_greek": [
+      "λιώνω"
+    ],
+    "column_B_russian": [
+      "страдать, чахнуть (сохнуть)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "1782111291833qof6n"
+  },
+  {
+    "column_A_greek": [
+      "τελεσίγραφο"
+    ],
+    "column_B_russian": [
+      "ульттиматум"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "1782111238674uycrz"
+  },
+  {
+    "column_A_greek": [
+      "σκρόφα"
+    ],
+    "column_B_russian": [
+      "сука, тварь",
+      "свиноматка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "1782111075626azefz"
+  },
+  {
+    "column_A_greek": [
+      "καθίκι"
+    ],
+    "column_B_russian": [
+      "подонок, мерзавец"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "178211098535426vi6"
+  },
+  {
+    "column_A_greek": [
+      "πολτοποιώ"
+    ],
+    "column_B_russian": [
+      "не оставлять живого места, выжить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "1782110885650t9ttf"
+  },
+  {
+    "column_A_greek": [
+      "ελιγμός"
+    ],
+    "column_B_russian": [
+      "уловка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-06-22",
+    "_id": "1782110823242ff8ai"
+  },
+  {
+    "column_A_greek": [
+      "εγγύηση"
+    ],
+    "column_B_russian": [
+      "гарантия, залог"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-06-22",
+    "_id": "1782110723771jvrtz"
+  },
+  {
+    "column_A_greek": [
       "ιλιγγιώδης"
     ],
     "column_B_russian": [
@@ -5579,7 +5712,7 @@
   },
   {
     "column_A_greek": [
-      "μήτηρ"
+      "μήτηρ"
     ],
     "column_B_russian": [
       "мать"
@@ -37573,7 +37706,8 @@
     ],
     "column_B_russian": [
       "рост",
-      "развитие"
+      "развитие",
+      "развертывание"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -51397,7 +51531,8 @@
       "χάλι"
     ],
     "column_B_russian": [
-      "скверное положение"
+      "скверное положение",
+      "Τι χάλι - Какой ужас!"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -59033,7 +59168,8 @@
       "επιθυμία"
     ],
     "column_B_russian": [
-      "желание"
+      "желание",
+      "έχω έντονη επιθυμία - я очень хочу "
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
