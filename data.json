@@ -1,6 +1,114 @@
 [
   {
     "column_A_greek": [
+      "κτηματομεσίτης"
+    ],
+    "column_B_russian": [
+      "риэлтор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-15",
+    "_id": "1792077475298zyr9c"
+  },
+  {
+    "column_A_greek": [
+      "εμπίστευμα"
+    ],
+    "column_B_russian": [
+      "траст"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-15",
+    "_id": "1792077112187qwd0z"
+  },
+  {
+    "column_A_greek": [
+      "πιστωτικό ίδρυμα"
+    ],
+    "column_B_russian": [
+      "кредитное учреждение"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-15",
+    "_id": "1792076831410wtmih"
+  },
+  {
+    "column_A_greek": [
+      "παρεμπόδιση"
+    ],
+    "column_B_russian": [
+      "создание препятствий"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-15",
+    "_id": "1792076370617kq0zs"
+  },
+  {
+    "column_A_greek": [
+      "βαλβίδα"
+    ],
+    "column_B_russian": [
+      "вентиль, клапан"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "авто",
+    "column_F_date": "2026-10-12",
+    "_id": "1791804791364acnim"
+  },
+  {
+    "column_A_greek": [
+      "κτηματολογικός"
+    ],
+    "column_B_russian": [
+      "кадастровый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-10",
+    "_id": "1791627975641sg741"
+  },
+  {
+    "column_A_greek": [
+      "αμφισβήτηση"
+    ],
+    "column_B_russian": [
+      "оспаривание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-10",
+    "_id": "17916278842905ovki"
+  },
+  {
+    "column_A_greek": [
+      "σύνταξη"
+    ],
+    "column_B_russian": [
+      "составление"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-10",
+    "_id": "1791627797828ijbcb"
+  },
+  {
+    "column_A_greek": [
+      "κέντρο επεξεργασίας δεδομένων"
+    ],
+    "column_B_russian": [
+      "центр обработки данных"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-10",
+    "_id": "1791627628295pa7iu"
+  },
+  {
+    "column_A_greek": [
       "απρόθυμος"
     ],
     "column_B_russian": [
@@ -22261,7 +22369,8 @@
     ],
     "column_B_russian": [
       "личность",
-      "индивидуальность"
+      "индивидуальность",
+      "субъект"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -57785,7 +57894,8 @@
       "εξάσκηση"
     ],
     "column_B_russian": [
-      "упражнение"
+      "упражнение",
+      "осуществление"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
