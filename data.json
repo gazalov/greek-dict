@@ -1,6 +1,66 @@
 [
   {
     "column_A_greek": [
+      "συντελεστής"
+    ],
+    "column_B_russian": [
+      "фактор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793271499508dr9hd"
+  },
+  {
+    "column_A_greek": [
+      "επιχειρηματικότητα"
+    ],
+    "column_B_russian": [
+      "предпринимательство"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793271266633nc4nm"
+  },
+  {
+    "column_A_greek": [
+      "οικονομολόγος"
+    ],
+    "column_B_russian": [
+      "экономист"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "17932711601174b5xx"
+  },
+  {
+    "column_A_greek": [
+      "προσοδοφόρος"
+    ],
+    "column_B_russian": [
+      "прибыльный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793271122411ppofu"
+  },
+  {
+    "column_A_greek": [
+      "σκευή"
+    ],
+    "column_B_russian": [
+      "обмундирование, снаряжение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793270985179jy9gv"
+  },
+  {
+    "column_A_greek": [
       "δραστηριότητα"
     ],
     "column_B_russian": [
@@ -53937,7 +53997,7 @@
       "απόθεμα"
     ],
     "column_B_russian": [
-      "запас"
+      "запас, резерв"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
