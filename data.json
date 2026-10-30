@@ -1,6 +1,249 @@
 [
   {
     "column_A_greek": [
+      "φιλάργυρος"
+    ],
+    "column_B_russian": [
+      "скупой"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-30",
+    "_id": "17933485590884q00s"
+  },
+  {
+    "column_A_greek": [
+      "τσιγκούνης"
+    ],
+    "column_B_russian": [
+      "жадный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-30",
+    "_id": "17933484970847aamj"
+  },
+  {
+    "column_A_greek": [
+      "άτολμος"
+    ],
+    "column_B_russian": [
+      "робкий, нерешительный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-30",
+    "_id": "17933474926073kre6"
+  },
+  {
+    "column_A_greek": [
+      "αναθεωρητικός"
+    ],
+    "column_B_russian": [
+      "апелляционный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-30",
+    "_id": "1793344086805ew415"
+  },
+  {
+    "column_A_greek": [
+      "ξεφλουδίζω"
+    ],
+    "column_B_russian": [
+      "облупливать, шелушить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-30",
+    "_id": "1793343295545ksbwx"
+  },
+  {
+    "column_A_greek": [
+      "μούρο"
+    ],
+    "column_B_russian": [
+      "ягода"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "бот."
+    ],
+    "column_F_date": "2026-10-29",
+    "_id": "17932843326157vktm"
+  },
+  {
+    "column_A_greek": [
+      "οφειλόμενο ποσό"
+    ],
+    "column_B_russian": [
+      "задолженность"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "1793283900633wxq3g"
+  },
+  {
+    "column_A_greek": [
+      "χυλόπιτα"
+    ],
+    "column_B_russian": [
+      "лапша"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "кулин.",
+    "column_F_date": "2026-10-29",
+    "_id": "17932830293223rl5z"
+  },
+  {
+    "column_A_greek": [
+      "εφεσίβλητης"
+    ],
+    "column_B_russian": [
+      "ответчик по апелляции"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "1793280655789n24tb"
+  },
+  {
+    "column_A_greek": [
+      "πρωτόδικο Δικαστήριο"
+    ],
+    "column_B_russian": [
+      "суд первой инстанции"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "179328048249810x59"
+  },
+  {
+    "column_A_greek": [
+      "ανατροπή"
+    ],
+    "column_B_russian": [
+      "отмена"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "17932804068242f3ou"
+  },
+  {
+    "column_A_greek": [
+      "επιδιώκω"
+    ],
+    "column_B_russian": [
+      "добиваться, преследовать цель"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793280361721bubd5"
+  },
+  {
+    "column_A_greek": [
+      "αυτοδύναμος"
+    ],
+    "column_B_russian": [
+      "самостоятельный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793280043824om0w8"
+  },
+  {
+    "column_A_greek": [
+      "μαρτυρία"
+    ],
+    "column_B_russian": [
+      "доказательство"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "1793279989570cnuw5"
+  },
+  {
+    "column_A_greek": [
+      "εκτελεστό"
+    ],
+    "column_B_russian": [
+      "исполнимость"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "17932778596250ext7"
+  },
+  {
+    "column_A_greek": [
+      "κατάρρευση"
+    ],
+    "column_B_russian": [
+      "распад"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793277460616ejb3s"
+  },
+  {
+    "column_A_greek": [
+      "περιοριστικός"
+    ],
+    "column_B_russian": [
+      "ограничивающий"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793275400198uejil"
+  },
+  {
+    "column_A_greek": [
+      "περιέρχομαι"
+    ],
+    "column_B_russian": [
+      "доходить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-10-29",
+    "_id": "1793273807874mxg8l"
+  },
+  {
+    "column_A_greek": [
+      "εκπλήρωση"
+    ],
+    "column_B_russian": [
+      "исполнение (обязательства)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-10-29",
+    "_id": "1793272964512v5zlg"
+  },
+  {
+    "column_A_greek": [
+      "πρώτες ύλες"
+    ],
+    "column_B_russian": [
+      "сырье"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "бухг.",
+    "column_F_date": "2026-10-29",
+    "_id": "1793272523382y11i1"
+  },
+  {
+    "column_A_greek": [
       "συντελεστής"
     ],
     "column_B_russian": [
@@ -31,7 +274,7 @@
       "экономист"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "юр.",
+    "column_E_area": "фин.",
     "column_F_date": "2026-10-29",
     "_id": "17932711601174b5xx"
   },
@@ -55,7 +298,10 @@
       "обмундирование, снаряжение"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "бухг."
+    ],
     "column_F_date": "2026-10-29",
     "_id": "1793270985179jy9gv"
   },
@@ -79,7 +325,7 @@
       "текущий счет"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "юр.",
+    "column_E_area": "бухг.",
     "column_F_date": "2026-10-29",
     "_id": "17932681428480gp7l"
   },
@@ -2890,7 +3136,10 @@
       "законность"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
     "column_F_date": "2026-05-29",
     "_id": "1780061187392u93o8"
   },
@@ -6544,10 +6793,14 @@
       "τήρηση"
     ],
     "column_B_russian": [
-      "соблюдение"
+      "соблюдение",
+      "ведение (счетов, записей)"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "бухг."
+    ],
     "column_F_date": "2026-03-30",
     "_id": "1774888422213f4y4n"
   },
@@ -10870,10 +11123,14 @@
       "κέλυφος"
     ],
     "column_B_russian": [
-      "скорлупа"
+      "скорлупа",
+      "панцирь (черепахи)"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "зоо"
+    ],
     "column_F_date": "2025-12-19",
     "_id": "1770970824991sj3gx"
   },
@@ -11723,7 +11980,10 @@
       "скриншот"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "it"
+    ],
     "column_F_date": "2025-12-05",
     "_id": "17709708249912ve5m"
   },
@@ -12373,7 +12633,10 @@
       "экипаж"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "мор."
+    ],
     "column_F_date": "2025-12-01",
     "_id": "1770970824991wv0wd"
   },
@@ -12553,7 +12816,7 @@
       "краткосрочные активы"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "юр.",
+    "column_E_area": "бухг.",
     "column_F_date": "2025-11-28",
     "_id": "17709708249912tmi0"
   },
@@ -12638,7 +12901,7 @@
       "углерод"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "хим.",
     "column_F_date": "2025-11-28",
     "_id": "177097082499106zqx"
   },
@@ -14038,7 +14301,10 @@
       "стилус"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "it"
+    ],
     "column_F_date": "2025-11-22",
     "_id": "1770970824991bkbtn"
   },
@@ -14912,7 +15178,7 @@
       "святопись"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "церк.",
     "column_F_date": "2025-11-05",
     "_id": "177097082499185c7p"
   },
@@ -15386,7 +15652,10 @@
       "медиццинское страхование"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "мед",
+    "column_E_area": [
+      "мед",
+      "юр."
+    ],
     "column_F_date": "2025-11-02",
     "_id": "17709708249918qik5"
   },
@@ -15642,7 +15911,7 @@
       "вертикальное расположение (картинки)"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "общ",
+    "column_E_area": "it",
     "column_F_date": "2025-10-31",
     "_id": "1770970824991jwy3j"
   },
@@ -15654,7 +15923,7 @@
       "горизонтальное расположение (картинки)"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "общ",
+    "column_E_area": "it",
     "column_F_date": "2025-10-31",
     "_id": "17709708249913k67i"
   },
@@ -16078,7 +16347,7 @@
       "активы"
     ],
     "column_D_part_of_speech": "слвсоч",
-    "column_E_area": "юр.",
+    "column_E_area": "бухг.",
     "column_F_date": "2025-10-29",
     "_id": "1770970824991yndr7"
   },
@@ -16091,7 +16360,7 @@
       "баланс"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "юр.",
+    "column_E_area": "бухг.",
     "column_F_date": "2025-10-29",
     "_id": "17709708249919z7lq"
   },
@@ -16495,7 +16764,7 @@
       "кораблестроительная верфь"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "мор.",
     "column_F_date": "2025-10-28",
     "_id": "1770970824991gbke2"
   },
@@ -17082,7 +17351,7 @@
       "рог"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "зоо",
     "column_F_date": "2025-10-23",
     "_id": "177097082499167rlt"
   },
@@ -17555,7 +17824,7 @@
       "шлюпка"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "мор.",
     "column_F_date": "2025-10-18",
     "_id": "17709708249920sggj"
   },
@@ -18162,9 +18431,8 @@
       "ουρλιαχτό"
     ],
     "column_B_russian": [
-      "вой",
-      "рычание",
-      "вопль"
+      "вой, вопль",
+      "рычание"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -18432,7 +18700,7 @@
       "нарушитель"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "юр.",
     "column_F_date": "2025-10-13",
     "_id": "1770970824992lq6uf"
   },
@@ -18710,7 +18978,7 @@
     ],
     "column_B_russian": [
       "выполнять",
-      "исполнять"
+      "исполнять (обязательства)"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "юр.",
@@ -21845,7 +22113,8 @@
       "απόδειξη"
     ],
     "column_B_russian": [
-      "доказательство"
+      "доказательство",
+      "προς απόδειξη - в подтверждение, в целях доказывания"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -22082,7 +22351,7 @@
       "αποζημίωση"
     ],
     "column_B_russian": [
-      "возмещение"
+      "возмещение (убытком)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -23748,10 +24017,11 @@
       "αποτέλεσμα"
     ],
     "column_B_russian": [
-      "следствие"
+      "следствие",
+      "με αποτέλεσμα - в результате чего"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "грам.",
+    "column_E_area": "",
     "column_F_date": "2025-09-09",
     "_id": "1770970824992v2gce"
   },
@@ -24794,7 +25064,7 @@
       "кровеносный"
     ],
     "column_D_part_of_speech": "прил.",
-    "column_E_area": "общ",
+    "column_E_area": "мед",
     "column_F_date": "2025-09-04",
     "_id": "17709708249925dihc"
   },
@@ -26224,7 +26494,9 @@
       "βγάζω"
     ],
     "column_B_russian": [
-      "производить"
+      "вынимать",
+      "производить",
+      "τα βγάζω πέρα - справляться, ладить"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -32666,7 +32938,8 @@
       "αναίρεση"
     ],
     "column_B_russian": [
-      "кассация"
+      "кассация",
+      "отмена"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -33316,7 +33589,7 @@
       "απορρίπτω"
     ],
     "column_B_russian": [
-      "отвергать"
+      "отвергать, отклонять"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -35398,10 +35671,10 @@
       "καταθέτω"
     ],
     "column_B_russian": [
-      "класть деньги в банк"
+      "подавать (иск - καταθέτω αγωγή)"
     ],
     "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
+    "column_E_area": "юр.",
     "column_F_date": "2025-06-11",
     "_id": "1770970824993u9kfl"
   },
@@ -36182,7 +36455,8 @@
       "διάταξη"
     ],
     "column_B_russian": [
-      "положение (закона)"
+      "положение (закона)",
+      "раздел"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -37800,7 +38074,8 @@
       "διάκριση"
     ],
     "column_B_russian": [
-      "различие"
+      "различие, отличие",
+      "награда"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -38082,7 +38357,8 @@
       "εκστρατεία"
     ],
     "column_B_russian": [
-      "экспедиция"
+      "экспедиция",
+      "кампания"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -48535,7 +48811,7 @@
       "εφορεία"
     ],
     "column_B_russian": [
-      "инспекция"
+      "инспекция (в том числе налоговая)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -49627,7 +49903,7 @@
       "αντίστοιχος"
     ],
     "column_B_russian": [
-      "соответственный",
+      "соответствующий",
       "аналогичный"
     ],
     "column_D_part_of_speech": "прил.",
@@ -68598,7 +68874,7 @@
       "просрочка платежа"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": "юр.",
     "column_F_date": "2024-12-11",
     "_id": "1770970824996pljt8"
   },
