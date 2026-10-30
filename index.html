@@ -78,6 +78,13 @@
         let renderedCount = 0;
         const RENDER_CHUNK = 40;
         const el = id => document.getElementById(id);
+        function areasOf(value) {
+            if (Array.isArray(value)) return value.filter(v => typeof v === 'string' && v.trim());
+            return typeof value === 'string' && value.trim() ? value.split(';').map(v => v.trim()).filter(Boolean) : [];
+        }
+        function escapeHtml(value) {
+            return String(value).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+        }
 
         async function loadData() {
             try {
@@ -96,7 +103,7 @@
             
             DATABASE_CONTENT.forEach(item => {
                 if (item.column_D_part_of_speech) posSet.add(item.column_D_part_of_speech);
-                if (item.column_E_area) areaSet.add(item.column_E_area);
+                areasOf(item.column_E_area).forEach(area => areaSet.add(area));
             });
 
             const posSelect = el('filterPos');
@@ -121,7 +128,7 @@
                 
                 const matchesSearch = !q || g.includes(q) || r.includes(q);
                 const matchesPos = !posFilter || item.column_D_part_of_speech === posFilter;
-                const matchesArea = !areaFilter || item.column_E_area === areaFilter;
+                const matchesArea = !areaFilter || areasOf(item.column_E_area).includes(areaFilter);
                 
                 return matchesSearch && matchesPos && matchesArea;
             });
@@ -163,7 +170,7 @@
             </div>
             <div class="flex items-center justify-between">
                 <span class="text-[11px] font-black text-slate-400 uppercase tracking-tighter text-left">Тематика</span>
-                <span class="badge badge-area">${item.column_E_area}</span>
+                <span class="badge badge-area">${areasOf(item.column_E_area).map(escapeHtml).join(', ')}</span>
             </div>
         </div>`;
     modal.classList.remove('hidden');
