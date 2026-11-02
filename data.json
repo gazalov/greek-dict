@@ -1,6 +1,201 @@
 [
   {
     "column_A_greek": [
+      "προθήκη"
+    ],
+    "column_B_russian": [
+      "витрина"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793626877405870ny"
+  },
+  {
+    "column_A_greek": [
+      "κατασβήνω"
+    ],
+    "column_B_russian": [
+      "тушить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793626650563upr6b"
+  },
+  {
+    "column_A_greek": [
+      "εύφλεκτος"
+    ],
+    "column_B_russian": [
+      "легковоспламеняющийся"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793626410007ky0jt"
+  },
+  {
+    "column_A_greek": [
+      "κακόβουλος"
+    ],
+    "column_B_russian": [
+      "злонамеренный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793626285811kwvsh"
+  },
+  {
+    "column_A_greek": [
+      "μηλιά"
+    ],
+    "column_B_russian": [
+      "яблоня"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "бот."
+    ],
+    "column_F_date": "2026-11-02",
+    "_id": "1793622670572db72k"
+  },
+  {
+    "column_A_greek": [
+      "κατακρατώ"
+    ],
+    "column_B_russian": [
+      "удерживать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-02",
+    "_id": "1793620177899z0xcn"
+  },
+  {
+    "column_A_greek": [
+      "ενεχυροδανειστής"
+    ],
+    "column_B_russian": [
+      "залогодержатель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-02",
+    "_id": "1793619574673fv0q2"
+  },
+  {
+    "column_A_greek": [
+      "ενεχυριαστής"
+    ],
+    "column_B_russian": [
+      "залогодатель"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-02",
+    "_id": "1793619423077b4l44"
+  },
+  {
+    "column_A_greek": [
+      "εξασφάλιση"
+    ],
+    "column_B_russian": [
+      "обеспечение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-02",
+    "_id": "17936190637538yzrr"
+  },
+  {
+    "column_A_greek": [
+      "ενταφιάζω"
+    ],
+    "column_B_russian": [
+      "хоронить"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "17936102188015nff4"
+  },
+  {
+    "column_A_greek": [
+      "προσηλυτίζω"
+    ],
+    "column_B_russian": [
+      "обращать в веру"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793610195746v710y"
+  },
+  {
+    "column_A_greek": [
+      "διαταράσσω"
+    ],
+    "column_B_russian": [
+      "нарушать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "17936101714185t1ra"
+  },
+  {
+    "column_A_greek": [
+      "υπερασπίζομαι"
+    ],
+    "column_B_russian": [
+      "защищать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "17936101328462uilt"
+  },
+  {
+    "column_A_greek": [
+      "θρηνώ"
+    ],
+    "column_B_russian": [
+      "оплакивать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793610102949yqsvy"
+  },
+  {
+    "column_A_greek": [
+      "βασανιστήριο"
+    ],
+    "column_B_russian": [
+      "мука"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793609959834f4lhp"
+  },
+  {
+    "column_A_greek": [
+      "θανατωθέντος"
+    ],
+    "column_B_russian": [
+      "казненный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793609899134rlbci"
+  },
+  {
+    "column_A_greek": [
       "φιλάργυρος"
     ],
     "column_B_russian": [
@@ -10858,7 +11053,10 @@
       "шип"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "бот."
+    ],
     "column_F_date": "2025-12-23",
     "_id": "1770970824991z79gy"
   },
@@ -11544,7 +11742,10 @@
       "сбегать (в магазин)(πεταχτώ, πετάχτηκα)"
     ],
     "column_D_part_of_speech": "глагол",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "мор."
+    ],
     "column_F_date": "2025-12-10",
     "_id": "1770970824991dh1po"
   },
@@ -11655,7 +11856,10 @@
       "навигация"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "мор."
+    ],
     "column_F_date": "2025-12-08",
     "_id": "17709708249913dvb8"
   },
@@ -12828,7 +13032,10 @@
       "пират"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "мор."
+    ],
     "column_F_date": "2025-11-28",
     "_id": "1770970824991dmdo5"
   },
@@ -13070,7 +13277,10 @@
       "врачебная тайна"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "мед"
+    ],
     "column_F_date": "2025-11-27",
     "_id": "1770970824991jx9mf"
   },
@@ -47665,7 +47875,7 @@
       "παραχωρώ"
     ],
     "column_B_russian": [
-      "предоставлять"
+      "передавать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -53450,8 +53660,8 @@
       "συνδέομαι"
     ],
     "column_B_russian": [
-      "связвать",
-      "ассоциировать"
+      "связывать, ассоциировать",
+      "авторизовываться"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
