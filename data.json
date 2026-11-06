@@ -1,6 +1,81 @@
 [
   {
     "column_A_greek": [
+      "διάθεση"
+    ],
+    "column_B_russian": [
+      "отчуждение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "юр.",
+      "бухг."
+    ],
+    "column_F_date": "2026-11-06",
+    "_id": "17939810455309tqk4"
+  },
+  {
+    "column_A_greek": [
+      "άλωση"
+    ],
+    "column_B_russian": [
+      "захват"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "17936316081422222u"
+  },
+  {
+    "column_A_greek": [
+      "κρατίδιο"
+    ],
+    "column_B_russian": [
+      "княжество, государство"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "179363068718908na5"
+  },
+  {
+    "column_A_greek": [
+      "αρραβωνιαστικιά"
+    ],
+    "column_B_russian": [
+      "невеста"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793630337366edytm"
+  },
+  {
+    "column_A_greek": [
+      "σταυροφορία"
+    ],
+    "column_B_russian": [
+      "крестовый поход"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "17936301156509108q"
+  },
+  {
+    "column_A_greek": [
+      "μεταξουργία"
+    ],
+    "column_B_russian": [
+      "шелкопрядение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-02",
+    "_id": "1793629988204xq8h5"
+  },
+  {
+    "column_A_greek": [
       "προθήκη"
     ],
     "column_B_russian": [
