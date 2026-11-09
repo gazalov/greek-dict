@@ -1,6 +1,45 @@
 [
   {
     "column_A_greek": [
+      "μπουρνούζι"
+    ],
+    "column_B_russian": [
+      "халат"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-09",
+    "_id": "1794235528270upsw5"
+  },
+  {
+    "column_A_greek": [
+      "ήρα"
+    ],
+    "column_B_russian": [
+      "сорняк, плевел"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "церк."
+    ],
+    "column_F_date": "2026-11-09",
+    "_id": "1794232874384g6lr5"
+  },
+  {
+    "column_A_greek": [
+      "Ξεχωρίζω τα μήλα από τα πορτοκάλια"
+    ],
+    "column_B_russian": [
+      "Отделять мух от котлет"
+    ],
+    "column_D_part_of_speech": "посл.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-09",
+    "_id": "179422238608022wu6"
+  },
+  {
+    "column_A_greek": [
       "διάθεση"
     ],
     "column_B_russian": [
