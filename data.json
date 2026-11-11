@@ -1,6 +1,60 @@
 [
   {
     "column_A_greek": [
+      "κλειδαριά"
+    ],
+    "column_B_russian": [
+      "замок"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "строит."
+    ],
+    "column_F_date": "2026-11-11",
+    "_id": "17943925868741ovlt"
+  },
+  {
+    "column_A_greek": [
+      "συρόμενος"
+    ],
+    "column_B_russian": [
+      "раздвижной"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-11",
+    "_id": "17943924696075yc6o"
+  },
+  {
+    "column_A_greek": [
+      "ανέγερση"
+    ],
+    "column_B_russian": [
+      "постройка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "строит."
+    ],
+    "column_F_date": "2026-11-10",
+    "_id": "1794297941644vvp34"
+  },
+  {
+    "column_A_greek": [
+      "ύστερα"
+    ],
+    "column_B_russian": [
+      "после"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-10",
+    "_id": "1794297890116w0tf5"
+  },
+  {
+    "column_A_greek": [
       "μπουρνούζι"
     ],
     "column_B_russian": [
