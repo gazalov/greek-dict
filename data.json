@@ -1,6 +1,121 @@
 [
   {
     "column_A_greek": [
+      "λέμβος"
+    ],
+    "column_B_russian": [
+      "шлюпка",
+      "η σωστική λέμβος - спасательная шлюпка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "мор.",
+    "column_F_date": "2026-11-12",
+    "_id": "1794499529152tbapw"
+  },
+  {
+    "column_A_greek": [
+      "πειραματικός"
+    ],
+    "column_B_russian": [
+      "опытный, экспериментальный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-12",
+    "_id": "1794491129873slwod"
+  },
+  {
+    "column_A_greek": [
+      "κατά περιόδους"
+    ],
+    "column_B_russian": [
+      "время от времени"
+    ],
+    "column_D_part_of_speech": "наречие",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-12",
+    "_id": "1794490845473kvo7q"
+  },
+  {
+    "column_A_greek": [
+      "πελλοκατερίνα"
+    ],
+    "column_B_russian": [
+      "шпорцевый чибис"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "зоо",
+    "column_F_date": "2026-11-12",
+    "_id": "1794490592394jg0ch"
+  },
+  {
+    "column_A_greek": [
+      "πετρελαιοειδή"
+    ],
+    "column_B_russian": [
+      "нефтепродукты"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "хим."
+    ],
+    "column_F_date": "2026-11-12",
+    "_id": "1794488132580kpq3y"
+  },
+  {
+    "column_A_greek": [
+      "αποκλιμάκωση"
+    ],
+    "column_B_russian": [
+      "снижение (постепенное)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-12",
+    "_id": "1794485389349vb4oi"
+  },
+  {
+    "column_A_greek": [
+      "μεταβατικές διατάξεις"
+    ],
+    "column_B_russian": [
+      "переходные положения"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
+    "column_F_date": "2026-11-12",
+    "_id": "1794483979182bthje"
+  },
+  {
+    "column_A_greek": [
+      "καταδεικνύω"
+    ],
+    "column_B_russian": [
+      "показывать, доказывать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-12",
+    "_id": "17944835248188rqg6"
+  },
+  {
+    "column_A_greek": [
+      "ακραίος"
+    ],
+    "column_B_russian": [
+      "крайний"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-11",
+    "_id": "1794408474744ossav"
+  },
+  {
+    "column_A_greek": [
       "κλειδαριά"
     ],
     "column_B_russian": [
@@ -47336,7 +47451,8 @@
       "εξελίσσομαι"
     ],
     "column_B_russian": [
-      "развиваться (εξελιχθώ)"
+      "развиваться (εξελιχθώ)",
+      "становиться"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
@@ -62244,7 +62360,8 @@
       "βάση"
     ],
     "column_B_russian": [
-      "фундамент"
+      "фундамент",
+      "кронштейн (напр. для телевизора)"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "строит.",
@@ -62256,24 +62373,12 @@
       "βάση"
     ],
     "column_B_russian": [
-      "база"
+      "база, опора"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
     "column_F_date": "2025-01-21",
     "_id": "17709708249954ubz1"
-  },
-  {
-    "column_A_greek": [
-      "βάση"
-    ],
-    "column_B_russian": [
-      "опора"
-    ],
-    "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
-    "column_F_date": "2025-01-21",
-    "_id": "1770970824995x76kt"
   },
   {
     "column_A_greek": [
