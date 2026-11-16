@@ -1,6 +1,169 @@
 [
   {
     "column_A_greek": [
+      "συνιδιόκτητος"
+    ],
+    "column_B_russian": [
+      "находящийся в общей собственности"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-16",
+    "_id": "17948375555993o81f"
+  },
+  {
+    "column_A_greek": [
+      "αποδεκτός"
+    ],
+    "column_B_russian": [
+      "приемлемый"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "1794837145985p451k"
+  },
+  {
+    "column_A_greek": [
+      "παράκαμψη"
+    ],
+    "column_B_russian": [
+      "обход"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "17948363938150cbi1"
+  },
+  {
+    "column_A_greek": [
+      "αποκαλυπτήρια"
+    ],
+    "column_B_russian": [
+      "торжественное открытие, презентация"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "179483583675896ra2"
+  },
+  {
+    "column_A_greek": [
+      "κατονομάζω"
+    ],
+    "column_B_russian": [
+      "называть по имени"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "179483156562488n7n"
+  },
+  {
+    "column_A_greek": [
+      "καταφθάνω"
+    ],
+    "column_B_russian": [
+      "прибывать, приезжать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "1794831043587xb91z"
+  },
+  {
+    "column_A_greek": [
+      "ολιγόωρος"
+    ],
+    "column_B_russian": [
+      "кратковременный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "1794830821357u5kok"
+  },
+  {
+    "column_A_greek": [
+      "μεγιστάνας"
+    ],
+    "column_B_russian": [
+      "высокопоставленное лицо",
+      "властелин"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "17948304442888w79v"
+  },
+  {
+    "column_A_greek": [
+      "απονέμω"
+    ],
+    "column_B_russian": [
+      "присуждать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-16",
+    "_id": "17948203654384bj4c"
+  },
+  {
+    "column_A_greek": [
+      "ρήτρα"
+    ],
+    "column_B_russian": [
+      "оговорка, условие, пункт"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-16",
+    "_id": "1794814578499otlu1"
+  },
+  {
+    "column_A_greek": [
+      "συνομολογώ"
+    ],
+    "column_B_russian": [
+      "заключать (договор напр.)"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
+    "column_F_date": "2026-11-16",
+    "_id": "17948144207404hi3z"
+  },
+  {
+    "column_A_greek": [
+      "Τμήμα Κτηματολογίου και Χωρομετρίας"
+    ],
+    "column_B_russian": [
+      "Департамент земельных ресурсов и геодезии Республики Кипр"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-16",
+    "_id": "17948123542905mk42"
+  },
+  {
+    "column_A_greek": [
+      "κτηματολόγιο"
+    ],
+    "column_B_russian": [
+      "регистратор недвижимости"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
+    "column_F_date": "2026-11-16",
+    "_id": "1794812227220x22vm"
+  },
+  {
+    "column_A_greek": [
       "λέμβος"
     ],
     "column_B_russian": [
@@ -22389,7 +22552,7 @@
       "акцептованный"
     ],
     "column_D_part_of_speech": "прил.",
-    "column_E_area": "общ",
+    "column_E_area": "фин.",
     "column_F_date": "2025-09-18",
     "_id": "1770970824992knd8e"
   },
@@ -36164,7 +36327,8 @@
       "καταθέτω"
     ],
     "column_B_russian": [
-      "подавать (иск - καταθέτω αγωγή)"
+      "подавать (иск - καταθέτω αγωγή)",
+      "депонировать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "юр.",
@@ -41107,7 +41271,7 @@
       "απάτη"
     ],
     "column_B_russian": [
-      "обман"
+      "обман, мошенничество"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "юр.",
@@ -41436,8 +41600,7 @@
       "αναπτύσσομαι"
     ],
     "column_B_russian": [
-      "развиваться",
-      "расти",
+      "развиваться, расти",
       "развертываться"
     ],
     "column_D_part_of_speech": "глагол",
@@ -41895,10 +42058,14 @@
       "περίληψη"
     ],
     "column_B_russian": [
-      "краткое изложение"
+      "краткое изложение",
+      "включение (пункта в договор напр.) юр."
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
     "column_F_date": "2025-05-03",
     "_id": "1770970824993f2r21"
   },
