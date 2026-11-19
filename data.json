@@ -1,6 +1,142 @@
 [
   {
     "column_A_greek": [
+      "καθυστερώ"
+    ],
+    "column_B_russian": [
+      "задерживать"
+    ],
+    "column_D_part_of_speech": "глагол",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795096383919r35qz"
+  },
+  {
+    "column_A_greek": [
+      "ένταλμα"
+    ],
+    "column_B_russian": [
+      "ордер"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "юр.",
+    "column_F_date": "2026-11-19",
+    "_id": "1795094936623wwae1"
+  },
+  {
+    "column_A_greek": [
+      "αντέχω σε"
+    ],
+    "column_B_russian": [
+      "выдерживать"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795094639008mksn3"
+  },
+  {
+    "column_A_greek": [
+      "γερμένος"
+    ],
+    "column_B_russian": [
+      "нагнувшийся"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795092080097fyayn"
+  },
+  {
+    "column_A_greek": [
+      "κάλεσμα"
+    ],
+    "column_B_russian": [
+      "приглашение, призыв"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "17950914543059q5ju"
+  },
+  {
+    "column_A_greek": [
+      "παρέκκλιση"
+    ],
+    "column_B_russian": [
+      "отклонение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795091334838uppoj"
+  },
+  {
+    "column_A_greek": [
+      "σε εξέλιξη "
+    ],
+    "column_B_russian": [
+      "в процессе"
+    ],
+    "column_D_part_of_speech": "выраж.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795079032752c30go"
+  },
+  {
+    "column_A_greek": [
+      "συναλλαγή με περιθώριο"
+    ],
+    "column_B_russian": [
+      "маржинальная сделка"
+    ],
+    "column_D_part_of_speech": "слвсоч",
+    "column_E_area": [
+      "общ",
+      "фин."
+    ],
+    "column_F_date": "2026-11-19",
+    "_id": "1795077015249o03ts"
+  },
+  {
+    "column_A_greek": [
+      "περιθώριο"
+    ],
+    "column_B_russian": [
+      "край, предел",
+      "поле (страницы)"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-19",
+    "_id": "1795076864740guvnu"
+  },
+  {
+    "column_A_greek": [
+      "επίτευξη"
+    ],
+    "column_B_russian": [
+      "достижение"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-18",
+    "_id": "17950116334552oyl9"
+  },
+  {
+    "column_A_greek": [
+      "ξέπλυμα"
+    ],
+    "column_B_russian": [
+      "отмывание"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-17",
+    "_id": "1794918598712sdiun"
+  },
+  {
+    "column_A_greek": [
       "συνιδιόκτητος"
     ],
     "column_B_russian": [
@@ -5611,7 +5747,10 @@
       "поимка, арест, задержание"
     ],
     "column_D_part_of_speech": "сущ.",
-    "column_E_area": "общ",
+    "column_E_area": [
+      "общ",
+      "юр."
+    ],
     "column_F_date": "2026-04-27",
     "_id": "1777279431548mie1u"
   },
@@ -40930,7 +41069,7 @@
       "αποδέκτης"
     ],
     "column_B_russian": [
-      "получатель"
+      "получатель, адресат"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
@@ -48846,7 +48985,7 @@
       "μέτρο"
     ],
     "column_B_russian": [
-      "мера"
+      "мера, размер"
     ],
     "column_D_part_of_speech": "сущ.",
     "column_E_area": "общ",
