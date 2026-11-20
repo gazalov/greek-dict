@@ -1,6 +1,69 @@
 [
   {
     "column_A_greek": [
+      "συναρμολόγηση"
+    ],
+    "column_B_russian": [
+      "сборка, монтаж"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": [
+      "общ",
+      "строит."
+    ],
+    "column_F_date": "2026-11-20",
+    "_id": "1795176147070vl6px"
+  },
+  {
+    "column_A_greek": [
+      "πέλμα"
+    ],
+    "column_B_russian": [
+      "протектор"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "авто",
+    "column_F_date": "2026-11-20",
+    "_id": "179517567783167499"
+  },
+  {
+    "column_A_greek": [
+      "ξεμοντάρισμα"
+    ],
+    "column_B_russian": [
+      "перебортировка"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "авто",
+    "column_F_date": "2026-11-20",
+    "_id": "1795175574016jbnwy"
+  },
+  {
+    "column_A_greek": [
+      "ταχεία"
+    ],
+    "column_B_russian": [
+      "экспресс"
+    ],
+    "column_D_part_of_speech": "сущ.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-20",
+    "_id": "1795174521634m5kdx"
+  },
+  {
+    "column_A_greek": [
+      "αντίστροφος"
+    ],
+    "column_B_russian": [
+      "обратный"
+    ],
+    "column_D_part_of_speech": "прил.",
+    "column_E_area": "общ",
+    "column_F_date": "2026-11-20",
+    "_id": "1795160322169kh8wy"
+  },
+  {
+    "column_A_greek": [
       "καθυστερώ"
     ],
     "column_B_russian": [
@@ -16321,7 +16384,7 @@
       "αγνοώ"
     ],
     "column_B_russian": [
-      "игнорировать"
+      "игнорировать, пренебрегать"
     ],
     "column_D_part_of_speech": "глагол",
     "column_E_area": "общ",
